@@ -1,0 +1,17 @@
+Route,Workspace,Purpose,Primary roles
+/admin,HQ,Program overview,SUPER_ADMIN;PROGRAM_ADMIN
+/admin/schools,HQ,School management,SUPER_ADMIN;PROGRAM_ADMIN;COUNTRY_COORDINATOR
+/admin/curriculum,HQ,Curriculum authoring/publishing,SUPER_ADMIN;PROGRAM_ADMIN
+/admin/translations,HQ,Translation workflow,PROGRAM_ADMIN
+/school,School,School dashboard,SCHOOL_ADMIN;GROWMEAL_COORDINATOR
+/school/classes,School,Classes/enrollment,SCHOOL_ADMIN;GROWMEAL_COORDINATOR
+/school/gardens,School,Garden operations,SCHOOL_ADMIN;GROWMEAL_COORDINATOR
+/school/inventory,School,Inventory,SCHOOL_ADMIN;FINANCE_PROCUREMENT
+/teacher,Teacher,Teacher dashboard,TEACHER
+/teacher/week,Teacher,12-week delivery,TEACHER
+/teacher/assessments,Teacher,Scoring,TEACHER
+/teacher/passports,Teacher,Passport verification,TEACHER
+/learner,Learner,Learner dashboard,LEARNER
+/learner/passport,Learner,Passport/badges,LEARNER
+/trainer,Trainer,Training overview,TRAINER
+/reviewer/school-audits,M&E,School audit,M_AND_E_REVIEWER

@@ -1,0 +1,19 @@
+Component,Category,Required States
+MetricCard,Dashboard,default;loading;empty;alert
+ActionQueue,Dashboard,normal;overdue;critical
+WeekStepper,Learning,not-started;active;complete;blocked
+ResourceSequence,Learning,collapsed;expanded;complete
+AssessmentScorer,Assessment,draft;saved;finalized;locked
+RubricScale,Assessment,unselected;0;1;2;3
+PassportJourney,Passport,empty;progress;eligible;complete
+BadgeCard,Passport,locked;eligible;awarded
+GardenStatusCard,Garden,operational;maintenance;closed;planned
+MaintenanceAlert,Garden,warning;critical;resolved
+AuditDomainCard,M&E,unscored;scored;finding;complete
+CorrectiveActionCard,M&E,open;overdue;verification;closed
+OfflineBanner,Offline,offline;reconnecting;online
+SyncIndicator,Offline,pending;syncing;failed;synced
+ConflictResolver,Offline,local-newer;server-newer;manual-review
+LanguageSwitcher,i18n,LTR;RTL
+EmptyState,System,no-data;no-assignment;no-content
+PermissionState,System,denied;read-only

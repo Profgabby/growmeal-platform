@@ -1,0 +1,7 @@
+'use client';
+import Link from 'next/link';
+import Image from 'next/image';
+import {usePathname} from 'next/navigation';
+import {useLanguage} from './language-provider';
+const items=[['/hq','dashboard','⌂'],['/curriculum','curriculum','▦'],['/resources','resources','▤'],['/quizzes','quizzes','?'],['/challenges','challenges','★'],['/teacher/week','Teacher Week','✓'],['/teacher/classes','Classes & Learners','♟'],['/teacher/assessments','assessment','◎'],['/teacher/passport','passport','◈'],['/gardens','gardens','♧'],['/reviewer','M&E Audit','◉'],['/training','Teacher Training','♜']];
+export default function AppShell({children}:{children:React.ReactNode}){const p=usePathname();const {lang,setLang,t,languages}=useLanguage();return <div className="shell"><aside className="sidebar"><div className="brand"><Image src="/brand/agrishine-logo.png" alt="AgriShine Schools Initiative" width={150} height={84} priority/><div><b>GrowMeal™</b><span>AgriShine Schools</span></div></div><nav>{items.map(([href,key,icon])=><Link className={p===href||p.startsWith(href+'/')?'active':''} href={href} key={href}><i>{icon}</i><span>{t[key]||key}</span></Link>)}</nav><div className="side-bottom"><label>{t.language}</label><select value={lang} onChange={e=>setLang(e.target.value)}>{languages.map((x:any)=><option key={x.code} value={x.code}>{x.native}</option>)}</select><div className="sync"><span></span> Offline-ready</div></div></aside><main className="main">{children}</main></div>}

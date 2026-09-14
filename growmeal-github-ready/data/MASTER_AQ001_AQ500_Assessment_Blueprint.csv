@@ -1,0 +1,501 @@
+id,level,garden,domain,question,answer
+AQ-001,Nursery,Alphabet Garden,Knowledge,Point to or name one thing in the Alphabet Garden that helps you learn about letters and plant words.,"Accept a correct, observable example."
+AQ-002,Nursery,Alphabet Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-003,Nursery,Alphabet Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-004,Nursery,Alphabet Garden,Practical,Use the letter label to complete a simple task that shows matching a letter to a garden word.,0-3 performance rubric.
+AQ-005,Nursery,Alphabet Garden,Practical,Show how to care for or observe the letter label safely.,0-3 safety/care rubric.
+AQ-006,Nursery,Alphabet Garden,Investigation/Data,"Count, sort, match or compare something in the Alphabet Garden.",Record/communicate a correct simple observation.
+AQ-007,Nursery,Alphabet Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-008,Nursery,Alphabet Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-009,Nursery,Alphabet Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-010,Nursery,Alphabet Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-011,Nursery,Number Garden,Knowledge,Point to or name one thing in the Number Garden that helps you learn about counting garden objects.,"Accept a correct, observable example."
+AQ-012,Nursery,Number Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-013,Nursery,Number Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-014,Nursery,Number Garden,Practical,Use the plant row to complete a simple task that shows counting accurately.,0-3 performance rubric.
+AQ-015,Nursery,Number Garden,Practical,Show how to care for or observe the plant row safely.,0-3 safety/care rubric.
+AQ-016,Nursery,Number Garden,Investigation/Data,"Count, sort, match or compare something in the Number Garden.",Record/communicate a correct simple observation.
+AQ-017,Nursery,Number Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-018,Nursery,Number Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-019,Nursery,Number Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-020,Nursery,Number Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-021,Nursery,Geometry Garden,Knowledge,"Point to or name one thing in the Geometry Garden that helps you learn about shapes, sides and garden spaces.","Accept a correct, observable example."
+AQ-022,Nursery,Geometry Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-023,Nursery,Geometry Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-024,Nursery,Geometry Garden,Practical,Use the garden bed or path to complete a simple task that shows recognizing and measuring shapes.,0-3 performance rubric.
+AQ-025,Nursery,Geometry Garden,Practical,Show how to care for or observe the garden bed or path safely.,0-3 safety/care rubric.
+AQ-026,Nursery,Geometry Garden,Investigation/Data,"Count, sort, match or compare something in the Geometry Garden.",Record/communicate a correct simple observation.
+AQ-027,Nursery,Geometry Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-028,Nursery,Geometry Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-029,Nursery,Geometry Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-030,Nursery,Geometry Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-031,Nursery,Leaf Garden,Knowledge,"Point to or name one thing in the Leaf Garden that helps you learn about leaf shape, size, color and texture.","Accept a correct, observable example."
+AQ-032,Nursery,Leaf Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-033,Nursery,Leaf Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-034,Nursery,Leaf Garden,Practical,Use the safe leaf to complete a simple task that shows comparing leaves.,0-3 performance rubric.
+AQ-035,Nursery,Leaf Garden,Practical,Show how to care for or observe the safe leaf safely.,0-3 safety/care rubric.
+AQ-036,Nursery,Leaf Garden,Investigation/Data,"Count, sort, match or compare something in the Leaf Garden.",Record/communicate a correct simple observation.
+AQ-037,Nursery,Leaf Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-038,Nursery,Leaf Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-039,Nursery,Leaf Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-040,Nursery,Leaf Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-041,Nursery,Butterfly Garden,Knowledge,Point to or name one thing in the Butterfly Garden that helps you learn about flowers and garden visitors.,"Accept a correct, observable example."
+AQ-042,Nursery,Butterfly Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-043,Nursery,Butterfly Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-044,Nursery,Butterfly Garden,Practical,Use the flower patch to complete a simple task that shows observing without catching insects.,0-3 performance rubric.
+AQ-045,Nursery,Butterfly Garden,Practical,Show how to care for or observe the flower patch safely.,0-3 safety/care rubric.
+AQ-046,Nursery,Butterfly Garden,Investigation/Data,"Count, sort, match or compare something in the Butterfly Garden.",Record/communicate a correct simple observation.
+AQ-047,Nursery,Butterfly Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-048,Nursery,Butterfly Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-049,Nursery,Butterfly Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-050,Nursery,Butterfly Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-051,Nursery,ReBottle Garden,Knowledge,Point to or name one thing in the ReBottle Garden that helps you learn about reused bottle planters.,"Accept a correct, observable example."
+AQ-052,Nursery,ReBottle Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-053,Nursery,ReBottle Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-054,Nursery,ReBottle Garden,Practical,Use the bottle planter to complete a simple task that shows observing planter position and plant growth.,0-3 performance rubric.
+AQ-055,Nursery,ReBottle Garden,Practical,Show how to care for or observe the bottle planter safely.,0-3 safety/care rubric.
+AQ-056,Nursery,ReBottle Garden,Investigation/Data,"Count, sort, match or compare something in the ReBottle Garden.",Record/communicate a correct simple observation.
+AQ-057,Nursery,ReBottle Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-058,Nursery,ReBottle Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-059,Nursery,ReBottle Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-060,Nursery,ReBottle Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-061,Nursery,MicroGrow Garden,Knowledge,Point to or name one thing in the MicroGrow Garden that helps you learn about tiny seedlings and early growth.,"Accept a correct, observable example."
+AQ-062,Nursery,MicroGrow Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-063,Nursery,MicroGrow Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-064,Nursery,MicroGrow Garden,Practical,Use the seedling tray to complete a simple task that shows counting and comparing seedlings.,0-3 performance rubric.
+AQ-065,Nursery,MicroGrow Garden,Practical,Show how to care for or observe the seedling tray safely.,0-3 safety/care rubric.
+AQ-066,Nursery,MicroGrow Garden,Investigation/Data,"Count, sort, match or compare something in the MicroGrow Garden.",Record/communicate a correct simple observation.
+AQ-067,Nursery,MicroGrow Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-068,Nursery,MicroGrow Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-069,Nursery,MicroGrow Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-070,Nursery,MicroGrow Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-071,Nursery,Mini Table Garden,Knowledge,Point to or name one thing in the Mini Table Garden that helps you learn about small table-top planters.,"Accept a correct, observable example."
+AQ-072,Nursery,Mini Table Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-073,Nursery,Mini Table Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-074,Nursery,Mini Table Garden,Practical,Use the table planter to complete a simple task that shows observing plant and container features.,0-3 performance rubric.
+AQ-075,Nursery,Mini Table Garden,Practical,Show how to care for or observe the table planter safely.,0-3 safety/care rubric.
+AQ-076,Nursery,Mini Table Garden,Investigation/Data,"Count, sort, match or compare something in the Mini Table Garden.",Record/communicate a correct simple observation.
+AQ-077,Nursery,Mini Table Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-078,Nursery,Mini Table Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-079,Nursery,Mini Table Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-080,Nursery,Mini Table Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-081,Nursery,Sack Garden,Knowledge,Point to or name one thing in the Sack Garden that helps you learn about plants growing at the top and sides of a sack.,"Accept a correct, observable example."
+AQ-082,Nursery,Sack Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-083,Nursery,Sack Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-084,Nursery,Sack Garden,Practical,Use the grow sack to complete a simple task that shows observing positions and plant growth.,0-3 performance rubric.
+AQ-085,Nursery,Sack Garden,Practical,Show how to care for or observe the grow sack safely.,0-3 safety/care rubric.
+AQ-086,Nursery,Sack Garden,Investigation/Data,"Count, sort, match or compare something in the Sack Garden.",Record/communicate a correct simple observation.
+AQ-087,Nursery,Sack Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-088,Nursery,Sack Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-089,Nursery,Sack Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-090,Nursery,Sack Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-091,Nursery,Discovery Garden,Knowledge,Point to or name one thing in the Discovery Garden that helps you learn about safe garden exploration.,"Accept a correct, observable example."
+AQ-092,Nursery,Discovery Garden,Knowledge,"Which action is safest in this garden: A) run, B) look carefully, C) pull plants?",B
+AQ-093,Nursery,Discovery Garden,Knowledge,Teacher shows two examples. Which one matches today's garden idea?,Accept the teacher-designated correct example.
+AQ-094,Nursery,Discovery Garden,Practical,Use the observation area to complete a simple task that shows asking and answering simple questions.,0-3 performance rubric.
+AQ-095,Nursery,Discovery Garden,Practical,Show how to care for or observe the observation area safely.,0-3 safety/care rubric.
+AQ-096,Nursery,Discovery Garden,Investigation/Data,"Count, sort, match or compare something in the Discovery Garden.",Record/communicate a correct simple observation.
+AQ-097,Nursery,Discovery Garden,Investigation/Data,Draw what you observed and show one important detail.,Drawing includes relevant observable detail.
+AQ-098,Nursery,Discovery Garden,Mission,Find one small garden challenge or difference and tell the teacher what you notice.,"Identifies a real, safe observation."
+AQ-099,Nursery,Discovery Garden,Mission,Choose one helpful garden action with your teacher and complete it.,Completes appropriate action safely.
+AQ-100,Nursery,Discovery Garden,Mission,Tell one thing you discovered and one thing you want to look for next time.,Relevant discovery + next curiosity.
+AQ-101,Primary 1-3,Alphabet Food Garden,Knowledge,What is one important idea in crop names and garden vocabulary?,Accept accurate garden-specific concept.
+AQ-102,Primary 1-3,Alphabet Food Garden,Knowledge,Which tool or method could help you study the crop label?,Accept appropriate simple tool/method.
+AQ-103,Primary 1-3,Alphabet Food Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-104,Primary 1-3,Alphabet Food Garden,Practical,Demonstrate how to observe or measure the crop label safely.,0-3 performance rubric.
+AQ-105,Primary 1-3,Alphabet Food Garden,Practical,Make a clear record showing word record.,0-3 record-quality rubric.
+AQ-106,Primary 1-3,Alphabet Food Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-107,Primary 1-3,Alphabet Food Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-108,Primary 1-3,Alphabet Food Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-109,Primary 1-3,Alphabet Food Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-110,Primary 1-3,Alphabet Food Garden,Mission,Write one new question that could be tested in the Alphabet Food Garden.,Question must be observable/measurable and safe.
+AQ-111,Primary 1-3,Number Food Garden,Knowledge,"What is one important idea in counts, heights and simple totals?",Accept accurate garden-specific concept.
+AQ-112,Primary 1-3,Number Food Garden,Knowledge,Which tool or method could help you study the plant sample?,Accept appropriate simple tool/method.
+AQ-113,Primary 1-3,Number Food Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-114,Primary 1-3,Number Food Garden,Practical,Demonstrate how to observe or measure the plant sample safely.,0-3 performance rubric.
+AQ-115,Primary 1-3,Number Food Garden,Practical,Make a clear record showing number record.,0-3 record-quality rubric.
+AQ-116,Primary 1-3,Number Food Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-117,Primary 1-3,Number Food Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-118,Primary 1-3,Number Food Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-119,Primary 1-3,Number Food Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-120,Primary 1-3,Number Food Garden,Mission,Write one new question that could be tested in the Number Food Garden.,Question must be observable/measurable and safe.
+AQ-121,Primary 1-3,Geometry Garden,Knowledge,"What is one important idea in shapes, sides and garden spaces?",Accept accurate garden-specific concept.
+AQ-122,Primary 1-3,Geometry Garden,Knowledge,Which tool or method could help you study the garden bed or path?,Accept appropriate simple tool/method.
+AQ-123,Primary 1-3,Geometry Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-124,Primary 1-3,Geometry Garden,Practical,Demonstrate how to observe or measure the garden bed or path safely.,0-3 performance rubric.
+AQ-125,Primary 1-3,Geometry Garden,Practical,Make a clear record showing shape or length.,0-3 record-quality rubric.
+AQ-126,Primary 1-3,Geometry Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-127,Primary 1-3,Geometry Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-128,Primary 1-3,Geometry Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-129,Primary 1-3,Geometry Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-130,Primary 1-3,Geometry Garden,Mission,Write one new question that could be tested in the Geometry Garden.,Question must be observable/measurable and safe.
+AQ-131,Primary 1-3,Leaf Garden,Knowledge,"What is one important idea in leaf shape, size, color and texture?",Accept accurate garden-specific concept.
+AQ-132,Primary 1-3,Leaf Garden,Knowledge,Which tool or method could help you study the safe leaf?,Accept appropriate simple tool/method.
+AQ-133,Primary 1-3,Leaf Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-134,Primary 1-3,Leaf Garden,Practical,Demonstrate how to observe or measure the safe leaf safely.,0-3 performance rubric.
+AQ-135,Primary 1-3,Leaf Garden,Practical,Make a clear record showing leaf observation.,0-3 record-quality rubric.
+AQ-136,Primary 1-3,Leaf Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-137,Primary 1-3,Leaf Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-138,Primary 1-3,Leaf Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-139,Primary 1-3,Leaf Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-140,Primary 1-3,Leaf Garden,Mission,Write one new question that could be tested in the Leaf Garden.,Question must be observable/measurable and safe.
+AQ-141,Primary 1-3,Pollinator Garden,Knowledge,What is one important idea in flower abundance and pollinator activity?,Accept accurate garden-specific concept.
+AQ-142,Primary 1-3,Pollinator Garden,Knowledge,Which tool or method could help you study the flower patch?,Accept appropriate simple tool/method.
+AQ-143,Primary 1-3,Pollinator Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-144,Primary 1-3,Pollinator Garden,Practical,Demonstrate how to observe or measure the flower patch safely.,0-3 performance rubric.
+AQ-145,Primary 1-3,Pollinator Garden,Practical,Make a clear record showing visitor tally.,0-3 record-quality rubric.
+AQ-146,Primary 1-3,Pollinator Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-147,Primary 1-3,Pollinator Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-148,Primary 1-3,Pollinator Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-149,Primary 1-3,Pollinator Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-150,Primary 1-3,Pollinator Garden,Mission,Write one new question that could be tested in the Pollinator Garden.,Question must be observable/measurable and safe.
+AQ-151,Primary 1-3,Raised Food Garden,Knowledge,What is one important idea in raised-bed crop growth and spacing?,Accept accurate garden-specific concept.
+AQ-152,Primary 1-3,Raised Food Garden,Knowledge,Which tool or method could help you study the raised bed?,Accept appropriate simple tool/method.
+AQ-153,Primary 1-3,Raised Food Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-154,Primary 1-3,Raised Food Garden,Practical,Demonstrate how to observe or measure the raised bed safely.,0-3 performance rubric.
+AQ-155,Primary 1-3,Raised Food Garden,Practical,Make a clear record showing measurement.,0-3 record-quality rubric.
+AQ-156,Primary 1-3,Raised Food Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-157,Primary 1-3,Raised Food Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-158,Primary 1-3,Raised Food Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-159,Primary 1-3,Raised Food Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-160,Primary 1-3,Raised Food Garden,Mission,Write one new question that could be tested in the Raised Food Garden.,Question must be observable/measurable and safe.
+AQ-161,Primary 1-3,ReBottle Wall Garden,Knowledge,What is one important idea in vertical reused-container production?,Accept accurate garden-specific concept.
+AQ-162,Primary 1-3,ReBottle Wall Garden,Knowledge,Which tool or method could help you study the wall planter?,Accept appropriate simple tool/method.
+AQ-163,Primary 1-3,ReBottle Wall Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-164,Primary 1-3,ReBottle Wall Garden,Practical,Demonstrate how to observe or measure the wall planter safely.,0-3 performance rubric.
+AQ-165,Primary 1-3,ReBottle Wall Garden,Practical,Make a clear record showing level comparison.,0-3 record-quality rubric.
+AQ-166,Primary 1-3,ReBottle Wall Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-167,Primary 1-3,ReBottle Wall Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-168,Primary 1-3,ReBottle Wall Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-169,Primary 1-3,ReBottle Wall Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-170,Primary 1-3,ReBottle Wall Garden,Mission,Write one new question that could be tested in the ReBottle Wall Garden.,Question must be observable/measurable and safe.
+AQ-171,Primary 1-3,Sack GrowBag Garden,Knowledge,What is one important idea in growbag production?,Accept accurate garden-specific concept.
+AQ-172,Primary 1-3,Sack GrowBag Garden,Knowledge,Which tool or method could help you study the growbag?,Accept appropriate simple tool/method.
+AQ-173,Primary 1-3,Sack GrowBag Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-174,Primary 1-3,Sack GrowBag Garden,Practical,Demonstrate how to observe or measure the growbag safely.,0-3 performance rubric.
+AQ-175,Primary 1-3,Sack GrowBag Garden,Practical,Make a clear record showing growbag record.,0-3 record-quality rubric.
+AQ-176,Primary 1-3,Sack GrowBag Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-177,Primary 1-3,Sack GrowBag Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-178,Primary 1-3,Sack GrowBag Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-179,Primary 1-3,Sack GrowBag Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-180,Primary 1-3,Sack GrowBag Garden,Mission,Write one new question that could be tested in the Sack GrowBag Garden.,Question must be observable/measurable and safe.
+AQ-181,Primary 1-3,Ground Production Garden,Knowledge,"What is one important idea in row length, plant spacing and stand establishment?",Accept accurate garden-specific concept.
+AQ-182,Primary 1-3,Ground Production Garden,Knowledge,Which tool or method could help you study the crop row?,Accept appropriate simple tool/method.
+AQ-183,Primary 1-3,Ground Production Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-184,Primary 1-3,Ground Production Garden,Practical,Demonstrate how to observe or measure the crop row safely.,0-3 performance rubric.
+AQ-185,Primary 1-3,Ground Production Garden,Practical,Make a clear record showing row record.,0-3 record-quality rubric.
+AQ-186,Primary 1-3,Ground Production Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-187,Primary 1-3,Ground Production Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-188,Primary 1-3,Ground Production Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-189,Primary 1-3,Ground Production Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-190,Primary 1-3,Ground Production Garden,Mission,Write one new question that could be tested in the Ground Production Garden.,Question must be observable/measurable and safe.
+AQ-191,Primary 1-3,Discovery Production Garden,Knowledge,What is one important idea in student-led garden questions?,Accept accurate garden-specific concept.
+AQ-192,Primary 1-3,Discovery Production Garden,Knowledge,Which tool or method could help you study the production plot?,Accept appropriate simple tool/method.
+AQ-193,Primary 1-3,Discovery Production Garden,Knowledge,Why should measurements or counts be written down?,"So evidence can be checked, compared and remembered."
+AQ-194,Primary 1-3,Discovery Production Garden,Practical,Demonstrate how to observe or measure the production plot safely.,0-3 performance rubric.
+AQ-195,Primary 1-3,Discovery Production Garden,Practical,Make a clear record showing investigation record.,0-3 record-quality rubric.
+AQ-196,Primary 1-3,Discovery Production Garden,Investigation/Data,Collect two observations or measurements and compare them.,Correct comparison using collected evidence.
+AQ-197,Primary 1-3,Discovery Production Garden,Investigation/Data,"Make a tally, table, picture graph or labeled drawing from your evidence.",Accurate representation of evidence.
+AQ-198,Primary 1-3,Discovery Production Garden,Mission,A classmate gets a different result. Give one reasonable reason the results may differ.,"Accept sampling, position, timing, method or natural variation."
+AQ-199,Primary 1-3,Discovery Production Garden,Mission,Recommend one safe garden-care improvement using your evidence.,Recommendation must refer to evidence.
+AQ-200,Primary 1-3,Discovery Production Garden,Mission,Write one new question that could be tested in the Discovery Production Garden.,Question must be observable/measurable and safe.
+AQ-201,Primary 4-6,Raised Food Garden,Knowledge,Define or explain one core idea related to raised-bed crop growth and spacing.,Accurate level-appropriate explanation.
+AQ-202,Primary 4-6,Raised Food Garden,Knowledge,Why is a fair comparison important when studying the raised bed?,It reduces bias and supports a valid comparison.
+AQ-203,Primary 4-6,Raised Food Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-204,Primary 4-6,Raised Food Garden,Practical,Use an appropriate tool to collect a repeatable measurement.,0-3 technique/units rubric.
+AQ-205,Primary 4-6,Raised Food Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-206,Primary 4-6,Raised Food Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-207,Primary 4-6,Raised Food Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-208,Primary 4-6,Raised Food Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-209,Primary 4-6,Raised Food Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-210,Primary 4-6,Raised Food Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-211,Primary 4-6,Geometry Garden,Knowledge,"Define or explain one core idea related to shapes, sides and garden spaces.",Accurate level-appropriate explanation.
+AQ-212,Primary 4-6,Geometry Garden,Knowledge,Why is a fair comparison important when studying the garden bed or path?,It reduces bias and supports a valid comparison.
+AQ-213,Primary 4-6,Geometry Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-214,Primary 4-6,Geometry Garden,Practical,Use an appropriate tool to collect a repeatable shape or length.,0-3 technique/units rubric.
+AQ-215,Primary 4-6,Geometry Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-216,Primary 4-6,Geometry Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-217,Primary 4-6,Geometry Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-218,Primary 4-6,Geometry Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-219,Primary 4-6,Geometry Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-220,Primary 4-6,Geometry Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-221,Primary 4-6,Grid Experiment Garden,Knowledge,Define or explain one core idea related to treatment-control comparisons and fair testing.,Accurate level-appropriate explanation.
+AQ-222,Primary 4-6,Grid Experiment Garden,Knowledge,Why is a fair comparison important when studying the grid cell?,It reduces bias and supports a valid comparison.
+AQ-223,Primary 4-6,Grid Experiment Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-224,Primary 4-6,Grid Experiment Garden,Practical,Use an appropriate tool to collect a repeatable treatment response.,0-3 technique/units rubric.
+AQ-225,Primary 4-6,Grid Experiment Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-226,Primary 4-6,Grid Experiment Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-227,Primary 4-6,Grid Experiment Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-228,Primary 4-6,Grid Experiment Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-229,Primary 4-6,Grid Experiment Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-230,Primary 4-6,Grid Experiment Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-231,Primary 4-6,Keyhole Garden,Knowledge,"Define or explain one core idea related to access, moisture and resource flow in keyhole beds.",Accurate level-appropriate explanation.
+AQ-232,Primary 4-6,Keyhole Garden,Knowledge,Why is a fair comparison important when studying the keyhole bed?,It reduces bias and supports a valid comparison.
+AQ-233,Primary 4-6,Keyhole Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-234,Primary 4-6,Keyhole Garden,Practical,Use an appropriate tool to collect a repeatable system observation.,0-3 technique/units rubric.
+AQ-235,Primary 4-6,Keyhole Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-236,Primary 4-6,Keyhole Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-237,Primary 4-6,Keyhole Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-238,Primary 4-6,Keyhole Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-239,Primary 4-6,Keyhole Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-240,Primary 4-6,Keyhole Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-241,Primary 4-6,Compost Garden,Knowledge,"Define or explain one core idea related to temperature, moisture, volume and maturity.",Accurate level-appropriate explanation.
+AQ-242,Primary 4-6,Compost Garden,Knowledge,Why is a fair comparison important when studying the compost pile?,It reduces bias and supports a valid comparison.
+AQ-243,Primary 4-6,Compost Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-244,Primary 4-6,Compost Garden,Practical,Use an appropriate tool to collect a repeatable compost indicator.,0-3 technique/units rubric.
+AQ-245,Primary 4-6,Compost Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-246,Primary 4-6,Compost Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-247,Primary 4-6,Compost Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-248,Primary 4-6,Compost Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-249,Primary 4-6,Compost Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-250,Primary 4-6,Compost Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-251,Primary 4-6,Gravity Drip Garden,Knowledge,"Define or explain one core idea related to flow rate, uniformity and applied water.",Accurate level-appropriate explanation.
+AQ-252,Primary 4-6,Gravity Drip Garden,Knowledge,Why is a fair comparison important when studying the drip emitter?,It reduces bias and supports a valid comparison.
+AQ-253,Primary 4-6,Gravity Drip Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-254,Primary 4-6,Gravity Drip Garden,Practical,Use an appropriate tool to collect a repeatable flow rate.,0-3 technique/units rubric.
+AQ-255,Primary 4-6,Gravity Drip Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-256,Primary 4-6,Gravity Drip Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-257,Primary 4-6,Gravity Drip Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-258,Primary 4-6,Gravity Drip Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-259,Primary 4-6,Gravity Drip Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-260,Primary 4-6,Gravity Drip Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-261,Primary 4-6,Vertical Garden,Knowledge,Define or explain one core idea related to performance across vertical levels.,Accurate level-appropriate explanation.
+AQ-262,Primary 4-6,Vertical Garden,Knowledge,Why is a fair comparison important when studying the vertical planter?,It reduces bias and supports a valid comparison.
+AQ-263,Primary 4-6,Vertical Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-264,Primary 4-6,Vertical Garden,Practical,Use an appropriate tool to collect a repeatable level response.,0-3 technique/units rubric.
+AQ-265,Primary 4-6,Vertical Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-266,Primary 4-6,Vertical Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-267,Primary 4-6,Vertical Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-268,Primary 4-6,Vertical Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-269,Primary 4-6,Vertical Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-270,Primary 4-6,Vertical Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-271,Primary 4-6,Crop Rotation Garden,Knowledge,Define or explain one core idea related to crop-family sequence and soil cover.,Accurate level-appropriate explanation.
+AQ-272,Primary 4-6,Crop Rotation Garden,Knowledge,Why is a fair comparison important when studying the rotation record?,It reduces bias and supports a valid comparison.
+AQ-273,Primary 4-6,Crop Rotation Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-274,Primary 4-6,Crop Rotation Garden,Practical,Use an appropriate tool to collect a repeatable rotation interval.,0-3 technique/units rubric.
+AQ-275,Primary 4-6,Crop Rotation Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-276,Primary 4-6,Crop Rotation Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-277,Primary 4-6,Crop Rotation Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-278,Primary 4-6,Crop Rotation Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-279,Primary 4-6,Crop Rotation Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-280,Primary 4-6,Crop Rotation Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-281,Primary 4-6,Water-Smart Garden,Knowledge,"Define or explain one core idea related to infiltration, irrigation and water productivity.",Accurate level-appropriate explanation.
+AQ-282,Primary 4-6,Water-Smart Garden,Knowledge,Why is a fair comparison important when studying the water-smart bed?,It reduces bias and supports a valid comparison.
+AQ-283,Primary 4-6,Water-Smart Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-284,Primary 4-6,Water-Smart Garden,Practical,Use an appropriate tool to collect a repeatable water metric.,0-3 technique/units rubric.
+AQ-285,Primary 4-6,Water-Smart Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-286,Primary 4-6,Water-Smart Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-287,Primary 4-6,Water-Smart Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-288,Primary 4-6,Water-Smart Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-289,Primary 4-6,Water-Smart Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-290,Primary 4-6,Water-Smart Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-291,Primary 4-6,Intro Soilless Garden,Knowledge,"Define or explain one core idea related to flow, pH, EC and root-zone condition.",Accurate level-appropriate explanation.
+AQ-292,Primary 4-6,Intro Soilless Garden,Knowledge,Why is a fair comparison important when studying the soilless system?,It reduces bias and supports a valid comparison.
+AQ-293,Primary 4-6,Intro Soilless Garden,Knowledge,What should be kept the same when comparing two conditions?,Relevant controlled variables.
+AQ-294,Primary 4-6,Intro Soilless Garden,Practical,Use an appropriate tool to collect a repeatable system reading.,0-3 technique/units rubric.
+AQ-295,Primary 4-6,Intro Soilless Garden,Practical,Show one quality or safety check before recording the result.,0-3 QC/safety rubric.
+AQ-296,Primary 4-6,Intro Soilless Garden,Investigation/Data,"Collect at least three values and calculate a useful summary such as mean, range, rate or percentage.",Correct calculation with units.
+AQ-297,Primary 4-6,Intro Soilless Garden,Investigation/Data,Graph or tabulate the result and identify the main pattern.,Accurate graph/table + defensible pattern.
+AQ-298,Primary 4-6,Intro Soilless Garden,Mission,Identify one limitation in your investigation and explain how it could affect the result.,Real limitation + plausible effect.
+AQ-299,Primary 4-6,Intro Soilless Garden,Mission,Recommend one management or design change based on the evidence.,Evidence-linked recommendation.
+AQ-300,Primary 4-6,Intro Soilless Garden,Mission,Design a follow-up test that would strengthen the conclusion.,"Testable, safe follow-up with clear variable/metric."
+AQ-301,JSS 1-3,Production Garden,Knowledge,"State a testable hypothesis related to establishment, growth, yield and input use.",Hypothesis names a predictor/treatment and measurable response.
+AQ-302,JSS 1-3,Production Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the production plot.,Correct variable classification.
+AQ-303,JSS 1-3,Production Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-304,JSS 1-3,Production Garden,Practical,"Set up or demonstrate a teacher-approved measurement of production metric, including unit and sample ID.",0-3 technical performance rubric.
+AQ-305,JSS 1-3,Production Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-306,JSS 1-3,Production Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-307,JSS 1-3,Production Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-308,JSS 1-3,Production Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-309,JSS 1-3,Production Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-310,JSS 1-3,Production Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-311,JSS 1-3,Raised Systems Garden,Knowledge,"State a testable hypothesis related to root-zone condition, volume, infiltration and productivity.",Hypothesis names a predictor/treatment and measurable response.
+AQ-312,JSS 1-3,Raised Systems Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the raised system.,Correct variable classification.
+AQ-313,JSS 1-3,Raised Systems Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-314,JSS 1-3,Raised Systems Garden,Practical,"Set up or demonstrate a teacher-approved measurement of system metric, including unit and sample ID.",0-3 technical performance rubric.
+AQ-315,JSS 1-3,Raised Systems Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-316,JSS 1-3,Raised Systems Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-317,JSS 1-3,Raised Systems Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-318,JSS 1-3,Raised Systems Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-319,JSS 1-3,Raised Systems Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-320,JSS 1-3,Raised Systems Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-321,JSS 1-3,Grid Experiment Garden,Knowledge,State a testable hypothesis related to treatment-control comparisons and fair testing.,Hypothesis names a predictor/treatment and measurable response.
+AQ-322,JSS 1-3,Grid Experiment Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the grid cell.,Correct variable classification.
+AQ-323,JSS 1-3,Grid Experiment Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-324,JSS 1-3,Grid Experiment Garden,Practical,"Set up or demonstrate a teacher-approved measurement of treatment response, including unit and sample ID.",0-3 technical performance rubric.
+AQ-325,JSS 1-3,Grid Experiment Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-326,JSS 1-3,Grid Experiment Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-327,JSS 1-3,Grid Experiment Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-328,JSS 1-3,Grid Experiment Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-329,JSS 1-3,Grid Experiment Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-330,JSS 1-3,Grid Experiment Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-331,JSS 1-3,Crop Rotation Garden,Knowledge,State a testable hypothesis related to crop-family sequence and soil cover.,Hypothesis names a predictor/treatment and measurable response.
+AQ-332,JSS 1-3,Crop Rotation Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the rotation record.,Correct variable classification.
+AQ-333,JSS 1-3,Crop Rotation Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-334,JSS 1-3,Crop Rotation Garden,Practical,"Set up or demonstrate a teacher-approved measurement of rotation interval, including unit and sample ID.",0-3 technical performance rubric.
+AQ-335,JSS 1-3,Crop Rotation Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-336,JSS 1-3,Crop Rotation Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-337,JSS 1-3,Crop Rotation Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-338,JSS 1-3,Crop Rotation Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-339,JSS 1-3,Crop Rotation Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-340,JSS 1-3,Crop Rotation Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-341,JSS 1-3,Intercropping Garden,Knowledge,"State a testable hypothesis related to crop density, canopy, component yield and LER.",Hypothesis names a predictor/treatment and measurable response.
+AQ-342,JSS 1-3,Intercropping Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the intercrop plot.,Correct variable classification.
+AQ-343,JSS 1-3,Intercropping Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-344,JSS 1-3,Intercropping Garden,Practical,"Set up or demonstrate a teacher-approved measurement of intercrop metric, including unit and sample ID.",0-3 technical performance rubric.
+AQ-345,JSS 1-3,Intercropping Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-346,JSS 1-3,Intercropping Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-347,JSS 1-3,Intercropping Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-348,JSS 1-3,Intercropping Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-349,JSS 1-3,Intercropping Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-350,JSS 1-3,Intercropping Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-351,JSS 1-3,Water-Smart Garden,Knowledge,"State a testable hypothesis related to infiltration, irrigation and water productivity.",Hypothesis names a predictor/treatment and measurable response.
+AQ-352,JSS 1-3,Water-Smart Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the water-smart bed.,Correct variable classification.
+AQ-353,JSS 1-3,Water-Smart Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-354,JSS 1-3,Water-Smart Garden,Practical,"Set up or demonstrate a teacher-approved measurement of water metric, including unit and sample ID.",0-3 technical performance rubric.
+AQ-355,JSS 1-3,Water-Smart Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-356,JSS 1-3,Water-Smart Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-357,JSS 1-3,Water-Smart Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-358,JSS 1-3,Water-Smart Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-359,JSS 1-3,Water-Smart Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-360,JSS 1-3,Water-Smart Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-361,JSS 1-3,Compost & Soil Garden,Knowledge,State a testable hypothesis related to decomposition and soil response.,Hypothesis names a predictor/treatment and measurable response.
+AQ-362,JSS 1-3,Compost & Soil Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the compost/soil sample.,Correct variable classification.
+AQ-363,JSS 1-3,Compost & Soil Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-364,JSS 1-3,Compost & Soil Garden,Practical,"Set up or demonstrate a teacher-approved measurement of soil/compost metric, including unit and sample ID.",0-3 technical performance rubric.
+AQ-365,JSS 1-3,Compost & Soil Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-366,JSS 1-3,Compost & Soil Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-367,JSS 1-3,Compost & Soil Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-368,JSS 1-3,Compost & Soil Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-369,JSS 1-3,Compost & Soil Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-370,JSS 1-3,Compost & Soil Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-371,JSS 1-3,Soilless Learning Garden,Knowledge,"State a testable hypothesis related to recirculating flow, pH, EC and root-zone condition.",Hypothesis names a predictor/treatment and measurable response.
+AQ-372,JSS 1-3,Soilless Learning Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the soilless unit.,Correct variable classification.
+AQ-373,JSS 1-3,Soilless Learning Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-374,JSS 1-3,Soilless Learning Garden,Practical,"Set up or demonstrate a teacher-approved measurement of solution metric, including unit and sample ID.",0-3 technical performance rubric.
+AQ-375,JSS 1-3,Soilless Learning Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-376,JSS 1-3,Soilless Learning Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-377,JSS 1-3,Soilless Learning Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-378,JSS 1-3,Soilless Learning Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-379,JSS 1-3,Soilless Learning Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-380,JSS 1-3,Soilless Learning Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-381,JSS 1-3,Sensor-Ready Garden,Knowledge,"State a testable hypothesis related to sensor repeatability, error, placement and drift.",Hypothesis names a predictor/treatment and measurable response.
+AQ-382,JSS 1-3,Sensor-Ready Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the sensor station.,Correct variable classification.
+AQ-383,JSS 1-3,Sensor-Ready Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-384,JSS 1-3,Sensor-Ready Garden,Practical,"Set up or demonstrate a teacher-approved measurement of sensor metric, including unit and sample ID.",0-3 technical performance rubric.
+AQ-385,JSS 1-3,Sensor-Ready Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-386,JSS 1-3,Sensor-Ready Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-387,JSS 1-3,Sensor-Ready Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-388,JSS 1-3,Sensor-Ready Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-389,JSS 1-3,Sensor-Ready Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-390,JSS 1-3,Sensor-Ready Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-391,JSS 1-3,Applied Systems Garden,Knowledge,"State a testable hypothesis related to stocks, flows, feedbacks, trade-offs and scenarios.",Hypothesis names a predictor/treatment and measurable response.
+AQ-392,JSS 1-3,Applied Systems Garden,Knowledge,Differentiate the response variable from one controlled variable in a study of the system map.,Correct variable classification.
+AQ-393,JSS 1-3,Applied Systems Garden,Knowledge,Why are replication and traceable records important?,They characterize variation and allow checking/reproducibility.
+AQ-394,JSS 1-3,Applied Systems Garden,Practical,"Set up or demonstrate a teacher-approved measurement of system indicator, including unit and sample ID.",0-3 technical performance rubric.
+AQ-395,JSS 1-3,Applied Systems Garden,Practical,Perform one data-quality check appropriate to the measurement.,0-3 QC rubric.
+AQ-396,JSS 1-3,Applied Systems Garden,Investigation/Data,Analyze replicate data using an appropriate summary and quantify variation.,Correct summary + variation measure.
+AQ-397,JSS 1-3,Applied Systems Garden,Investigation/Data,Use a graph/table to compare conditions and identify the direction and magnitude of an effect.,Correct comparison and effect statement.
+AQ-398,JSS 1-3,Applied Systems Garden,Mission,Diagnose one plausible cause of an abnormal result and state what evidence would confirm it.,Plausible diagnosis + confirmatory evidence.
+AQ-399,JSS 1-3,Applied Systems Garden,Mission,Write a qualified conclusion that includes uncertainty or a limitation.,Conclusion matches data and qualifies certainty.
+AQ-400,JSS 1-3,Applied Systems Garden,Mission,Recommend a management decision and define the evidence threshold that would trigger it.,Decision + measurable trigger.
+AQ-401,SSS 1-3,Advanced Production Garden,Knowledge,"Frame a research or engineering question involving yield components, harvest index and resource-use efficiency.",Precise question with system boundary and measurable performance outcome.
+AQ-402,SSS 1-3,Advanced Production Garden,Knowledge,Identify one assumption and one constraint relevant to the advanced production plot.,Valid assumption and operational/design constraint.
+AQ-403,SSS 1-3,Advanced Production Garden,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-404,SSS 1-3,Advanced Production Garden,Practical,"Execute or demonstrate a technically appropriate measurement of efficiency metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-405,SSS 1-3,Advanced Production Garden,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-406,SSS 1-3,Advanced Production Garden,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-407,SSS 1-3,Advanced Production Garden,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-408,SSS 1-3,Advanced Production Garden,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-409,SSS 1-3,Advanced Production Garden,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-410,SSS 1-3,Advanced Production Garden,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-411,SSS 1-3,Crop Trial Garden,Knowledge,"Frame a research or engineering question involving replicated treatments, blocks, variability and treatment effects.",Precise question with system boundary and measurable performance outcome.
+AQ-412,SSS 1-3,Crop Trial Garden,Knowledge,Identify one assumption and one constraint relevant to the crop trial.,Valid assumption and operational/design constraint.
+AQ-413,SSS 1-3,Crop Trial Garden,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-414,SSS 1-3,Crop Trial Garden,Practical,"Execute or demonstrate a technically appropriate measurement of treatment effect, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-415,SSS 1-3,Crop Trial Garden,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-416,SSS 1-3,Crop Trial Garden,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-417,SSS 1-3,Crop Trial Garden,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-418,SSS 1-3,Crop Trial Garden,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-419,SSS 1-3,Crop Trial Garden,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-420,SSS 1-3,Crop Trial Garden,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-421,SSS 1-3,Controlled Experiment Garden,Knowledge,"Frame a research or engineering question involving causal variables, factorial effects, confounding and sensitivity.",Precise question with system boundary and measurable performance outcome.
+AQ-422,SSS 1-3,Controlled Experiment Garden,Knowledge,Identify one assumption and one constraint relevant to the controlled experiment.,Valid assumption and operational/design constraint.
+AQ-423,SSS 1-3,Controlled Experiment Garden,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-424,SSS 1-3,Controlled Experiment Garden,Practical,"Execute or demonstrate a technically appropriate measurement of experimental metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-425,SSS 1-3,Controlled Experiment Garden,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-426,SSS 1-3,Controlled Experiment Garden,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-427,SSS 1-3,Controlled Experiment Garden,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-428,SSS 1-3,Controlled Experiment Garden,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-429,SSS 1-3,Controlled Experiment Garden,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-430,SSS 1-3,Controlled Experiment Garden,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-431,SSS 1-3,Irrigation Engineering Garden,Knowledge,"Frame a research or engineering question involving flow, head, pipe loss, uniformity and pumping efficiency.",Precise question with system boundary and measurable performance outcome.
+AQ-432,SSS 1-3,Irrigation Engineering Garden,Knowledge,Identify one assumption and one constraint relevant to the irrigation system.,Valid assumption and operational/design constraint.
+AQ-433,SSS 1-3,Irrigation Engineering Garden,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-434,SSS 1-3,Irrigation Engineering Garden,Practical,"Execute or demonstrate a technically appropriate measurement of engineering metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-435,SSS 1-3,Irrigation Engineering Garden,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-436,SSS 1-3,Irrigation Engineering Garden,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-437,SSS 1-3,Irrigation Engineering Garden,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-438,SSS 1-3,Irrigation Engineering Garden,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-439,SSS 1-3,Irrigation Engineering Garden,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-440,SSS 1-3,Irrigation Engineering Garden,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-441,SSS 1-3,Water Productivity Garden,Knowledge,"Frame a research or engineering question involving water balance, ET, IWP and ET water productivity.",Precise question with system boundary and measurable performance outcome.
+AQ-442,SSS 1-3,Water Productivity Garden,Knowledge,Identify one assumption and one constraint relevant to the water-productivity dataset.,Valid assumption and operational/design constraint.
+AQ-443,SSS 1-3,Water Productivity Garden,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-444,SSS 1-3,Water Productivity Garden,Practical,"Execute or demonstrate a technically appropriate measurement of water-productivity metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-445,SSS 1-3,Water Productivity Garden,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-446,SSS 1-3,Water Productivity Garden,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-447,SSS 1-3,Water Productivity Garden,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-448,SSS 1-3,Water Productivity Garden,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-449,SSS 1-3,Water Productivity Garden,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-450,SSS 1-3,Water Productivity Garden,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-451,SSS 1-3,Advanced Soilless Garden,Knowledge,"Frame a research or engineering question involving pH/EC dynamics, flow and residence time.",Precise question with system boundary and measurable performance outcome.
+AQ-452,SSS 1-3,Advanced Soilless Garden,Knowledge,Identify one assumption and one constraint relevant to the advanced soilless unit.,Valid assumption and operational/design constraint.
+AQ-453,SSS 1-3,Advanced Soilless Garden,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-454,SSS 1-3,Advanced Soilless Garden,Practical,"Execute or demonstrate a technically appropriate measurement of soilless metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-455,SSS 1-3,Advanced Soilless Garden,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-456,SSS 1-3,Advanced Soilless Garden,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-457,SSS 1-3,Advanced Soilless Garden,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-458,SSS 1-3,Advanced Soilless Garden,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-459,SSS 1-3,Advanced Soilless Garden,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-460,SSS 1-3,Advanced Soilless Garden,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-461,SSS 1-3,Sensor & Monitoring Garden,Knowledge,"Frame a research or engineering question involving accuracy, precision, calibration, MAE/RMSE and network design.",Precise question with system boundary and measurable performance outcome.
+AQ-462,SSS 1-3,Sensor & Monitoring Garden,Knowledge,Identify one assumption and one constraint relevant to the monitoring station.,Valid assumption and operational/design constraint.
+AQ-463,SSS 1-3,Sensor & Monitoring Garden,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-464,SSS 1-3,Sensor & Monitoring Garden,Practical,"Execute or demonstrate a technically appropriate measurement of monitoring metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-465,SSS 1-3,Sensor & Monitoring Garden,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-466,SSS 1-3,Sensor & Monitoring Garden,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-467,SSS 1-3,Sensor & Monitoring Garden,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-468,SSS 1-3,Sensor & Monitoring Garden,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-469,SSS 1-3,Sensor & Monitoring Garden,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-470,SSS 1-3,Sensor & Monitoring Garden,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-471,SSS 1-3,Smart Irrigation Demonstrator,Knowledge,"Frame a research or engineering question involving thresholds, hysteresis, feedback and adaptive control.",Precise question with system boundary and measurable performance outcome.
+AQ-472,SSS 1-3,Smart Irrigation Demonstrator,Knowledge,Identify one assumption and one constraint relevant to the smart irrigation controller.,Valid assumption and operational/design constraint.
+AQ-473,SSS 1-3,Smart Irrigation Demonstrator,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-474,SSS 1-3,Smart Irrigation Demonstrator,Practical,"Execute or demonstrate a technically appropriate measurement of control metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-475,SSS 1-3,Smart Irrigation Demonstrator,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-476,SSS 1-3,Smart Irrigation Demonstrator,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-477,SSS 1-3,Smart Irrigation Demonstrator,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-478,SSS 1-3,Smart Irrigation Demonstrator,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-479,SSS 1-3,Smart Irrigation Demonstrator,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-480,SSS 1-3,Smart Irrigation Demonstrator,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-481,SSS 1-3,Research & Design Garden,Knowledge,"Frame a research or engineering question involving problem definition, requirements, concept selection and prototype testing.",Precise question with system boundary and measurable performance outcome.
+AQ-482,SSS 1-3,Research & Design Garden,Knowledge,Identify one assumption and one constraint relevant to the design brief.,Valid assumption and operational/design constraint.
+AQ-483,SSS 1-3,Research & Design Garden,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-484,SSS 1-3,Research & Design Garden,Practical,"Execute or demonstrate a technically appropriate measurement of design metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-485,SSS 1-3,Research & Design Garden,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-486,SSS 1-3,Research & Design Garden,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-487,SSS 1-3,Research & Design Garden,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-488,SSS 1-3,Research & Design Garden,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-489,SSS 1-3,Research & Design Garden,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-490,SSS 1-3,Research & Design Garden,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.
+AQ-491,SSS 1-3,Integrated Food Systems Laboratory,Knowledge,"Frame a research or engineering question involving system boundaries, balances, time-varying mismatch, cascades and scenarios.",Precise question with system boundary and measurable performance outcome.
+AQ-492,SSS 1-3,Integrated Food Systems Laboratory,Knowledge,Identify one assumption and one constraint relevant to the integrated system model.,Valid assumption and operational/design constraint.
+AQ-493,SSS 1-3,Integrated Food Systems Laboratory,Knowledge,Explain why validation is distinct from calibration or fitting.,Validation tests performance on independent/held-out evidence; calibration/fitting sets model/instrument relation.
+AQ-494,SSS 1-3,Integrated Food Systems Laboratory,Practical,"Execute or demonstrate a technically appropriate measurement of integrated-system metric, with instrument ID, unit and QC note.",0-3 technical/QC rubric.
+AQ-495,SSS 1-3,Integrated Food Systems Laboratory,Practical,"Document one calibration, verification or reference check.",0-3 documentation rubric.
+AQ-496,SSS 1-3,Integrated Food Systems Laboratory,Investigation/Data,Analyze a dataset using an appropriate quantitative metric and state uncertainty.,"Correct metric, units and uncertainty statement."
+AQ-497,SSS 1-3,Integrated Food Systems Laboratory,Investigation/Data,Compare at least two scenarios/designs and quantify the performance trade-off.,"Quantified, defensible comparison."
+AQ-498,SSS 1-3,Integrated Food Systems Laboratory,Mission,Stress-test the conclusion by changing one assumption or input and report whether the decision changes.,Valid sensitivity/stress-test reasoning.
+AQ-499,SSS 1-3,Integrated Food Systems Laboratory,Mission,Recommend an optimization and define a measurable acceptance criterion.,Actionable optimization + measurable criterion.
+AQ-500,SSS 1-3,Integrated Food Systems Laboratory,Mission,"Write a decision statement integrating performance, uncertainty, safety and implementation constraints.",Technically defensible multi-criteria decision.

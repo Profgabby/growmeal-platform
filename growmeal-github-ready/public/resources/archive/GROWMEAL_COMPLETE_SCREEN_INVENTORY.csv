@@ -1,0 +1,21 @@
+ID,Route,Screen,Primary Roles,Primary Purpose,Mobile Priority
+S01,/admin,HQ Dashboard,SUPER_ADMIN;PROGRAM_ADMIN,Program-wide overview,Medium
+S02,/admin/schools,School Registry,PROGRAM_ADMIN;COUNTRY_COORDINATOR,Manage schools,Medium
+S03,/admin/curriculum,Curriculum Manager,PROGRAM_ADMIN,Manage/publish content,Low
+S04,/admin/translations,Translation Manager,PROGRAM_ADMIN,Manage multilingual content,Low
+S05,/school,School Dashboard,SCHOOL_ADMIN;GROWMEAL_COORDINATOR,School operational overview,High
+S06,/school/classes,Class Management,SCHOOL_ADMIN;GROWMEAL_COORDINATOR,Manage classes/enrollment,Medium
+S07,/school/gardens,Garden Management,SCHOOL_ADMIN;GROWMEAL_COORDINATOR,Operate physical gardens,High
+S08,/school/inventory,Inventory,SCHOOL_ADMIN;FINANCE_PROCUREMENT,Assets/consumables,High
+S09,/school/procurement,Procurement,FINANCE_PROCUREMENT,Requests and approvals,Medium
+S10,/teacher,Teacher Dashboard,TEACHER,Daily task overview,Very High
+S11,/teacher/week,Current Week,TEACHER,Deliver complete weekly sequence,Very High
+S12,/teacher/assessments,Assessment Scoring,TEACHER,Score learners,Very High
+S13,/teacher/passports,Passport Verification,TEACHER,Verify progress/badges,Very High
+S14,/learner,Learner Dashboard,LEARNER,Learning journey,Very High
+S15,/learner/passport,Food Smart Passport,LEARNER,View passport/badges,Very High
+S16,/trainer,Trainer Dashboard,TRAINER,Training management,High
+S17,/trainer/participants/[id],Teacher Training Profile,TRAINER,Competency/certification evidence,High
+S18,/reviewer/school-audits,M&E Audit,M_AND_E_REVIEWER,8-domain school audit,High
+S19,/reviewer/corrective-actions,Corrective Actions,M_AND_E_REVIEWER,Track findings/actions,High
+S20,/reviewer/certification,Certification Decision,M_AND_E_REVIEWER;PROGRAM_ADMIN,School certification,Medium

@@ -1,0 +1,51 @@
+garden_id,level,garden_name,source_filename,app_path
+N01,Nursery,Alphabet Garden,"ChatGPT Image Aug 28, 2026, 04_47_59 PM.png",/gardens/N01.webp
+N02,Nursery,Number Garden,"ChatGPT Image Aug 28, 2026, 04_51_56 PM.png",/gardens/N02.webp
+N03,Nursery,Geometry Garden,"ChatGPT Image Aug 28, 2026, 04_53_04 PM.png",/gardens/N03.webp
+N04,Nursery,Leaf Garden,"ChatGPT Image Aug 28, 2026, 04_59_18 PM.png",/gardens/N04.webp
+N05,Nursery,Butterfly Garden,"ChatGPT Image Aug 28, 2026, 05_02_32 PM.png",/gardens/N05.webp
+N06,Nursery,ReBottle Garden,"ChatGPT Image Aug 28, 2026, 05_12_37 PM.png",/gardens/N06.webp
+N07,Nursery,MicroGrow Garden,"ChatGPT Image Aug 28, 2026, 05_06_08 PM.png",/gardens/N07.webp
+N08,Nursery,Mini Table Garden,"ChatGPT Image Aug 28, 2026, 05_24_55 PM.png",/gardens/N08.webp
+N09,Nursery,Sack Garden,"ChatGPT Image Aug 28, 2026, 05_18_04 PM.png",/gardens/N09.webp
+N10,Nursery,Discovery Garden,"ChatGPT Image Aug 28, 2026, 05_11_00 PM.png",/gardens/N10.webp
+P11,Primary 1-3,Alphabet Food Garden,"ChatGPT Image Aug 28, 2026, 05_31_38 PM.png",/gardens/P11.webp
+P12,Primary 1-3,Number Food Garden,"ChatGPT Image Aug 28, 2026, 05_32_36 PM.png",/gardens/P12.webp
+P13,Primary 1-3,Geometry Garden,"ChatGPT Image Aug 28, 2026, 05_29_00 PM.png",/gardens/P13.webp
+P14,Primary 1-3,Leaf Garden,"ChatGPT Image Aug 28, 2026, 05_43_02 PM.png",/gardens/P14.webp
+P15,Primary 1-3,Pollinator Garden,"ChatGPT Image Aug 28, 2026, 05_45_27 PM.png",/gardens/P15.webp
+P16,Primary 1-3,Raised Food Garden,"ChatGPT Image Aug 28, 2026, 05_36_32 PM.png",/gardens/P16.webp
+P17,Primary 1-3,ReBottle Wall Garden,"ChatGPT Image Aug 28, 2026, 05_51_12 PM.png",/gardens/P17.webp
+P18,Primary 1-3,Sack GrowBag Garden,"ChatGPT Image Aug 28, 2026, 05_57_13 PM.png",/gardens/P18.webp
+P19,Primary 1-3,Ground Production Garden,"ChatGPT Image Aug 28, 2026, 05_50_19 PM.png",/gardens/P19.webp
+P20,Primary 1-3,Discovery Production Garden,"ChatGPT Image Aug 28, 2026, 05_40_27 PM.png",/gardens/P20.webp
+P21,Primary 4-6,Raised Food Garden,"ChatGPT Image Aug 28, 2026, 05_48_25 PM.png",/gardens/P21.webp
+P22,Primary 4-6,Geometry Garden,"ChatGPT Image Aug 28, 2026, 05_43_10 PM.png",/gardens/P22.webp
+P23,Primary 4-6,Grid Experiment Garden,"ChatGPT Image Aug 28, 2026, 05_39_50 PM.png",/gardens/P23.webp
+P24,Primary 4-6,Keyhole Garden,"ChatGPT Image Aug 28, 2026, 05_47_07 PM.png",/gardens/P24.webp
+P25,Primary 4-6,Compost Garden,"ChatGPT Image Aug 28, 2026, 05_09_26 PM.png",/gardens/P25.webp
+P26,Primary 4-6,Gravity Drip Garden,"ChatGPT Image Aug 28, 2026, 05_59_08 PM.png",/gardens/P26.webp
+P27,Primary 4-6,Vertical Garden,"ChatGPT Image Aug 28, 2026, 05_54_34 PM.png",/gardens/P27.webp
+P28,Primary 4-6,Crop Rotation Garden,"ChatGPT Image Aug 28, 2026, 05_58_38 PM.png",/gardens/P28.webp
+P29,Primary 4-6,Water-Smart Garden,"ChatGPT Image Aug 28, 2026, 05_40_34 PM.png",/gardens/P29.webp
+P30,Primary 4-6,Intro Soilless Garden,"ChatGPT Image Aug 28, 2026, 05_57_45 PM.png",/gardens/P30.webp
+J31,JSS 1-3,Production Garden,"ChatGPT Image Aug 28, 2026, 08_10_56 PM.png",/gardens/J31.webp
+J32,JSS 1-3,Raised Systems Garden,"ChatGPT Image Aug 28, 2026, 06_02_28 PM.png",/gardens/J32.webp
+J33,JSS 1-3,Grid Experiment Garden,"ChatGPT Image Aug 28, 2026, 06_01_08 PM.png",/gardens/J33.webp
+J34,JSS 1-3,Crop Rotation Garden,"ChatGPT Image Aug 28, 2026, 08_21_14 PM.png",/gardens/J34.webp
+J35,JSS 1-3,Intercropping Garden,"ChatGPT Image Aug 28, 2026, 08_18_23 PM.png",/gardens/J35.webp
+J36,JSS 1-3,Water-Smart Garden,"ChatGPT Image Aug 28, 2026, 07_28_48 PM.png",/gardens/J36.webp
+J37,JSS 1-3,Compost & Soil Garden,"ChatGPT Image Aug 28, 2026, 05_59_42 PM.png",/gardens/J37.webp
+J38,JSS 1-3,Soilless Learning Garden,"ChatGPT Image Aug 28, 2026, 07_31_55 PM.png",/gardens/J38.webp
+J39,JSS 1-3,Sensor-Ready Garden,"ChatGPT Image Aug 28, 2026, 08_14_58 PM.png",/gardens/J39.webp
+J40,JSS 1-3,Applied Systems Garden,"ChatGPT Image Aug 28, 2026, 07_34_39 PM.png",/gardens/J40.webp
+S41,SSS 1-3,Advanced Production Garden,"ChatGPT Image Aug 28, 2026, 08_24_27 PM.png",/gardens/S41.webp
+S42,SSS 1-3,Crop Trial Garden,"ChatGPT Image Aug 28, 2026, 08_27_09 PM.png",/gardens/S42.webp
+S43,SSS 1-3,Controlled Experiment Garden,"ChatGPT Image Aug 28, 2026, 08_57_35 PM.png",/gardens/S43.webp
+S44,SSS 1-3,Irrigation Engineering Garden,"ChatGPT Image Aug 28, 2026, 08_58_20 PM.png",/gardens/S44.webp
+S45,SSS 1-3,Water Productivity Garden,"ChatGPT Image Aug 28, 2026, 08_29_55 PM.png",/gardens/S45.webp
+S46,SSS 1-3,Advanced Soilless Garden,"ChatGPT Image Aug 28, 2026, 08_55_30 PM.png",/gardens/S46.webp
+S47,SSS 1-3,Sensor & Monitoring Garden,"ChatGPT Image Aug 28, 2026, 08_30_39 PM.png",/gardens/S47.webp
+S48,SSS 1-3,Smart Irrigation Demonstrator,"ChatGPT Image Aug 28, 2026, 09_03_14 PM.png",/gardens/S48.webp
+S49,SSS 1-3,Research & Design Garden,"ChatGPT Image Aug 28, 2026, 08_54_39 PM.png",/gardens/S49.webp
+S50,SSS 1-3,Integrated Food Systems Laboratory,"ChatGPT Image Aug 28, 2026, 08_26_40 PM.png",/gardens/S50.webp

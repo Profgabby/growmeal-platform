@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef7f0"/><stop offset="1" stop-color="#fff7dc"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#bg)"/><rect x="0" y="0" width="1200" height="88" fill="#006B3C"/>
+<circle cx="1010" cy="125" r="58" fill="#FDB515" opacity=".95"/>
+<path d="M70 540 C260 410,420 450,590 515 C760 580,950 510,1130 430 L1130 675 L70 675 Z" fill="#b7d7b8"/>
+<path d="M130 560 L1070 560 L1030 650 L170 650 Z" fill="#9b6a43"/><path d="M160 540 L1040 540 L1010 580 L190 580 Z" fill="#6e9b55"/>
+<g stroke="#006B3C" stroke-width="14" stroke-linecap="round" fill="none"><path d="M360 555 Q365 410 360 300"/><path d="M600 555 Q610 365 600 250"/><path d="M835 555 Q840 405 835 305"/></g>
+<g fill="#2f8d50"><ellipse cx="320" cy="385" rx="65" ry="28" transform="rotate(-25 320 385)"/><ellipse cx="405" cy="360" rx="65" ry="28" transform="rotate(28 405 360)"/><ellipse cx="555" cy="330" rx="76" ry="31" transform="rotate(-24 555 330)"/><ellipse cx="650" cy="315" rx="76" ry="31" transform="rotate(26 650 315)"/><ellipse cx="795" cy="395" rx="65" ry="28" transform="rotate(-26 795 395)"/><ellipse cx="875" cy="370" rx="65" ry="28" transform="rotate(27 875 370)"/></g>
+<text x="58" y="58" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="white">GrowMeal™ · J36</text>
+<rect x="70" y="120" width="690" height="180" rx="24" fill="white" opacity=".92"/><text x="105" y="185" font-family="Arial,sans-serif" font-size="46" font-weight="700" fill="#063b2b">Water-Smart Garden</text><text x="105" y="235" font-family="Arial,sans-serif" font-size="25" fill="#48685d">Water movement and productivity</text><text x="105" y="270" font-family="Arial,sans-serif" font-size="18" fill="#6d7f78">Garden image slot — approved photograph will replace this illustration.</text>
+</svg>

@@ -1,0 +1,2 @@
+-- Database is already provisioned in the connected Agrishine Supabase project.
+-- This repository file is a marker. Use Supabase migrations for production schema changes.

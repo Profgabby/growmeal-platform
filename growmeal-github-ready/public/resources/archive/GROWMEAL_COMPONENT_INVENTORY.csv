@@ -1,0 +1,18 @@
+Component,Purpose
+RoleAwareSidebar,Permission-driven navigation
+WorkspaceSwitcher,Switch authorized workspaces
+LanguageSwitcher,Six-language selector + Arabic RTL
+DashboardMetricCard,Reusable KPI card
+CurrentWeekPanel,Teacher weekly sequence
+ResourceSequence,Objective through passport checkpoint
+EvidenceCapture,Structured evidence form
+AssessmentScorer,0-3 rubric scoring
+ClassAssessmentGrid,Bulk scoring
+PassportProgress,Learner/class passport state
+BadgeCard,Badge state/evidence
+GardenStatusCard,Physical garden status
+MaintenanceForm,Garden inspection/action
+InventoryTable,Assets/consumables
+OfflineSyncIndicator,Pending/failed sync
+CorrectiveActionPanel,M&E action closure
+CertificationDecision,Controlled certification workflow

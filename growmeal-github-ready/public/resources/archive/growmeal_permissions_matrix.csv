@@ -1,0 +1,13 @@
+Role,Public Curriculum,Manage Curriculum,School Admin,Class/Learner Data,Record Lessons,Assess Learners,Garden Ops,Finance,Teacher Training,School M&E,Issue Teacher Cert,Issue School Cert
+SUPER_ADMIN,Full,Full,Full,Full,Full,Full,Full,Full,Full,Full,Full,Full
+PROGRAM_ADMIN,Full,Full,Full,Full,Full,Full,Full,Full,Full,Full,Full,Full
+COUNTRY_COORDINATOR,Read,Limited,Assigned,Assigned,Read,Read,Read,Read,Read,Assigned,No,No
+SCHOOL_ADMIN,Read,No,Own School,Own School,Read,Read,Own School,Read,Read,Read,No,No
+GROWMEAL_COORDINATOR,Read,No,Limited,Own School,Write,Write,Write,Read,Read,Read,No,No
+TEACHER,Read,No,No,Assigned,Write,Write,Assigned,No,Own,No,No,No
+TRAINER,Read,No,No,Limited,No,No,No,No,Write,No,Authorized,No
+M_AND_E_REVIEWER,Read,No,No,Read Assigned,Read,Read,Read,Read,Read,Write,No,Authorized
+FINANCE_PROCUREMENT,Read,No,No,No,No,No,Inventory,Write,No,No,No,No
+LEARNER,Read,No,No,Own,Own Evidence,Own Results,No,No,No,No,No,No
+PARENT_GUARDIAN,Read,No,No,Linked Learner Read,No,Linked Results Read,No,No,No,No,No,No
+PUBLIC_VIEWER,Published Only,No,No,No,No,No,No,No,No,No,No,No
