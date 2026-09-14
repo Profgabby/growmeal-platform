@@ -17,17 +17,19 @@ function parseCsv(text:string){
   return rows;
 }
 
+function num(code:string){return Number((code||'').replace(/\D/g,''))}
+
 export async function GET(req:NextRequest){
   const garden=req.nextUrl.searchParams.get('garden')||'N01';
   const all=levels.flatMap(l=>l.gardens.map(g=>({...g,level:l.name})));
   const g=all.find(x=>x.id===garden);
   if(!g)return NextResponse.json({error:'Unknown garden'},{status:404});
+  const [from,to]=g.quizRange.split('–').map(num);
   const file=path.join(process.cwd(),'data','MASTER_AQ001_AQ500_Assessment_Blueprint.csv');
   const rows=parseCsv(readFileSync(file,'utf8'));
   const head=rows.shift()||[];
   const idx=Object.fromEntries(head.map((h,i)=>[h.trim(),i]));
-  const out=rows.filter(r=>r[idx.level]?.replaceAll('-','–')===g.level.replace(' 1–3','').replace(' 4–6','')||true)
-    .filter(r=>r[idx.garden]===g.name)
+  const out=rows.filter(r=>{const n=num(r[idx.id]);return n>=from&&n<=to})
     .map(r=>({id:r[idx.id],code:r[idx.id],garden_id:garden,dimension:(r[idx.domain]||'knowledge').toLowerCase().replaceAll('/','_').replaceAll(' ','_'),prompt:r[idx.question],answer:{guidance:r[idx.answer]}}));
   return NextResponse.json(out);
 }
