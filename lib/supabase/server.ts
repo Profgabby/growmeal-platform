@@ -1,2 +1,17 @@
-import {createServerClient} from '@supabase/ssr';import {cookies} from 'next/headers';
-export async function createClient(){const c=await cookies();return createServerClient(process.env.NEXT_PUBLIC_SUPABASE_URL!,process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,{cookies:{getAll(){return c.getAll()},setAll(v){try{v.forEach(({name,value,options})=>c.set(name,value,options))}catch{}}}})}
+import {createServerClient} from '@supabase/ssr';
+import type {CookieOptions} from '@supabase/ssr';
+import {cookies} from 'next/headers';
+
+export async function createClient(){
+  const c=await cookies();
+  return createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
+    {cookies:{
+      getAll(){return c.getAll()},
+      setAll(v:Array<{name:string;value:string;options:CookieOptions}>){
+        try{v.forEach(({name,value,options})=>c.set(name,value,options))}catch{}
+      }
+    }}
+  );
+}
