@@ -1,0 +1,3 @@
+GrowMeal production deployment trigger
+2026-09-14
+Purpose: trigger Vercel deployment from the latest main branch after AQ fallback fixes.
