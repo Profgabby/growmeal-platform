@@ -7,17 +7,30 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  verify-and-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-      - run: npm install
-      - run: npx tsc --noEmit
-      - run: npm run build
+      - name: Install exact dependencies
+        run: npm ci
+      - name: Verify canonical GrowMeal data and routes
+        run: node scripts/verify-repository.mjs
+      - name: TypeScript verification
+        run: npx tsc --noEmit
+      - name: Production build
+        run: npm run build
         env:
-          NEXT_PUBLIC_SUPABASE_URL: https://pgchuvzrdizipyvesqaw.supabase.co
+          NEXT_PUBLIC_SUPABASE_URL: https://yybnwgqksliaxhodjino.supabase.co
           NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+      - name: Upload repository QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: growmeal-repository-verification
+          path: qa/repository-verification.json
+          if-no-files-found: warn
