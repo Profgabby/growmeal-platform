@@ -7,6 +7,11 @@ on:
         description: Production URL to verify
         required: false
         default: https://growmeal-platform.vercel.app
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/verify-production.mjs'
+      - '.github/workflows/production-verification.yml'
   schedule:
     - cron: '17 7 * * 1'
 
