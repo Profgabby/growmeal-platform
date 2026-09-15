@@ -1,0 +1,32 @@
+name: Production Verification
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: Production URL to verify
+        required: false
+        default: https://growmeal-platform.vercel.app
+  schedule:
+    - cron: '17 7 * * 1'
+
+jobs:
+  verify-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify all 50 gardens and downloads
+        env:
+          GROWMEAL_BASE_URL: ${{ github.event.inputs.base_url || 'https://growmeal-platform.vercel.app' }}
+        run: node scripts/verify-production.mjs
+      - name: Upload verification report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: growmeal-production-verification
+          path: qa/production-verification.json
+          if-no-files-found: warn
