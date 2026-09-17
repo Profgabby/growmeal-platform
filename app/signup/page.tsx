@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {useState} from 'react';
 import {createClient} from '@/lib/supabase/client';
+import './signup.css';
 
 export default function Signup(){
  const [name,setName]=useState('');const [email,setEmail]=useState('');const [password,setPassword]=useState('');const [confirm,setConfirm]=useState('');const [msg,setMsg]=useState('');const [busy,setBusy]=useState(false);
