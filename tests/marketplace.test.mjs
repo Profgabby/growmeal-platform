@@ -43,3 +43,14 @@ test('West African crop preferences, location and DIY activities are available',
  assert.match(grower,/Food category/);assert.match(grower,/State \/ FCT/);
  assert.match(activities,/DIY challenges/);
 });
+
+test('school-only routes fail closed at the server boundary',()=>{
+ const middleware=readFileSync(new URL('../middleware.ts',import.meta.url),'utf8');
+ assert.match(middleware,/schoolPrefixes/);assert.match(middleware,/NextResponse\.rewrite\(target,\{status:403\}\)/);
+ assert.doesNotMatch(middleware,/preferenceKey|localStorage|user_metadata/);
+});
+test('grower persistence is owner-scoped and linked to dev Supabase',()=>{
+ const page=readFileSync(new URL('../app/my-garden/page.tsx',import.meta.url),'utf8');
+ assert.match(page,/growmeal_grower_profiles/);assert.match(page,/growmeal_crop_records/);
+ assert.match(page,/db\.auth\.getUser\(\)/);assert.match(page,/\.eq\('user_id',cloudUser\)/);
+});
