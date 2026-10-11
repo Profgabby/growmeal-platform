@@ -10,7 +10,7 @@ test.describe('GrowMeal six-language marketplace',()=>{
    const heading=page.locator('h1').first();
    await expect(heading).not.toBeEmpty();
    await expect(page.getByRole('navigation',{name:'GrowMeal main navigation'})).toBeVisible();
-   await page.locator('#growmeal-audience').selectOption('Enterprise');
+   await page.locator('.sidebar select').first().selectOption('Enterprise');
    await expect(page.locator('article').filter({hasText:'GM-E01'})).toBeVisible();
    await expect(page.locator('article').filter({hasText:'GM-N01'})).toHaveCount(0);
    await expect(page.locator('article').filter({hasText:'GM-H01'})).toHaveCount(0);
@@ -23,10 +23,10 @@ test.describe('GrowMeal six-language marketplace',()=>{
  }
  test('school and household catalogs remain separated',async({page})=>{
   await page.goto('/marketplace-dev');
-  await page.locator('#growmeal-audience').selectOption('School');
+  await page.locator('.sidebar select').first().selectOption('School');
   await expect(page.locator('article').filter({hasText:'GM-N01'})).toBeVisible();
   await expect(page.locator('article').filter({hasText:'GM-E01'})).toHaveCount(0);
-  await page.locator('#growmeal-audience').selectOption('Household');
+  await page.locator('.sidebar select').first().selectOption('Household');
   await expect(page.locator('article').filter({hasText:'GM-H01'})).toBeVisible();
   await expect(page.locator('article').filter({hasText:'GM-N01'})).toHaveCount(0);
  });
