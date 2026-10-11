@@ -23,3 +23,18 @@ jobs:
       - run: npm ci
       - run: node --test tests/marketplace.test.mjs
       - run: npm run build
+      - name: Install browser test runner without changing lockfile
+        run: npm install --no-save --package-lock=false @playwright/test@1.56.1
+      - name: Install Chromium browser
+        run: npx playwright install --with-deps chromium
+      - name: Six-language browser acceptance
+        run: npx playwright test
+      - name: Upload browser failures
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: growmeal-browser-failures
+          path: |
+            test-results/
+            playwright-report/
+          if-no-files-found: ignore
