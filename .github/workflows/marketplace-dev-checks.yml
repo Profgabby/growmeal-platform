@@ -1,0 +1,25 @@
+name: Marketplace development checks
+on:
+  push:
+    branches: [feat/growmeal-marketplace-isolated]
+  pull_request:
+    paths:
+      - 'app/marketplace-dev/**'
+      - 'lib/marketplace/**'
+      - 'tests/marketplace.test.mjs'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73c2e1c7d3db7f46a4f # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: node --test tests/marketplace.test.mjs
+      - run: npm run build
