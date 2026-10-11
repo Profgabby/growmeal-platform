@@ -11,7 +11,7 @@ type Order={id:string;customer:string;email:string;address:string;lines:Line[];i
 const cartKey='growmeal.marketplace.dev.cart.v1',orderKey='growmeal.marketplace.dev.orders.v1';
 function read<T>(key:string,fallback:T):T{try{const value=localStorage.getItem(key);return value?JSON.parse(value) as T:fallback}catch{return fallback}}
 export default function MarketplaceDev(){
- const {lang}=useLanguage();const tx=(n:number)=>gmText(lang,n);const pkg=localizedTier(lang,tier,packageTiers[tier]);
+ const {lang}=useLanguage();const tx=(n:number)=>gmText(lang,n);
  const [audience,setAudience]=useState<GrowAudience>('Household'),[visibleCount,setVisibleCount]=useState(8);
  const [ready,setReady]=useState(false),[category,setCategory]=useState('All'),[search,setSearch]=useState(''),[tier,setTier]=useState<PackageTier>('Seed'),[cart,setCart]=useState<Line[]>([]),[orders,setOrders]=useState<Order[]>([]),[customer,setCustomer]=useState(''),[email,setEmail]=useState(''),[address,setAddress]=useState(''),[install,setInstall]=useState(true),[notice,setNotice]=useState('');
  useEffect(()=>{setCart(read(cartKey,[]));setOrders(read(orderKey,[]));try{const a=localStorage.getItem(preferenceKey);if(isGrowAudience(a))setAudience(a)}catch{}setReady(true)},[]);
@@ -19,6 +19,7 @@ export default function MarketplaceDev(){
  useEffect(()=>{setCategory('All');setVisibleCount(8);setCart(prev=>prev.filter(x=>{const g=gardenModels.find(m=>m.id===x.modelId);return !!g&&marketplaceAudience(g,audience)}))},[audience]);
  useEffect(()=>{if(ready)localStorage.setItem(cartKey,JSON.stringify(cart))},[cart,ready]);
  useEffect(()=>{if(ready)localStorage.setItem(orderKey,JSON.stringify(orders))},[orders,ready]);
+ const pkg=localizedTier(lang,tier,packageTiers[tier]);
  const eligible=gardenModels.filter(g=>marketplaceAudience(g,audience));
  const categories=['All',...Array.from(new Set(eligible.map(g=>g.category)))];
  const filtered=useMemo(()=>eligible.filter(g=>(category==='All'||g.category===category)&&[g.name,g.id,g.category].join(' ').toLowerCase().includes(search.toLowerCase())),[category,search,audience]);
