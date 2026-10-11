@@ -66,3 +66,19 @@ test('crop guidance displays traceable sources and declines unsupported dates',(
  assert.match(guidance,/iita\.org/);assert.match(guidance,/fao\.org/);
  assert.match(guidance,/Regional validation required/);
 });
+
+test('marketplace audience isolation excludes school models for non-school visitors',()=>{
+ const audience=readFileSync(new URL('../lib/marketplace/audience.ts',import.meta.url),'utf8');
+ const marketplace=readFileSync(new URL('../app/marketplace-dev/page.tsx',import.meta.url),'utf8');
+ assert.match(audience,/if\(a==='School'\)return g\.audience==='education'/);
+ assert.match(audience,/if\(g\.audience==='education'\)return false/);
+ for(const a of ['Household','Community','Urban grower','Institution','Enterprise'])assert.ok(audience.includes("a==='"+a+"'"));
+ assert.match(marketplace,/eligible\.filter/);
+ assert.match(marketplace,/filtered\.slice\(0,visibleCount\)/);
+});
+test('six-language marketplace labels and audience change events are wired',()=>{
+ const translations=readFileSync(new URL('../lib/growmeal/translations.ts',import.meta.url),'utf8');
+ const nav=readFileSync(new URL('../components/app-shell.tsx',import.meta.url),'utf8');
+ for(const lang of ['en','fr','ar','ha','yo','ig'])assert.ok(translations.includes(lang+':['));
+ assert.match(nav,/growmeal-audience-change/);
+});
