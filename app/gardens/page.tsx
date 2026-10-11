@@ -3,6 +3,7 @@ import {useMemo,useState} from 'react';
 import Link from 'next/link';
 import {levels} from '@/lib/curriculum';
 import content from '@/data/garden-content.json';
+import {gardenModels} from '@/lib/marketplace/catalog';
 
 export default function Gardens(){
   const [level,setLevel]=useState('all');
@@ -12,15 +13,17 @@ export default function Gardens(){
     ()=>levels.flatMap(l=>l.gardens.map(g=>({...g,levelId:l.id,levelName:l.name,progression:l.progression}))),
     []
   );
-  const rows=gardens.filter(g=>{ const matchesLevel=level==='all'||g.levelId===level; const haystack=`${g.id} ${g.name} ${g.focus} ${g.levelName}`.toLowerCase(); const matchesQuery=!query||haystack.includes(query.toLowerCase()); return matchesLevel&&matchesQuery; });
+  const deployedIds=new Set(gardenModels.filter(g=>g.audience==='education').map(g=>g.legacyId));
+  const rows=gardens.filter(g=>deployedIds.has(g.id)).filter(g=>{ const matchesLevel=level==='all'||g.levelId===level; const haystack=`${g.id} ${g.name} ${g.focus} ${g.levelName}`.toLowerCase(); const matchesQuery=!query||haystack.includes(query.toLowerCase()); return matchesLevel&&matchesQuery; });
   return <>
-    <div className="eyebrow">ALL 50 GROWMEAL™ GARDENS</div>
+    <div className="eyebrow">32 PHASE-ONE SCHOOL GARDENS</div>
     <h1>Garden Directory</h1>
     <p className="lead">Open any garden to reach its photograph, full profile, ten learning-resource sections, AQ assessment items, Food Smart Challenges, passport evidence and applicable downloads.</p>
+    <p><Link href="/marketplace-dev" style={{color:'#006B3C',fontWeight:800}}>Explore Seed, Sprout and Harvest packages in the marketplace →</Link></p>
     <div className="filters">
       <input placeholder="Search garden, code or focus…" value={query} onChange={e=>setQuery(e.target.value)}/>
       <select value={level} onChange={e=>setLevel(e.target.value)}>
-        <option value="all">All 50 gardens</option>
+        <option value="all">All 32 school gardens</option>
         {levels.map(l=><option key={l.id} value={l.id}>{l.name}</option>)}
       </select>
     </div>
