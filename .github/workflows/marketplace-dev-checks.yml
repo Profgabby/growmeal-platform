@@ -22,6 +22,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: node --test tests/marketplace.test.mjs
+      - name: Report untranslated catalog entries
+        run: node docs/growmeal-translation-audit.mjs
       - run: npm run build
       - name: Install browser test runner without changing lockfile
         run: npm install --no-save --package-lock=false @playwright/test@1.56.1
