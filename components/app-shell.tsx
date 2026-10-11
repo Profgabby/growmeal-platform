@@ -8,13 +8,13 @@ import {createClient} from '@/lib/supabase/client';
 type Role='learner'|'teacher'|'school_admin'|'reviewer'|'trainer'|'platform_admin'|'admin';
 type NavItem=[string,string,string,Role[]?];
 const items:NavItem[]=[
- ['/dashboard','dashboard','⌂'],
+ ['/dashboard','School Learning Dashboard','⌂'],
  ['/marketplace-dev','Garden Marketplace','▣'],
  ['/my-garden','My Growing Dashboard','✿'],
- ['/curriculum','curriculum','▦'],
- ['/resources','resources','▤'],
- ['/quizzes','quizzes','?'],
- ['/challenges','challenges','★'],
+ ['/curriculum','School Curriculum','▦'],
+ ['/resources','School Resources','▤'],
+ ['/quizzes','School Quizzes','?'],
+ ['/challenges','School Challenges','★'],
  ['/learner/passport','My Passport','◈',['learner']],
  ['/teacher','Teacher Dashboard','⌂',['teacher','school_admin']],
  ['/teacher/week','Teacher Week','✓',['teacher','school_admin']],
