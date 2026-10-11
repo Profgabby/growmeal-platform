@@ -4,7 +4,7 @@ const schoolPrefixes=['/dashboard','/gardens','/curriculum','/resources','/quizz
 export async function middleware(request:NextRequest){
  const path=request.nextUrl.pathname;
  if(!schoolPrefixes.some(prefix=>path===prefix||path.startsWith(prefix+'/')))return NextResponse.next();
- const url=process.env.NEXT_PUBLIC_SUPABASE_URL,key=process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+ // Staff and administration routes remain closed until fine-grained role and school-ID authorization is implemented.\n if(['/teacher','/reviewer','/training','/hq','/onboarding'].some(prefix=>path===prefix||path.startsWith(prefix+'/')))return denied(request);\n const url=process.env.NEXT_PUBLIC_SUPABASE_URL,key=process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
  if(!url||!key)return denied(request);
  const response=NextResponse.next();
  const supabase=createServerClient(url,key,{cookies:{
