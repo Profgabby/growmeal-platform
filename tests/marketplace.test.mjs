@@ -28,3 +28,18 @@ test('grower dashboard tracks crop stages and watering in a local-only sandbox',
  assert.match(grower,/localStorage\.setItem/);assert.match(grower,/Record 1 L watering/);
  assert.match(grower,/Growth stage/);assert.match(grower,/DEVELOPMENT DEMO/);
 });
+
+test('shared menus and audience-based school menu visibility are defined',()=>{
+ const nav=readFileSync(new URL('../components/app-shell.tsx',import.meta.url),'utf8');
+ for(const route of ['/growmeal-bank','/growmeal-bot','/growmeal-activities'])assert.ok(nav.includes(route));
+ assert.match(nav,/x\.scope==='school'&&school/);
+ assert.match(nav,/x\.scope==='grower'&&!school/);
+});
+test('West African crop preferences, location and DIY activities are available',()=>{
+ const preferences=readFileSync(new URL('../lib/growmeal/preferences.ts',import.meta.url),'utf8');
+ const grower=readFileSync(new URL('../app/my-garden/page.tsx',import.meta.url),'utf8');
+ const activities=readFileSync(new URL('../app/growmeal-activities/page.tsx',import.meta.url),'utf8');
+ assert.match(preferences,/Nigeria/);assert.match(preferences,/Ghana/);assert.match(preferences,/Cassava/);
+ assert.match(grower,/Food category/);assert.match(grower,/State \/ FCT/);
+ assert.match(activities,/DIY challenges/);
+});
