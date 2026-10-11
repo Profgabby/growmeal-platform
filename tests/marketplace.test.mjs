@@ -82,3 +82,13 @@ test('six-language marketplace labels and audience change events are wired',()=>
  for(const lang of ['en','fr','ar','ha','yo','ig'])assert.ok(translations.includes(lang+':['));
  assert.match(nav,/growmeal-audience-change/);
 });
+
+test('localized marketplace displays translated enterprise models and package contents',()=>{
+ const local=readFileSync(new URL('../lib/marketplace/localization.ts',import.meta.url),'utf8');
+ const page=readFileSync(new URL('../app/marketplace-dev/page.tsx',import.meta.url),'utf8');
+ for(const lang of ['fr','ar','ha','yo','ig'])assert.ok(local.includes(lang+':{'));
+ for(const code of ['GM-E01','GM-E02','GM-E03'])assert.ok(local.includes(code));
+ assert.match(page,/localizedGarden\(lang,g\)/);
+ assert.match(page,/pkg\.includes\.join/);
+ assert.match(page,/localizedCategory\(lang,g\.category\)/);
+});
