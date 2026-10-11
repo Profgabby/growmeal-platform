@@ -1,5 +1,5 @@
 export type GardenModel={id:string;name:string;category:string;audience:'education'|'non-school';legacyId?:string;requiresAssessment?:boolean};
-export type PackageTier='Starter'|'Plus'|'Complete';
+export type PackageTier='Seed'|'Sprout'|'Harvest';
 const school=[
 ['N01','Alphabet Garden'],['N02','Number Garden'],['N03','Geometry Garden'],['N04','Leaf Garden'],['N05','Butterfly Garden'],['N06','ReBottle Garden'],['N07','MicroGrow Garden'],['N08','Mini Table Garden'],
 ['P11','Alphabet Food Garden'],['P12','Number Food Garden'],['P16','Raised Food Garden'],['P17','ReBottle Wall Garden'],['P21','Raised Food Garden'],['P23','Grid Experiment Garden'],['P26','Gravity Drip Garden'],['P29','Water-Smart Garden'],
@@ -18,8 +18,8 @@ export const gardenModels:GardenModel[]=[
 ...external.map(([id,name,category])=>({id:'GM-'+id,name,category,audience:'non-school' as const,requiresAssessment:['H06','U01','U02','U03','I01','I03'].includes(id)}))
 ];
 export const packageTiers:Record<PackageTier,{description:string;includes:string[]}>={
-Starter:{description:'Essential garden installation package',includes:['Core garden structure','Basic planting inputs','Setup guide']},
-Plus:{description:'Starter with tools and learning support',includes:['Everything in Starter','Garden tools and accessories','Learning or operation materials']},
-Complete:{description:'Plus with extended setup and support',includes:['Everything in Plus','Installation planning','Commissioning and handover checklist']}
+Seed:{description:'Plant the foundation of your food garden',includes:['Core garden structure','Basic planting inputs','Setup guide']},
+Sprout:{description:'Grow with tools and learning support',includes:['Everything in Seed','Garden tools and accessories','Learning or operation materials']},
+Harvest:{description:'Sustain your garden with extended setup and support',includes:['Everything in Sprout','Installation planning','Commissioning and handover checklist']}
 };
 export function validateCatalog(){const ids=gardenModels.map(x=>x.id);return {total:ids.length,education:gardenModels.filter(x=>x.audience==='education').length,nonSchool:gardenModels.filter(x=>x.audience==='non-school').length,unique:new Set(ids).size===ids.length};}
