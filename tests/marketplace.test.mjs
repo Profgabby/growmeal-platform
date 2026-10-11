@@ -54,3 +54,15 @@ test('grower persistence is owner-scoped and linked to dev Supabase',()=>{
  assert.match(page,/growmeal_grower_profiles/);assert.match(page,/growmeal_crop_records/);
  assert.match(page,/db\.auth\.getUser\(\)/);assert.match(page,/\.eq\('user_id',cloudUser\)/);
 });
+
+test('school access depends on authenticated server RPC, not audience dropdown',()=>{
+ const middleware=readFileSync(new URL('../middleware.ts',import.meta.url),'utf8');
+ assert.match(middleware,/supabase\.auth\.getUser\(\)/);
+ assert.match(middleware,/supabase\.rpc\('growmeal_has_school_access'\)/);
+ assert.match(middleware,/\['\/teacher','\/reviewer','\/training','\/hq','\/onboarding'\]/);
+});
+test('crop guidance displays traceable sources and declines unsupported dates',()=>{
+ const guidance=readFileSync(new URL('../lib/growmeal/guidance.ts',import.meta.url),'utf8');
+ assert.match(guidance,/iita\.org/);assert.match(guidance,/fao\.org/);
+ assert.match(guidance,/Regional validation required/);
+});
