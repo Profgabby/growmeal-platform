@@ -12,3 +12,13 @@
 .material-type-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.material-type-grid>a{display:block;background:white;border:1px solid #d7e1da;border-radius:18px;padding:20px;text-decoration:none;color:inherit}.material-type-grid>a:hover{border-color:#7fb890;box-shadow:0 8px 20px rgba(0,80,50,.07)}.material-type-grid h3{margin:0 0 8px}.material-type-grid p{color:#5d7068;min-height:62px}.material-type-grid b{color:#006B3C}.material-garden-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.material-garden-grid>a{display:grid;grid-template-columns:145px 1fr;gap:15px;overflow:hidden;text-decoration:none;color:inherit;background:#fff;border:1px solid #d7e1da;border-radius:18px}.material-garden-grid img{width:145px;height:100%;min-height:132px;object-fit:cover}.material-garden-grid div{padding:14px 14px 14px 0}.material-garden-grid small{color:#006B3C;font-weight:800}.material-garden-grid h3{margin:.35rem 0}.material-garden-grid p{margin:.25rem 0 .5rem;color:#5d7068}.material-garden-grid b{color:#006B3C}
 @media(max-width:1050px){.content-section-grid,.material-type-grid,.material-garden-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.garden-profile-hero{grid-template-columns:1fr}.garden-profile-hero>img{max-height:420px}.full-content-list{grid-template-columns:1fr}}
 @media(max-width:700px){.content-section-grid,.material-type-grid,.material-garden-grid{grid-template-columns:1fr}.section-cover{grid-template-columns:1fr}.section-cover img{width:100%;height:190px}.item-hero{grid-template-columns:1fr}.item-hero img{width:100%;height:210px}.full-content-card{grid-template-columns:1fr}.material-garden-grid>a{grid-template-columns:110px 1fr}.material-garden-grid img{width:110px}}
+
+/* Direction-aware GrowMeal navigation; English product IDs remain LTR. */
+html[dir="rtl"] .sidebar{inset:0 0 0 auto}
+html[dir="rtl"] .main{margin-left:0;margin-right:278px}
+html[dir="rtl"] .brand,html[dir="rtl"] .sidebar nav a{flex-direction:row}
+html[dir="rtl"] .sidebar nav a,html[dir="rtl"] .side-bottom{text-align:right}
+html[dir="rtl"] input[type="email"]{direction:ltr;text-align:left}
+html[dir="rtl"] input[type="search"]{text-align:right}
+html[dir="rtl"] .garden-no{direction:ltr}
+@media(max-width:900px){html[dir="rtl"] .main{margin-right:0}}
