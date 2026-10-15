@@ -21,7 +21,7 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - run: node --test tests/marketplace.test.mjs
+      - run: node --test tests/marketplace.test.mjs tests/growmeal-m1-m2-contract.test.mjs
       - name: Report untranslated catalog entries
         run: node docs/growmeal-translation-audit.mjs
       - run: npm run build
@@ -30,7 +30,14 @@ jobs:
       - name: Install Chromium browser
         run: npx playwright install --with-deps chromium
       - name: Six-language browser acceptance
-        run: npx playwright test
+        run: npx playwright test tests/browser/growmeal-i18n.spec.ts
+      - name: Authenticated M1-M2 acceptance (isolated synthetic accounts)
+        run: npx playwright test tests/browser/growmeal-m1-m2.spec.ts
+        env:
+          GM_TEST_USER_A_EMAIL: \${{ secrets.GM_TEST_USER_A_EMAIL }}
+          GM_TEST_USER_A_PASSWORD: \${{ secrets.GM_TEST_USER_A_PASSWORD }}
+          GM_TEST_USER_B_EMAIL: \${{ secrets.GM_TEST_USER_B_EMAIL }}
+          GM_TEST_USER_B_PASSWORD: \${{ secrets.GM_TEST_USER_B_PASSWORD }}
       - name: Upload browser failures
         if: failure()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
