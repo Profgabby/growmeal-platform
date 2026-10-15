@@ -35,7 +35,7 @@ const sets:Q[][]=[
 {prompt:'Wednesday: 10 tomatoes. Thursday: 6 tomatoes. What is the total?',choices:['16','4','26'],correct:0,why:'10 + 6 = 16.'},
 {prompt:'Which day recorded the smallest tomato harvest?',choices:['Monday','Tuesday','Thursday'],correct:2,why:'Thursday has 6, the smallest count.'},
 {prompt:'What is the total harvest over Monday (8), Tuesday (12), Wednesday (10), and Thursday (6)?',choices:['34','36','38'],correct:1,why:'8 + 12 + 10 + 6 = 36.'},
-{prompt:'Which two days together produced 18 tomatoes?',choices:['Monday and Wednesday','Tuesday and Thursday','Monday and Thursday'],correct:0,why:'8 + 10 = 18. Tuesday and Thursday also total 18; both pairs are valid.',accept:[0,1]}
+{prompt:'Which two days together produced 18 tomatoes?',choices:['Monday and Wednesday','Tuesday and Wednesday','Monday and Thursday'],correct:0,why:'8 + 10 = 18. The other pairs total 22 and 14.'}
 ],
 [
 {prompt:'A bed has 3 rows and 4 planting spaces per row. How many spaces?',choices:['7','12','14'],correct:1,why:'3 × 4 = 12 spaces.'},
