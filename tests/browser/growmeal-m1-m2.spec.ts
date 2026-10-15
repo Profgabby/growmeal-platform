@@ -19,7 +19,7 @@ async function signIn(page:import('@playwright/test').Page,identity:typeof a){
 }
 test('anonymous customer cannot save a draft request',async({page})=>{
  await page.goto('/marketplace-dev');
- await expect(page.getByText('Sign in to save a persistent draft request.')).toBeVisible();
+ await expect(page.getByText('Sign in to save a persistent draft request. Guest checkout and live payments are disabled.')).toBeVisible();
 });
 test('account profile persists across sign-in sessions',async({browser})=>{
  test.skip(!ready,'Synthetic test account credentials are not configured');
@@ -50,13 +50,13 @@ test('authenticated household request persists and cannot be viewed by another c
  test.skip(!ready,'Synthetic test account credentials are not configured');
  const ca=await browser.newContext(),pa=await ca.newPage();
  await signIn(pa,a);await pa.goto('/marketplace-dev');
- await pa.locator('#growmeal-audience').selectOption('Household');
- await pa.getByRole('button',{name:/Add to cart/i}).first().click();
- await pa.getByLabel('Full name').fill('QA Household');
- await pa.getByLabel('Email',{exact:true}).fill(a.email!);
- await pa.getByLabel(/Address/i).fill('QA-only test address, not a real customer');
- await pa.getByRole('button',{name:/Request/i}).last().click();
- await expect(pa.getByRole('status').last()).toContainText('Draft request saved securely.');
+ await pa.evaluate(()=>{localStorage.setItem('growmeal-audience','Household');window.dispatchEvent(new Event('growmeal-audience-change'))});
+ await pa.locator('article button').first().click();
+ await pa.locator('form input').filter({visible:true}).first().fill('QA Household');
+ await pa.locator('form input[type=email]').fill(a.email!);
+ await pa.locator('form textarea').fill('QA-only test address, not a real customer');
+ await pa.locator('form button[type=submit], form button:not([type])').last().click();
+ await expect(pa.getByText(/Draft request saved securely/)).toBeVisible();
  const ids=await pa.locator('section').filter({hasText:'My saved draft requests'}).locator('code').allTextContents();
  expect(ids.length).toBeGreaterThan(0);
  await pa.reload();
