@@ -17,6 +17,7 @@ const items:NavItem[]=[
  {href:'/growmeal-bank',label:'GrowMeal Knowledge Bank',icon:'▤',scope:'all'},
  {href:'/growmeal-bot',label:'GrowMeal Bot',icon:'◎',scope:'all'},
  {href:'/growmeal-activities',label:'Quizzes & DIY Challenges',icon:'★',scope:'grower'},
+ {href:'/play-discover',label:'Play & Discover',icon:'✦',scope:'all'},
  {href:'/dashboard',label:'School Learning Dashboard',icon:'⌂',scope:'school'},
  {href:'/gardens',label:'32 School Gardens',icon:'♧',scope:'school'},
  {href:'/curriculum',label:'School Curriculum',icon:'▦',scope:'school'},
