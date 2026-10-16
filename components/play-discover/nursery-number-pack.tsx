@@ -19,12 +19,34 @@ const crop=crops[question%10],number=question+1;
 const options=(n:number)=>Array.from(new Set([n,n>=20?18:n+1,n<=1?3:n-1])).sort((a,b)=>a-b);
 const picture=(icon:string,n:number,assetId:string)=> {
 const seed=Array.from(assetId).reduce((a,c)=>((a*31+c.charCodeAt(0))>>>0),7);
-const rows=Math.ceil(n/5);
-return <div data-asset-id={assetId} role="img" aria-label={n+' '+icon+' garden objects shown for counting in '+rows+' rows'} style={{background:seed%2===0?'#f0f8eb':'#fff6e3',border:'2px solid #bfd7be',borderRadius:15,padding:12,maxWidth:460,margin:'16px 0'}}>
-<div style={{fontSize:12,fontWeight:700,color:'#006B3C',marginBottom:8}}>COUNT EACH OBJECT · SCENE {assetId}</div>
-<div style={{display:'grid',gridTemplateColumns:'repeat(5,minmax(0,1fr))',gap:7}}>
-{Array.from({length:n},(_,i)=><div key={i} style={{display:'grid',placeItems:'center',background:(seed+i)%3===0?'#e1f0d6':'#fff',borderRadius:8,border:'1px solid #c6d8c3',minHeight:52,position:'relative'}}><span aria-hidden="true" style={{fontSize:'clamp(27px,5vw,43px)',transform:`rotate(${((seed+i*7)%7)-3}deg)`}}>{icon}</span><span aria-hidden="true" style={{position:'absolute',bottom:1,right:3,fontSize:9,color:'#59665a'}}>{i+1}</span></div>)}
-</div></div>;
+const kind=assetId.includes('STORY')?'story':assetId.includes('MATCH')?'basket':assetId.includes('COMPARE')?'comparison':'harvest';
+const cropIndex=crops.findIndex(c=>c.icon===icon);
+const cropName=crops[cropIndex]?.name??'garden produce';
+const objectShape=(x:number,y:number,i:number)=>{
+ const wobble=((seed+i*17)%7)-3;
+ const cx=x+wobble,cy=y+((seed+i*11)%5)-2;
+ const fill=['#d54a32','#ed8b32','#efc84e','#cf4935','#63a24d','#e8ba4b','#e4a02c','#4f9a64','#704c9d','#efc54b'][Math.max(0,cropIndex)];
+ const leaf=<path d={`M${cx} ${cy-10} q-9 -10 -13 -2 q8 6 13 2 q7 -10 13 -2 q-9 7 -13 2`} fill="#006B3C"/>;
+ if(cropIndex===1)return <g key={i} transform={`rotate(${wobble*3} ${cx} ${cy})`}><path d={`M${cx-9} ${cy-10} L${cx+9} ${cy-10} L${cx+3} ${cy+12} Q${cx} ${cy+17} ${cx-3} ${cy+12}Z`} fill={fill} stroke="#915e24" strokeWidth="1.4"/>{leaf}</g>;
+ if(cropIndex===2)return <g key={i}><path d={`M${cx-12} ${cy-8} Q${cx-4} ${cy+19} ${cx+13} ${cy-8} Q${cx+6} ${cy+6} ${cx-12} ${cy-8}Z`} fill={fill} stroke="#9b7020" strokeWidth="1.5"/><path d={`M${cx-11} ${cy-9}q2 -5 6 -5`} stroke="#006B3C" strokeWidth="2" fill="none"/></g>;
+ if(cropIndex===5)return <g key={i}><rect x={cx-8} y={cy-13} width="16" height="27" rx="6" fill={fill} stroke="#9a7725"/>{Array.from({length:4},(_,k)=><path key={k} d={`M${cx-7} ${cy-8+k*6}h14`} stroke="#f8e8a3" strokeWidth="1.5"/>)}<path d={`M${cx} ${cy-13}v-6`} stroke="#006B3C" strokeWidth="3"/></g>;
+ if(cropIndex===7)return <g key={i}><ellipse cx={cx} cy={cy} rx="13" ry="10" fill="#408a53" stroke="#006B3C" strokeWidth="1.5"/><path d={`M${cx-10} ${cy-2}q10 -7 20 0 M${cx-10} ${cy+4}q10 -7 20 0`} stroke="#a4d29c" strokeWidth="1.5" fill="none"/></g>;
+ if(cropIndex===8)return <g key={i}><ellipse cx={cx} cy={cy} rx="9" ry="14" fill={fill} stroke="#513779" strokeWidth="1.5"/>{leaf}</g>;
+ return <g key={i}><ellipse cx={cx} cy={cy} rx={cropIndex===6?12:10} ry={cropIndex===6?13:11} fill={fill} stroke="#7c653c" strokeWidth="1.4"/>{cropIndex===9?<ellipse cx={cx-3} cy={cy-3} rx="3" ry="6" fill="#f9e69c"/>:leaf}</g>;
+};
+const columns=kind==='story'?Math.min(4,n):kind==='comparison'?4:5;
+const rows=Math.ceil(n/columns);
+const cell=38;
+const width=columns*cell+36,height=rows*cell+67;
+return <div data-asset-id={assetId} role="img" aria-label={n+' illustrated '+cropName.toLowerCase()+' in a '+kind+' scene'} style={{background:'#fffaf0',border:'2px solid #bfd7be',borderRadius:15,padding:8,maxWidth:'100%',margin:'12px 0'}}>
+<svg viewBox={`0 0 ${width} ${height}`} width="100%" style={{maxWidth:width,height:'auto',display:'block'}} aria-hidden="true">
+<rect x="4" y="4" width={width-8} height={height-8} rx="13" fill={kind==='story'?'#f6e9d0':kind==='basket'?'#eaf3e0':kind==='comparison'?'#f4f0df':'#e5f3e3'}/>
+{kind==='story'&&<><circle cx={width-28} cy="25" r="13" fill="#FDB515"/><path d={`M6 ${height-28} Q${width/2} ${height-43} ${width-6} ${height-28}`} fill="none" stroke="#9fc78e" strokeWidth="6"/></>}
+{kind==='basket'&&<><path d={`M12 42 Q${width/2} 15 ${width-12} 42 L${width-22} ${height-12} H22 Z`} fill="#dbbd83" stroke="#9a753f" strokeWidth="3"/>{Array.from({length:4},(_,i)=><path key={i} d={`M22 ${height-25-i*8} H${width-22}`} stroke="#ac874d" strokeWidth="2"/>)}</>}
+{kind==='comparison'&&<rect x="10" y="45" width={width-20} height={height-57} rx="9" fill="#e1c99b" stroke="#aa8451" strokeWidth="2"/>}
+{kind==='harvest'&&Array.from({length:columns},(_,i)=><path key={i} d={`M${18+i*cell} 46 v${height-60}`} stroke="#c9dabb" strokeWidth="1.5"/> )}
+{Array.from({length:n},(_,i)=>objectShape(18+(i%columns)*cell+cell/2,55+Math.floor(i/columns)*cell,i))}
+</svg><span style={{display:'block',fontSize:12,color:'#006B3C',fontWeight:700}}>Count each {cropName.toLowerCase()} carefully.</span></div>;
 };
 const answerButtons=(correct:number)=> <div style={{display:'flex',gap:10,flexWrap:'wrap'}}>{options(correct).map(n=><button key={n} style={{...btn,minWidth:70,fontSize:26}} onClick={()=>setFeedback(choose(n,correct))}>{n}</button>)}</div>;
 return <section style={{border:'1px solid #d4e3d9',borderRadius:18,padding:'clamp(14px,3vw,26px)',background:'white',marginTop:16,minWidth:0}}>
