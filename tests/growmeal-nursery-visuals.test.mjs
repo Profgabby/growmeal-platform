@@ -51,8 +51,9 @@ assert.ok(alphabet.includes('GM-N01-HARVEST-'));
 test('Nursery 3 shape choice and layout diagrams have traceable IDs',()=>{
 for(const prefix of ['GM-N03-OPTION-','GM-N03-LAYOUT-CHOICE-','GM-N03-LAYOUT-PLACED-'])assert.ok(geometry.includes(prefix));
 });
-test('Nursery 1 ambiguous crops explicitly require reference photography',()=>{
-assert.ok(alphabet.includes('teacher supplies an accurate reference photograph'));
+test('Nursery 1 ambiguous crops have an illustration rather than missing-image text',()=>{
+assert.ok(!alphabet.includes('teacher supplies an accurate reference photograph'));
+assert.ok(alphabet.includes('<svg viewBox="0 0 220 130"'));
 });
 
 test('Nursery 3 uses named garden-context SVG scenes instead of repeated question emoji',()=>{
