@@ -22,6 +22,7 @@ const seed=Array.from(assetId).reduce((a,c)=>((a*31+c.charCodeAt(0))>>>0),7);
 const kind=assetId.includes('STORY')?'story':assetId.includes('MATCH')?'basket':assetId.includes('COMPARE')?'comparison':'harvest';
 const cropIndex=crops.findIndex(c=>c.icon===icon);
 const cropName=crops[cropIndex]?.name??'garden produce';
+const artworkFingerprint=assetId+'|'+cropName+'|'+n+'|'+kind;
 const objectShape=(x:number,y:number,i:number)=>{
  const wobble=((seed+i*17)%7)-3;
  const cx=x+wobble,cy=y+((seed+i*11)%5)-2;
@@ -34,11 +35,12 @@ const objectShape=(x:number,y:number,i:number)=>{
  if(cropIndex===8)return <g key={i}><ellipse cx={cx} cy={cy} rx="9" ry="14" fill={fill} stroke="#513779" strokeWidth="1.5"/>{leaf}</g>;
  return <g key={i}><ellipse cx={cx} cy={cy} rx={cropIndex===6?12:10} ry={cropIndex===6?13:11} fill={fill} stroke="#7c653c" strokeWidth="1.4"/>{cropIndex===9?<ellipse cx={cx-3} cy={cy-3} rx="3" ry="6" fill="#f9e69c"/>:leaf}</g>;
 };
+// The answer is determined by the requested quantity, not by the scene decoration.
 const columns=kind==='story'?Math.min(4,n):kind==='comparison'?4:5;
 const rows=Math.ceil(n/columns);
 const cell=38;
 const width=columns*cell+36,height=rows*cell+67;
-return <div data-asset-id={assetId} role="img" aria-label={n+' illustrated '+cropName.toLowerCase()+' in a '+kind+' scene'} style={{background:'#fffaf0',border:'2px solid #bfd7be',borderRadius:15,padding:8,maxWidth:'100%',margin:'12px 0'}}>
+return <div data-asset-id={assetId} data-artwork-fingerprint={artworkFingerprint} role="img" aria-label={n+' illustrated '+cropName.toLowerCase()+' in a '+kind+' scene'} style={{background:'#fffaf0',border:'2px solid #bfd7be',borderRadius:15,padding:8,maxWidth:'100%',margin:'12px 0'}}>
 <svg viewBox={`0 0 ${width} ${height}`} width="100%" style={{maxWidth:width,height:'auto',display:'block'}} aria-hidden="true">
 <rect x="4" y="4" width={width-8} height={height-8} rx="13" fill={kind==='story'?'#f6e9d0':kind==='basket'?'#eaf3e0':kind==='comparison'?'#f4f0df':'#e5f3e3'}/>
 {kind==='story'&&<><circle cx={width-28} cy="25" r="13" fill="#FDB515"/><path d={`M6 ${height-28} Q${width/2} ${height-43} ${width-6} ${height-28}`} fill="none" stroke="#9fc78e" strokeWidth="6"/></>}
