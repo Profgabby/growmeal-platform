@@ -25,3 +25,15 @@ test('Nursery 2 comparison at twenty displays 19 and 20 in that order',()=>asser
 test('Nursery 2 stories ask about displayed objects',()=>assert.ok(number.includes('How many {stories[storyPage].icon} objects do you see?')));
 test('Nursery 3 does not mislabel a mango as a watermelon',()=>assert.ok(!geometry.includes("name:'Watermelon',shape:'oval',icon:'🥭'")));
 test('Nursery 3 oval pond is consistently described',()=>assert.ok(geometry.includes("name:'Oval garden pond',shape:'oval',icon:'⬭'")));
+
+test('Alphabet story answer letters match Banana, Tomato and Watermelon',()=>{
+assert.ok(alphabet.includes("letters:['B','D','F'],number:2"));
+assert.ok(alphabet.includes("letters:['T','S','U'],number:7"));
+assert.ok(alphabet.includes("letters:['W','V','X'],number:8"));
+});
+test('Alphabet patterns vary by letter and old repeated picture is gone',()=>{
+assert.ok(alphabet.includes("GM-N01-PATTERN-"));
+assert.ok(alphabet.includes("const first=crops[index],second=crops[(index+1)%26]"));
+assert.ok(!alphabet.includes('🍎 🍌 🍎 🍌 ❔'));
+});
+test('Alphabet story pages have individual visual identifiers',()=>assert.ok(alphabet.includes("GM-N01-STORY-")));
