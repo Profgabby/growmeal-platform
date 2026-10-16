@@ -1,0 +1,29 @@
+name: Nursery visual regression
+on:
+  push:
+    branches:
+      - feature/growmeal-unified-preview
+    paths:
+      - 'components/play-discover/nursery-*.tsx'
+      - 'app/play-discover/page.tsx'
+      - 'tests/growmeal-nursery-visuals.test.mjs'
+      - '.github/workflows/nursery-visual-regression.yml'
+  pull_request:
+    paths:
+      - 'components/play-discover/nursery-*.tsx'
+      - 'app/play-discover/page.tsx'
+      - 'tests/growmeal-nursery-visuals.test.mjs'
+      - '.github/workflows/nursery-visual-regression.yml'
+  workflow_dispatch:
+jobs:
+  nursery-regression:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Nursery source and content regression
+        run: node --test tests/growmeal-nursery-visuals.test.mjs
