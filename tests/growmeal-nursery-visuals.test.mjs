@@ -22,7 +22,7 @@ test('Original Alphabet flags ambiguous crop emoji',()=>assert.ok(alphabet.inclu
 // These source checks do not prove rendered image uniqueness, build success, or visual correspondence.
 
 test('Nursery 2 comparison at twenty displays 19 and 20 in that order',()=>assert.ok(number.includes('[number===20?19:number,number===20?20:number+1]')));
-test('Nursery 2 stories ask about displayed objects',()=>assert.ok(number.includes('How many {stories[storyPage].icon} objects do you see?')));
+test('Nursery 2 stories ask about displayed objects',()=>assert.ok(number.includes('How many {stories[storyPage].name} do you see?')));
 test('Nursery 3 does not mislabel a mango as a watermelon',()=>assert.ok(!geometry.includes("name:'Watermelon',shape:'oval',icon:'🥭'")));
 test('Nursery 3 oval pond is consistently described',()=>assert.ok(geometry.includes("name:'Oval garden pond',shape:'oval',icon:'⬭'")));
 
@@ -60,4 +60,11 @@ assert.ok(geometry.includes('function GardenObjectScene('));
 for(const id of ['GM-N03-DETECT-','GM-N03-MATCH-','GM-N03-GROUP-','GM-N03-STORY-'])assert.ok(geometry.includes("sceneId={'"+id));
 assert.ok(!geometry.includes('>{item.icon}</div>'));
 assert.ok(!geometry.includes('>{stories[story].icon}</div>'));
+});
+
+test('Nursery 2 counting stories use readable crop nouns',()=>{
+for(const noun of ['tomatoes','bananas','apples','carrots','peppers'])assert.ok(number.includes("name:'"+noun+"'"));
+});
+test('Nursery 2 matching baskets reuse accurate item-count renderer',()=>{
+assert.ok(number.includes("picture(crop.icon,n,'GM-N02-MATCH-'+question+'-'+i)"));
 });
