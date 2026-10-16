@@ -29,12 +29,18 @@ function ShapePicture({shape,size=80,sceneId}:{shape:Shape;size?:number;sceneId?
 function GardenObjectScene({name,shape,sceneId}:{name:string;shape:Shape;sceneId:string}){
 const seed=Array.from(sceneId).reduce((a,c)=>((a*33+c.charCodeAt(0))>>>0),13);
 const isBed=/bed|plot|tray/i.test(name),isSign=/sign|marker/i.test(name),isPond=/pond/i.test(name);
+const isFruit=/tomato|orange|mango/i.test(name);
+const isTray=/tray/i.test(name);
+const isVegetableBed=/vegetable|planting|garden bed/i.test(name);
 return <div data-asset-id={sceneId} role="img" aria-label={name+' represented by a '+labels[shape].toLowerCase()+' outline'} style={{minHeight:175,display:'grid',placeItems:'center',background:seed%2?'#eef7e9':'#fff5da',border:'2px solid #b6d2b8',borderRadius:15,padding:12,margin:'12px 0'}}>
 <svg width="240" height="145" viewBox="0 0 240 145" aria-hidden="true">
 <rect x="8" y="8" width="224" height="129" rx="13" fill="#e9f4e2" stroke="#c1d8ba"/>
 {isBed&&<g><path d="M20 117 L220 117" stroke="#a47b4c" strokeWidth="5"/>{[42,82,122,162,202].map((x,i)=><g key={i}><path d={`M${x} 107 v-22`} stroke="#006B3C" strokeWidth="3"/><ellipse cx={x-7} cy="88" rx="9" ry="5" fill="#5d9c54"/><ellipse cx={x+7} cy="82" rx="9" ry="5" fill="#5d9c54"/></g>)}</g>}
 {isSign&&<path d="M120 94 v32" stroke="#795c3c" strokeWidth="8"/>}
 {isPond&&<path d="M20 115 Q120 102 220 115" stroke="#78b88b" strokeWidth="5" fill="none"/>}
+{isFruit&&<><path d="M120 20 q-6 -12 3 -17" stroke="#006B3C" strokeWidth="4" fill="none"/><path d="M122 13 q17 -14 29 -2 q-13 10 -29 2" fill="#69a957"/></>}
+{isTray&&Array.from({length:9},(_,i)=><g key={i}><circle cx={95+(i%3)*25} cy={40+Math.floor(i/3)*25} r="7" fill="#6b5137"/><path d={`M${95+(i%3)*25} ${39+Math.floor(i/3)*25}v-7`} stroke="#006B3C" strokeWidth="2"/></g>)}
+{isVegetableBed&&Array.from({length:4},(_,i)=><g key={i}><path d={`M${70+i*30} 78v-20`} stroke="#006B3C" strokeWidth="3"/><ellipse cx={63+i*30} cy="61" rx="10" ry="5" fill="#73aa59"/><ellipse cx={77+i*30} cy="57" rx="10" ry="5" fill="#73aa59"/></g>)}
 <g transform={`translate(${seed%15-7} ${seed%9-4})`}>
 {shape==='circle'&&<circle cx="120" cy="66" r="39" fill={isPond?'#7dc6dd':'#e4b44e'} stroke="#006B3C" strokeWidth="5"/>}
 {shape==='square'&&<rect x="80" y="26" width="80" height="80" rx="2" fill="#c5a071" stroke="#006B3C" strokeWidth="5"/>}
