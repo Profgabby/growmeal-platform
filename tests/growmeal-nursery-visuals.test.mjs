@@ -81,3 +81,7 @@ assert.ok(!number.includes('>{icon}</span>'));
 // Acceptance trigger: source regression is necessary but not sufficient.
 // Release gate additionally requires browser-reviewed, unique, question-matched illustrations
 // across Nursery 1–3; do not promote this suite's pass as full visual acceptance.
+
+test('Nursery 3 garden objects include fruit, seed-tray and vegetable-bed visual details',()=>{
+for(const term of ['isFruit','isTray','isVegetableBed'])assert.ok(geometry.includes(term));
+});
