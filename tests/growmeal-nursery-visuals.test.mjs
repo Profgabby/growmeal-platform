@@ -37,3 +37,13 @@ assert.ok(alphabet.includes("const first=crops[index],second=crops[(index+1)%26]
 assert.ok(!alphabet.includes('🍎 🍌 🍎 🍌 ❔'));
 });
 test('Alphabet story pages have individual visual identifiers',()=>assert.ok(alphabet.includes("GM-N01-STORY-")));
+
+test('Nursery 2 count scenes use asset-dependent layout and exact n items',()=>{
+assert.ok(number.includes('Array.from({length:n}'));
+assert.ok(number.includes('seed=Array.from(assetId)'));
+assert.ok(number.includes('COUNT EACH OBJECT'));
+});
+test('Nursery 1 harvest does not display known misleading crop emoji',()=>{
+assert.ok(alphabet.includes('misleadingCropLetters.has(crops[i].letter)?crops[i].letter:crops[i].emoji'));
+assert.ok(alphabet.includes('GM-N01-HARVEST-'));
+});
