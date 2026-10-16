@@ -47,3 +47,10 @@ test('Nursery 1 harvest does not display known misleading crop emoji',()=>{
 assert.ok(alphabet.includes('misleadingCropLetters.has(crops[i].letter)?crops[i].letter:crops[i].emoji'));
 assert.ok(alphabet.includes('GM-N01-HARVEST-'));
 });
+
+test('Nursery 3 shape choice and layout diagrams have traceable IDs',()=>{
+for(const prefix of ['GM-N03-OPTION-','GM-N03-LAYOUT-CHOICE-','GM-N03-LAYOUT-PLACED-'])assert.ok(geometry.includes(prefix));
+});
+test('Nursery 1 ambiguous crops explicitly require reference photography',()=>{
+assert.ok(alphabet.includes('teacher supplies an accurate reference photograph'));
+});
