@@ -77,3 +77,7 @@ assert.ok(number.includes("kind==='basket'"));
 assert.ok(number.includes("kind==='comparison'"));
 assert.ok(!number.includes('>{icon}</span>'));
 });
+
+// Acceptance trigger: source regression is necessary but not sufficient.
+// Release gate additionally requires browser-reviewed, unique, question-matched illustrations
+// across Nursery 1–3; do not promote this suite's pass as full visual acceptance.
