@@ -17,7 +17,15 @@ const [game,setGame]=useState<number|null>(null),[question,setQuestion]=useState
 const next=(i:number|null)=>{setGame(i);setQuestion(0);setFeedback('');setStoryPage(0)};
 const crop=crops[question%10],number=question+1;
 const options=(n:number)=>Array.from(new Set([n,n>=20?18:n+1,n<=1?3:n-1])).sort((a,b)=>a-b);
-const picture=(icon:string,n:number,assetId:string)=> <div data-asset-id={assetId} role="img" aria-label={n+' '+icon+' garden objects shown for counting'} style={{display:'grid',gridTemplateColumns:'repeat(5,minmax(0,1fr))',gap:8,maxWidth:420,margin:'16px 0'}}>{Array.from({length:n},(_,i)=><span key={i} style={{fontSize:'clamp(29px,5vw,49px)',textAlign:'center'}}>{icon}</span>)}</div>;
+const picture=(icon:string,n:number,assetId:string)=> {
+const seed=Array.from(assetId).reduce((a,c)=>((a*31+c.charCodeAt(0))>>>0),7);
+const rows=Math.ceil(n/5);
+return <div data-asset-id={assetId} role="img" aria-label={n+' '+icon+' garden objects shown for counting in '+rows+' rows'} style={{background:seed%2===0?'#f0f8eb':'#fff6e3',border:'2px solid #bfd7be',borderRadius:15,padding:12,maxWidth:460,margin:'16px 0'}}>
+<div style={{fontSize:12,fontWeight:700,color:'#006B3C',marginBottom:8}}>COUNT EACH OBJECT · SCENE {assetId}</div>
+<div style={{display:'grid',gridTemplateColumns:'repeat(5,minmax(0,1fr))',gap:7}}>
+{Array.from({length:n},(_,i)=><div key={i} style={{display:'grid',placeItems:'center',background:(seed+i)%3===0?'#e1f0d6':'#fff',borderRadius:8,border:'1px solid #c6d8c3',minHeight:52,position:'relative'}}><span aria-hidden="true" style={{fontSize:'clamp(27px,5vw,43px)',transform:`rotate(${((seed+i*7)%7)-3}deg)`}}>{icon}</span><span aria-hidden="true" style={{position:'absolute',bottom:1,right:3,fontSize:9,color:'#59665a'}}>{i+1}</span></div>)}
+</div></div>;
+};
 const answerButtons=(correct:number)=> <div style={{display:'flex',gap:10,flexWrap:'wrap'}}>{options(correct).map(n=><button key={n} style={{...btn,minWidth:70,fontSize:26}} onClick={()=>setFeedback(choose(n,correct))}>{n}</button>)}</div>;
 return <section style={{border:'1px solid #d4e3d9',borderRadius:18,padding:'clamp(14px,3vw,26px)',background:'white',marginTop:16,minWidth:0}}>
 <strong style={{color:green}}>NURSERY 2 · GM-N02 · NUMBER GARDEN</strong><h2>My Number Garden</h2>
