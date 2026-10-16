@@ -12,7 +12,7 @@ const items:{name:string;shape:Shape;icon:string;why:string}[]=[
 {name:'Orange',shape:'circle',icon:'🍊',why:'An orange looks round like a circle.'},
 {name:'Square seed tray',shape:'square',icon:'🟨',why:'This seed tray is square.'},
 {name:'Triangle marker',shape:'triangle',icon:'🔺',why:'This marker is triangular.'},
-{name:'Vegetable plot',shape:'rectangle',icon:'🥬',why:'This garden plot is rectangular.'},
+{name:'Vegetable plot',shape:'rectangle',icon:'🟫',why:'This top-view garden plot is rectangular.'},
 {name:'Mango',shape:'oval',icon:'🥭',why:'Many mangoes have an oval outline.'}
 ];
 const labels:Record<Shape,string>={circle:'Circle',square:'Square',triangle:'Triangle',rectangle:'Rectangle',oval:'Oval'};
@@ -21,7 +21,7 @@ const stories=[
 {title:'Tomi Finds a Round Tomato',text:'Tomi sees a round tomato growing in the garden. She points to its shape.',icon:'🍅',shape:'circle' as Shape},
 {title:'Ada Builds a Square Bed',text:'Ada and her teacher look at a garden bed with four equal sides.',icon:'🟩',shape:'square' as Shape},
 {title:'The Triangle Garden Sign',text:'Bola sees a garden sign with three sides. She points to each side.',icon:'🔺',shape:'triangle' as Shape},
-{title:'Chidi Walks by a Long Bed',text:'Chidi walks beside a long rectangular planting bed full of vegetables.',icon:'🥬',shape:'rectangle' as Shape},
+{title:'Chidi Walks by a Long Bed',text:'Chidi walks beside a long rectangular planting bed full of vegetables.',icon:'🟫',shape:'rectangle' as Shape},
 {title:'Mimi Finds a Mango',text:'Mimi sees an oval mango on a tree. She compares its outline with a circle.',icon:'🥭',shape:'oval' as Shape}
 ];
 const button:React.CSSProperties={padding:'12px 16px',minHeight:48,border:'1px solid #b6cdbd',borderRadius:12,background:'white',color:'#12452c',fontSize:17,cursor:'pointer'};
