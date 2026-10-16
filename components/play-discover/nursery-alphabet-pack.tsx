@@ -35,9 +35,9 @@ const tasks=['Colour Identification','Letter Match','Harvest Basket Challenge','
 const misleadingCropLetters=new Set(['D','F','G','I','J','K','N','O','Q','R','S','U','V','X','Y']);
 function CropTeachingVisual({crop,activity,index}:{crop:Crop;activity:number;index:number}){
 const accurate=!misleadingCropLetters.has(crop.letter);
-return <div data-asset-id={'GM-N01-'+activity+'-'+index} role="img" aria-label={crop.name+' learning visual for '+tasks[activity]} style={{border:'2px solid #bfd3c2',borderRadius:16,padding:18,minHeight:160,background:activity%2===0?'#f0f7e9':'#fff6d8',display:'grid',placeItems:'center',textAlign:'center'}}>
+return <div data-asset-id={'GM-N01-'+activity+'-'+index} role="img" aria-label={crop.name+' learning visual for '+tasks[activity]} style={{border:'2px solid #bfd3c2',borderRadius:16,padding:18,minHeight:160,background:(index+activity)%2===0?'#f0f7e9':'#fff6d8',display:'grid',placeItems:'center',textAlign:'center'}}>
 <div style={{fontSize:22,fontWeight:800,color:'#006B3C'}}>{crop.letter} · {crop.name}</div>
-{accurate?<span style={{fontSize:64}} aria-hidden="true">{crop.emoji}</span>:<span style={{fontSize:18,color:'#333'}}>Ask your teacher to show a real photograph of {crop.name.toLowerCase()}.</span>}
+{accurate?<span style={{fontSize:64}} aria-hidden="true">{crop.emoji}</span>:<span style={{fontSize:18,color:'#333'}}>{crop.name} · teacher supplies an accurate reference photograph.</span>}
 <div style={{fontSize:13}}>Activity {activity+1} · Visual {index+1}</div>
 </div>;
 }
