@@ -41,7 +41,7 @@ test('Alphabet story pages have individual visual identifiers',()=>assert.ok(alp
 test('Nursery 2 count scenes use asset-dependent layout and exact n items',()=>{
 assert.ok(number.includes('Array.from({length:n}'));
 assert.ok(number.includes('seed=Array.from(assetId)'));
-assert.ok(number.includes('COUNT EACH OBJECT'));
+assert.ok(number.includes('objectShape('));
 });
 test('Nursery 1 harvest does not display known misleading crop emoji',()=>{
 assert.ok(alphabet.includes('misleadingCropLetters.has(crops[i].letter)?crops[i].letter:crops[i].emoji'));
@@ -67,4 +67,13 @@ for(const noun of ['tomatoes','bananas','apples','carrots','peppers'])assert.ok(
 });
 test('Nursery 2 matching baskets reuse accurate item-count renderer',()=>{
 assert.ok(number.includes("picture(crop.icon,n,'GM-N02-MATCH-'+question+'-'+i)"));
+});
+
+test('Nursery 2 harvest scenes are drawn as crop-specific SVGs, not repeated emoji grids',()=>{
+assert.ok(number.includes('const objectShape='));
+assert.ok(number.includes('const cropIndex=crops.findIndex'));
+assert.ok(number.includes("kind==='story'"));
+assert.ok(number.includes("kind==='basket'"));
+assert.ok(number.includes("kind==='comparison'"));
+assert.ok(!number.includes('>{icon}</span>'));
 });
