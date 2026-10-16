@@ -54,3 +54,10 @@ for(const prefix of ['GM-N03-OPTION-','GM-N03-LAYOUT-CHOICE-','GM-N03-LAYOUT-PLA
 test('Nursery 1 ambiguous crops explicitly require reference photography',()=>{
 assert.ok(alphabet.includes('teacher supplies an accurate reference photograph'));
 });
+
+test('Nursery 3 uses named garden-context SVG scenes instead of repeated question emoji',()=>{
+assert.ok(geometry.includes('function GardenObjectScene('));
+for(const id of ['GM-N03-DETECT-','GM-N03-MATCH-','GM-N03-GROUP-','GM-N03-STORY-'])assert.ok(geometry.includes("sceneId={'"+id));
+assert.ok(!geometry.includes('>{item.icon}</div>'));
+assert.ok(!geometry.includes('>{stories[story].icon}</div>'));
+});
