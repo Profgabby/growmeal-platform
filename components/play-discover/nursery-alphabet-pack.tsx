@@ -37,7 +37,15 @@ function CropTeachingVisual({crop,activity,index}:{crop:Crop;activity:number;ind
 const accurate=!misleadingCropLetters.has(crop.letter);
 return <div data-asset-id={'GM-N01-'+activity+'-'+index} role="img" aria-label={crop.name+' learning visual for '+tasks[activity]} style={{border:'2px solid #bfd3c2',borderRadius:16,padding:18,minHeight:160,background:(index+activity)%2===0?'#f0f7e9':'#fff6d8',display:'grid',placeItems:'center',textAlign:'center'}}>
 <div style={{fontSize:22,fontWeight:800,color:'#006B3C'}}>{crop.letter} · {crop.name}</div>
-{accurate?<span style={{fontSize:64}} aria-hidden="true">{crop.emoji}</span>:<span style={{fontSize:18,color:'#333'}}>{crop.name} · teacher supplies an accurate reference photograph.</span>}
+{accurate?<span style={{fontSize:64}} aria-hidden="true">{crop.emoji}</span>:<svg viewBox="0 0 220 130" width="220" height="130" role="presentation" aria-hidden="true">
+<rect x="8" y="8" width="204" height="114" rx="14" fill="#e9f3df"/>
+<path d="M110 102 V47" stroke="#006B3C" strokeWidth="5" strokeLinecap="round"/>
+<path d="M110 71 Q66 32 42 65 Q76 91 110 71 M110 60 Q149 22 178 56 Q143 87 110 60" fill="#70a65b" stroke="#006B3C" strokeWidth="2"/>
+{['D','F','G','J','N','R','V','X','Y'].includes(crop.letter)?<g>
+{Array.from({length:crop.letter==='V'?4:3},(_,i)=><g key={i}><ellipse cx={78+i*30} cy={88+(i%2)*9} rx={crop.letter==='Y'?13:crop.letter==='X'?17:crop.letter==='D'?7:11} ry={crop.letter==='Y'?19:crop.letter==='D'?15:12} fill={crop.colour} stroke="#6e583c" strokeWidth="2"/>{crop.letter==='X'&&<path d={`M${65+i*30} ${88+(i%2)*9}h26`} stroke="#006B3C" strokeWidth="2"/>}</g>)}</g>:
+crop.letter==='O'||crop.letter==='Q'?<g>{Array.from({length:5},(_,i)=><path key={i} d={`M${80+i*14} 92q-8 -20 0 -42q8 20 0 42`} stroke="#006B3C" strokeWidth="3" fill="#85b764"/>)}</g>:
+<g>{Array.from({length:4},(_,i)=><ellipse key={i} cx={75+i*23} cy={86-(i%2)*8} rx="15" ry="9" fill={crop.colour} stroke="#006B3C" strokeWidth="2"/>)}</g>}
+</svg>}
 <div style={{fontSize:13}}>Activity {activity+1} · Visual {index+1}</div>
 </div>;
 }
