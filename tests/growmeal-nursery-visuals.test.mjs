@@ -1,0 +1,22 @@
+// Run from the repository root: node --test tests/growmeal-nursery-visuals.test.mjs
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const read=(file)=>readFileSync(new URL('../'+file,import.meta.url),'utf8');
+const leaf=read('components/play-discover/nursery-one-leaf-pack.tsx');
+const butterfly=read('components/play-discover/nursery-two-butterfly-pack.tsx');
+const rebottle=read('components/play-discover/nursery-three-rebottle-pack.tsx');
+const alphabet=read('components/play-discover/nursery-alphabet-pack.tsx');
+const number=read('components/play-discover/nursery-number-pack.tsx');
+const geometry=read('components/play-discover/nursery-geometry-pack.tsx');
+const page=read('app/play-discover/page.tsx');
+function literalIds(source,prefix){return [...source.matchAll(/id:'(GM-N0[456]-Q\d\d-[A-Z-]+)'/g)].map(m=>m[1]).filter(id=>id.startsWith(prefix))}
+for(const [name,source,prefix,count] of [['Leaf',leaf,'GM-N04-',6],['Butterfly',butterfly,'GM-N05-',8],['ReBottle',rebottle,'GM-N06-',6]]){
+test(name+' question-specific visuals have unique literal IDs',()=>{const ids=literalIds(source,prefix);assert.equal(ids.length,count);assert.equal(new Set(ids).size,count)});
+}
+test('Leaf no longer renders the shared emoji triplet',()=>assert.ok(!leaf.includes('🍃 🌿 🍀')));
+test('ReBottle includes six distinct scene types',()=>{for(const scene of ['sort','shape','size','plant','water','care'])assert.ok(rebottle.includes("scene:'"+scene+"'"))});
+test('ReBottle is wired and excluded from fallback',()=>{assert.ok(page.includes('isNurseryThreeReBottle&&<NurseryThreeReBottlePack/>'));assert.ok(page.includes('!isNurseryThreeReBottle&&!isPrimaryOne'))});
+test('Original Nursery scenes carry per-question IDs',()=>{assert.ok(alphabet.includes('GM-N01-'));assert.ok(number.includes('GM-N02-COUNT-'));assert.ok(geometry.includes('GM-N03-DETECT-'))});
+test('Original Alphabet flags ambiguous crop emoji',()=>assert.ok(alphabet.includes('misleadingCropLetters')));
+// These source checks do not prove rendered image uniqueness, build success, or visual correspondence.
