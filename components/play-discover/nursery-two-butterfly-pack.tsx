@@ -1,0 +1,32 @@
+'use client';
+import {useState} from 'react';
+type Question={title:string;prompt:string;choices:string[];correct:number;explanation:string};
+const questions:Question[]=[
+{title:'Meet a butterfly',prompt:'Which picture is a butterfly?',choices:['🦋 Butterfly','🐟 Fish','🌳 Tree'],correct:0,explanation:'A butterfly is an insect with six legs and four wings.'},
+{title:'Count our visitors',prompt:'How many butterflies do you see? 🦋 🦋',choices:['One','Two','Four'],correct:1,explanation:'Count together: one, two butterflies.'},
+{title:'Find the flower',prompt:'Where might a butterfly drink nectar?',choices:['🪨 Rock','🌼 Flower','🧱 Brick'],correct:1,explanation:'Many adult butterflies drink nectar from flowers.'},
+{title:'Make a pattern',prompt:'Finish the picture pattern: 🦋 🌼 🦋 🌼 🦋 ...',choices:['🦋','🌼','🌳'],correct:1,explanation:'The pattern alternates butterfly, flower, butterfly, flower.'},
+{title:'Count the wings',prompt:'How many wings does a butterfly have?',choices:['Two','Four','Six'],correct:1,explanation:'Butterflies have four wings: two forewings and two hindwings.'},
+{title:'Watch gently',prompt:'How should we observe a butterfly in the garden?',choices:['Catch it by the wings','Watch quietly with our teacher','Throw stones at it'],correct:1,explanation:'Watch from a safe distance. Do not catch, touch or harm insects.'},
+{title:'Help flowers',prompt:'What may happen when a butterfly visits flowers?',choices:['It may carry pollen between flowers','All flowers become blue','The plant stops growing'],correct:0,explanation:'Some butterflies transfer pollen while visiting flowers, though many other animals are also important pollinators.'},
+{title:'Choose a safe action',prompt:'You see an insect you do not know. What should you do?',choices:['Taste it','Touch it quickly','Ask your teacher and watch without touching'],correct:2,explanation:'Never taste or touch unknown insects. Ask a responsible adult for help.'}
+];
+const button:React.CSSProperties={border:'1px solid #bad0be',borderRadius:12,padding:'12px 16px',minHeight:48,background:'white',color:'#194b2d',fontSize:17,cursor:'pointer'};
+export default function NurseryTwoButterflyPack(){
+const [index,setIndex]=useState(0),[choice,setChoice]=useState<number|null>(null),[complete,setComplete]=useState<Record<number,boolean>>({}),[observations,setObservations]=useState<string[]>([]),[guide,setGuide]=useState(false);
+const q=questions[index];const correct=choice===q.correct;const progress=Object.keys(complete).length;
+const move=(i:number)=>{setIndex(i);setChoice(null)};
+return <section style={{background:'#fff',border:'1px solid #d8e7d9',borderRadius:18,padding:'clamp(16px,3vw,28px)',marginTop:16}}>
+<strong style={{color:'#006B3C'}}>LIFEWS GROWMEAL · NURSERY 2 · GARDEN 02 · GM-N05</strong>
+<h2>🦋 Butterfly Garden — Count, Pattern & Discover</h2>
+<p>Learn with butterflies and flowers. Count pictures, finish simple patterns, and practise safe garden observation with a teacher.</p>
+<div style={{background:'#edf7eb',borderRadius:12,padding:15,display:'flex',flexWrap:'wrap',justifyContent:'space-between',gap:12}}><strong>Question {index+1} of {questions.length}</strong><span role="status">{progress} of {questions.length} completed</span></div>
+<div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(min(100%,260px),1fr))',gap:18,alignItems:'center',marginTop:20}}>
+<div style={{textAlign:'center',background:'#fff6d8',padding:22,borderRadius:16}}><div style={{fontSize:67,lineHeight:1.6}} aria-label="Butterfly and flowers">🦋 🌼 🦋</div><strong>Watch butterflies near flowers!</strong><p style={{fontSize:15}}>These pictures are learning symbols, not photographs of a real species.</p></div>
+<div><h3 style={{fontSize:23}}>{q.title}</h3><p style={{fontSize:19,lineHeight:1.55}}>{q.prompt}</p><div style={{display:'grid',gap:10}}>{q.choices.map((answer,i)=><button key={answer} style={{...button,textAlign:'left',border:choice===i?'3px solid #006B3C':button.border,background:choice===i?'#f1f8df':'white'}} onClick={()=>{setChoice(i);if(i===q.correct)setComplete(p=>({...p,[index]:true}))}}>{answer}</button>)}</div>{choice!==null&&<p role="status" style={{padding:13,background:'#eef7eb',borderLeft:'4px solid #FDB515',borderRadius:7}}>{correct?'✓ Correct! ':'Try again. '}{q.explanation}</p>}</div></div>
+<div style={{display:'flex',gap:10,flexWrap:'wrap',marginTop:20,alignItems:'center'}}><button style={button} disabled={index===0} onClick={()=>move(index-1)}>← Previous</button><button style={{...button,background:'#006B3C',color:'white'}} onClick={()=>move((index+1)%questions.length)}>{index===questions.length-1?'Review again':'Next question →'}</button><button style={button} onClick={()=>{setIndex(0);setChoice(null);setComplete({});setObservations([])}}>Reset</button></div>
+<div style={{background:'#f2f8ed',borderRadius:12,padding:16,marginTop:22}}><h3>🌼 Teacher-led butterfly watch</h3><p>Look for butterflies or other flower visitors in a safe outdoor space. Stay on paths, do not touch insects or disturb nests, and wash hands after garden activities. If no butterfly is present, use a teacher-provided photograph.</p><div style={{display:'flex',flexWrap:'wrap',gap:9}}>{['I saw a flower','I saw an insect or a picture','I watched without touching'].map(label=><button key={label} aria-pressed={observations.includes(label)} style={{...button,background:observations.includes(label)?'#d8ecd3':'white'}} onClick={()=>setObservations(p=>p.includes(label)?p.filter(x=>x!==label):[...p,label])}>{observations.includes(label)?'✓ ':''}{label}</button>)}</div><p role="status">{observations.length} of 3 observations marked</p></div>
+<button style={{...button,marginTop:16}} aria-expanded={guide} onClick={()=>setGuide(x=>!x)}>{guide?'Hide':'Show'} teacher guide and full answer key</button>
+{guide&&<div style={{padding:16,background:'#f4f8f1',borderRadius:12,marginTop:10}}><strong>Teaching notes</strong><p>Support counting one-to-four, recognising repeating AB patterns, understanding that butterflies visit flowers, and respecting living insects. For a real butterfly, count wings from a clear teacher-selected photograph rather than asking pupils to handle an insect.</p>{questions.map((item,i)=><p key={i}><strong>{i+1}.</strong> {item.choices[item.correct]}. {item.explanation}</p>)}<p>Do not promise butterflies will appear during observation; use images when necessary. Never instruct children to handle insects.</p></div>}
+</section>;
+}
