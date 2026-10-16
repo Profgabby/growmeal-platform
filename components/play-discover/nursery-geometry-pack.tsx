@@ -8,7 +8,7 @@ const items:{name:string;shape:Shape;icon:string;why:string}[]=[
 {name:'Square garden bed',shape:'square',icon:'🟩',why:'A square garden bed has four equal sides.'},
 {name:'Triangular garden sign',shape:'triangle',icon:'🔺',why:'A triangular sign has three sides.'},
 {name:'Long planting bed',shape:'rectangle',icon:'🟫',why:'A rectangular bed has four sides and is longer than it is wide.'},
-{name:'Watermelon',shape:'oval',icon:'🥭',why:'This example uses an oval fruit outline. Real fruit shapes vary.'},
+{name:'Oval garden pond',shape:'oval',icon:'⬭',why:'The pond has an oval outline, longer than a circle.'},
 {name:'Orange',shape:'circle',icon:'🍊',why:'An orange looks round like a circle.'},
 {name:'Square seed tray',shape:'square',icon:'🟨',why:'This seed tray is square.'},
 {name:'Triangle marker',shape:'triangle',icon:'🔺',why:'This marker is triangular.'},
