@@ -41,10 +41,21 @@ return <div data-asset-id={'GM-N01-'+activity+'-'+index} role="img" aria-label={
 <rect x="8" y="8" width="204" height="114" rx="14" fill="#e9f3df"/>
 <path d="M110 102 V47" stroke="#006B3C" strokeWidth="5" strokeLinecap="round"/>
 <path d="M110 71 Q66 32 42 65 Q76 91 110 71 M110 60 Q149 22 178 56 Q143 87 110 60" fill="#70a65b" stroke="#006B3C" strokeWidth="2"/>
-{['D','F','G','J','N','R','V','X','Y'].includes(crop.letter)?<g>
-{Array.from({length:crop.letter==='V'?4:3},(_,i)=><g key={i}><ellipse cx={78+i*30} cy={88+(i%2)*9} rx={crop.letter==='Y'?13:crop.letter==='X'?17:crop.letter==='D'?7:11} ry={crop.letter==='Y'?19:crop.letter==='D'?15:12} fill={crop.colour} stroke="#6e583c" strokeWidth="2"/>{crop.letter==='X'&&<path d={`M${65+i*30} ${88+(i%2)*9}h26`} stroke="#006B3C" strokeWidth="2"/>}</g>)}</g>:
-crop.letter==='O'||crop.letter==='Q'?<g>{Array.from({length:5},(_,i)=><path key={i} d={`M${80+i*14} 92q-8 -20 0 -42q8 20 0 42`} stroke="#006B3C" strokeWidth="3" fill="#85b764"/>)}</g>:
-<g>{Array.from({length:4},(_,i)=><ellipse key={i} cx={75+i*23} cy={86-(i%2)*8} rx="15" ry="9" fill={crop.colour} stroke="#006B3C" strokeWidth="2"/>)}</g>}
+{crop.letter==='D'&&<g>{Array.from({length:5},(_,i)=><ellipse key={i} cx={75+i*17} cy={79+(i%2)*12} rx="7" ry="13" fill="#925a36" stroke="#6e4525" strokeWidth="2"/>)}</g>}
+{crop.letter==='F'&&<g>{Array.from({length:3},(_,i)=><path key={i} d={`M${82+i*27} 88q-13 -16 0 -28q15 9 0 28Z`} fill="#754399" stroke="#52336c" strokeWidth="2"/>)}</g>}
+{crop.letter==='G'&&<g>{Array.from({length:3},(_,i)=><g key={i}><circle cx={84+i*28} cy={84} r="14" fill="#80b768" stroke="#3b7940" strokeWidth="2"/><circle cx={84+i*28} cy={84} r="5" fill="#c6e3a0"/></g>)}</g>}
+{crop.letter==='I'&&<g>{Array.from({length:5},(_,i)=><path key={i} d={`M${72+i*18} 96 Q${54+i*18} 67 ${73+i*18} 47 Q${93+i*18} 70 ${72+i*18} 96Z`} fill="#4b9659" stroke="#006B3C" strokeWidth="2"/>)}</g>}
+{crop.letter==='J'&&<g><ellipse cx="115" cy="85" rx="45" ry="26" fill="#a3b34d" stroke="#607738" strokeWidth="3"/>{Array.from({length:9},(_,i)=><path key={i} d={`M${79+(i%5)*16} ${74+Math.floor(i/5)*16}l5 -6 5 6`} stroke="#70843a" strokeWidth="2" fill="none"/>)}</g>}
+{crop.letter==='K'&&<g>{Array.from({length:4},(_,i)=><path key={i} d={`M${72+i*25} 98 Q${53+i*25} 72 ${72+i*25} 51 Q${91+i*25} 72 ${72+i*25} 98Z`} fill="#387c48" stroke="#006B3C" strokeWidth="2"/>)}</g>}
+{crop.letter==='N'&&<g>{Array.from({length:3},(_,i)=><circle key={i} cx={85+i*30} cy={84} r="15" fill="#d56c4d" stroke="#aa4d38" strokeWidth="2"/> )}</g>}
+{crop.letter==='O'&&<g>{Array.from({length:4},(_,i)=><path key={i} d={`M${75+i*25} 96q-10 -19 0 -37q10 18 0 37Z`} fill="#4c9a55" stroke="#006B3C" strokeWidth="2"/>)}</g>}
+{crop.letter==='Q'&&<g>{Array.from({length:5},(_,i)=><path key={i} d={`M${73+i*20} 99v-43m-7 12l7 -18 7 18`} stroke="#b39451" strokeWidth="4" fill="none"/>)}</g>}
+{crop.letter==='R'&&<g>{Array.from({length:3},(_,i)=><g key={i}><circle cx={85+i*30} cy={84} r="13" fill="#d83b36" stroke="#a32d2d" strokeWidth="2"/><path d={`M${85+i*30} 72v-14`} stroke="#006B3C" strokeWidth="3"/></g>)}</g>}
+{crop.letter==='S'&&<g>{Array.from({length:5},(_,i)=><path key={i} d={`M${72+i*19} 99q-22 -20 0 -40q22 20 0 40Z`} fill="#398c52" stroke="#006B3C" strokeWidth="2"/>)}</g>}
+{crop.letter==='U'&&<g>{Array.from({length:4},(_,i)=><path key={i} d={`M${77+i*24} 103Q${49+i*24} 72 ${77+i*24} 51Q${104+i*24} 73 ${77+i*24} 103Z`} fill="#4d9550" stroke="#006B3C" strokeWidth="2"/>)}</g>}
+{crop.letter==='V'&&<g>{Array.from({length:3},(_,i)=><path key={i} d={`M${79+i*32} 77q-10 -11 -2 -18q16 -5 18 9q-1 17 -16 9Z`} fill="#765334" stroke="#4d3624" strokeWidth="2"/>)}</g>}
+{crop.letter==='X'&&<g><ellipse cx="117" cy="85" rx="44" ry="25" fill="#4b9a5d" stroke="#006B3C" strokeWidth="3"/><path d="M76 85q41 -23 82 0q-41 22 -82 0" fill="none" stroke="#2f7046" strokeWidth="2"/></g>}
+{crop.letter==='Y'&&<g>{Array.from({length:3},(_,i)=><path key={i} d={`M${74+i*30} 64q-15 24 0 39q20 8 22 -10q-2 -18 -22 -29Z`} fill="#925a36" stroke="#624226" strokeWidth="2"/>)}</g>}
 </svg>}
 <div style={{fontSize:13}}>Activity {activity+1} · Visual {index+1}</div>
 </div>;
