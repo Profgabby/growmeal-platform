@@ -24,9 +24,10 @@ for(const pack of packs){
  assert.ok(page.includes('!'+pack.flag));
  });
 }
-test('Visual acceptance remains blocked by repeated base artwork',()=>{
+test('Each pack declares six independently composed lesson scenes',()=>{
  for(const pack of packs){
  const source=read(pack.path);
- assert.ok(source.includes('Array.from({length:')||source.includes('[0,1,2].map('));
+ for(let i=0;i<6;i++)assert.ok(source.includes('index==='+i+'&&'),pack.id+' scene '+i);
+ assert.equal((source.match(/index===\\d+&&/g)||[]).length,6);
  }
 });
