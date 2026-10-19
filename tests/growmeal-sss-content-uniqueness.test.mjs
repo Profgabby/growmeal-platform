@@ -23,3 +23,11 @@ test('SSS 2 and SSS 3 use distinct experimental-design interactions',()=>{
  assert.ok(three.includes('Blocked trial design: four matched site blocks'));
  assert.ok(!three.includes('Eight-plot treatment allocation exercise'));
 });
+
+test('Second gardens assess distinct reasoning beyond repeated means and generic replication',()=>{
+ const second=readFileSync(new URL('sss-second-garden-pack.tsx',root),'utf8');
+ for(const concept of ['Selection bias','Median 10 kg','independently treated nutrient reservoirs','relative height increase'])assert.ok(second.includes(concept),concept);
+ for(const stale of ['Which trial design is most defensible?','Plot yields are 8, 10 and 12 kg. Mean?','Why replicate independent units?','Heights 12, 15 and 18 cm. Mean?'])assert.ok(!second.includes(stale),stale);
+ assert.equal((8+10+24)/3,14);
+ assert.equal((18-12)/12*100,50);
+});
