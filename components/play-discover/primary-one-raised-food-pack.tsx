@@ -10,17 +10,12 @@ const lessons=[
 ] as const;
 const button:React.CSSProperties={border:'1px solid #b8cdbb',borderRadius:12,padding:'12px 16px',background:'white',color:'#16452e',minHeight:48,cursor:'pointer'};
 function GardenScene({index}:{index:number}){return <svg role="img" aria-label={lessons[index].title+' illustration'} data-asset-id={'GM-P16-LESSON-'+index} viewBox="0 0 400 240" style={{width:'100%',maxWidth:480,background:'#edf7e9',borderRadius:14}}>
-<path d="M0 185Q200 170 400 185V240H0Z" fill="#c5d8ad"/>
-<path d="M40 92L270 92L350 134L115 134Z" fill="#735238" stroke="#493627" strokeWidth="3"/>
-<path d="M40 92L115 134V192L40 152Z" fill="#a78151" stroke="#735238" strokeWidth="3"/>
-<path d="M115 134H350V192H115Z" fill="#c49b67" stroke="#735238" strokeWidth="3"/>
-{Array.from({length:6},(_,i)=><g key={i}><path d={`M${100+i%3*73} ${113+Math.floor(i/3)*17}v-16`} stroke="#006B3C" strokeWidth="3"/><ellipse cx={92+i%3*73} cy={100+Math.floor(i/3)*17} rx="11" ry="6" fill="#66a957"/></g>)}
-{index===0&&<path d="M350 164l29 -20" stroke="#FDB515" strokeWidth="5"/>}
-{index===1&&<circle cx="197" cy="121" r="7" fill="#d7b58c"/>}
-{index===2&&<ellipse cx="210" cy="115" rx="9" ry="5" fill="#f1d58b"/>}
-{index===3&&<g><path d="M323 36l-28 56" stroke="#468ed1" strokeWidth="7"/><path d="M300 90l-6 15m16 -15l-6 15" stroke="#468ed1" strokeWidth="3"/></g>}
-{index===4&&<path d="M120 220h245" stroke="#dfd1a6" strokeWidth="19" strokeLinecap="round"/>}
-{index===5&&[0,1,2].map(i=><circle key={i} cx={303+i*19} cy="216" r="11" fill="#d94c37"/>)}
+{index===0&&<g><path d="M45 105L260 105L350 145L132 145Z" fill="#63432b"/><path d="M45 105L132 145V207L45 167Z" fill="#b58b56" stroke="#704d32" strokeWidth="5"/><path d="M132 145H350V207H132Z" fill="#cba06a" stroke="#704d32" strokeWidth="5"/><path d="M132 177H350" stroke="#8d633c" strokeWidth="3"/><path d="M350 174l28 -27" stroke="#e6a600" strokeWidth="5"/><circle cx="350" cy="174" r="7" fill="#e6a600"/></g>}
+{index===1&&<g><path d="M50 120Q200 70 350 120V195H50Z" fill="#745036" stroke="#523927" strokeWidth="4"/>{Array.from({length:18},(_,i)=><circle key={i} cx={65+(i%6)*51} cy={130+Math.floor(i/6)*22} r={i%3+2} fill={i%2?'#c39a70':'#403022'}/>)}<path d="M195 132v-44" stroke="#006B3C" strokeWidth="5"/><path d="M195 102q-38 -33 -55 -5q29 23 55 5m0 -5q33 -35 52 -10q-24 25 -52 10" fill="#68aa5c" stroke="#006B3C" strokeWidth="2"/></g>}
+{index===2&&<g><path d="M35 153Q200 108 365 153V218H35Z" fill="#815a3b"/><ellipse cx="190" cy="157" rx="16" ry="9" fill="#e6c687" stroke="#98743e" strokeWidth="2"/><path d="M190 148v-43" stroke="#006B3C" strokeWidth="5"/><path d="M190 122q-27 -24 -42 -6q18 20 42 6m0 -7q25 -23 43 -5q-18 19 -43 5" fill="#69a65b"/><path d="M255 124v85" stroke="#9e744b" strokeWidth="5"/><path d="M247 134h16" stroke="#9e744b" strokeWidth="3"/></g>}
+{index===3&&<g><path d="M35 175Q200 145 365 175V230H35Z" fill="#835a38"/>{[90,170,250].map(x=><g key={x}><path d={`M${x} 170v-48`} stroke="#006B3C" strokeWidth="5"/><ellipse cx={x-16} cy="136" rx="21" ry="9" fill="#62a854"/><ellipse cx={x+14} cy="129" rx="21" ry="9" fill="#76b85f"/></g>)}<path d="M280 48l-30 56" stroke="#506a76" strokeWidth="13"/><path d="M250 104q-9 4 -18 3m18 -3q8 4 17 3" stroke="#506a76" strokeWidth="7"/>{[222,242,262].map(x=><path key={x} d={`M${x} 111l-9 23`} stroke="#4c9ed2" strokeWidth="4"/></g>}
+{index===4&&<g><path d="M40 80L190 60L260 95L110 117Z" fill="#725035"/><path d="M40 80L110 117V185L40 148Z" fill="#b58b5e"/><path d="M110 117L260 95V162L110 185Z" fill="#c69c69"/><path d="M275 64L360 95V190L275 155Z" fill="#d8c7a0"/><path d="M267 170L375 205" stroke="#e9d6aa" strokeWidth="32" strokeLinecap="round"/><path d="M275 170l93 31" stroke="#a88f6b" strokeWidth="2" strokeDasharray="8 9"/></g>}
+{index===5&&<g><path d="M55 170Q200 150 345 170V225H55Z" fill="#d8c29b"/><path d="M90 142Q200 108 310 142L300 205Q200 226 100 205Z" fill="#b7894f" stroke="#765334" strokeWidth="5"/>{[135,185,235,280].map((x,i)=><g key={x}><circle cx={x} cy={153+(i%2)*16} r="21" fill="#d64a35" stroke="#a7352b" strokeWidth="3"/><path d={`M${x} ${133+(i%2)*16}l-7 -6 7 2 7 -2Z`} fill="#006B3C"/></g>)}<path d="M100 205Q200 225 300 205" stroke="#765334" strokeWidth="4" fill="none"/></g>}
 </svg>}
 export default function PrimaryOneRaisedFoodPack(){
 const [index,setIndex]=useState<number|null>(null),[feedback,setFeedback]=useState('');
