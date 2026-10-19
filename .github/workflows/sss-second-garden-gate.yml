@@ -6,6 +6,10 @@ on:
       - 'components/play-discover/sss-second-garden-pack.tsx'
       - 'app/play-discover/page.tsx'
       - 'tests/growmeal-sss-second-garden-gate.test.mjs'
+      - 'tests/growmeal-sss-content-uniqueness.test.mjs'
+      - 'components/play-discover/sss-one-production-pack.tsx'
+      - 'components/play-discover/sss-two-crop-trial-pack.tsx'
+      - 'components/play-discover/sss-three-controlled-pack.tsx'
       - '.github/workflows/sss-second-garden-gate.yml'
   workflow_dispatch:
 jobs:
@@ -17,4 +21,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/growmeal-sss-second-garden-gate.test.mjs
+      - run: node --test tests/growmeal-sss-second-garden-gate.test.mjs tests/growmeal-sss-content-uniqueness.test.mjs
