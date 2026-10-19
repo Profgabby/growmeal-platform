@@ -23,5 +23,5 @@ test('SSS second garden routing and illustration identifiers',()=>{
   assert.ok(page.includes(flag+'&&<SssSecondGardenPack garden="'+id+'"/>'));
   assert.ok(page.includes('!'+flag));
  }
- assert.ok(s.includes("data-asset-id={garden+'-SSS-'+step}"));
+ assert.ok(!s.includes('function Evidence('),'Do not reuse generic SVG art across distinct activities');
 });
