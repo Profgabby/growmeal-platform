@@ -16,3 +16,12 @@ test('SSS calculations',()=>{
  assert.equal((8+10+12)/3,10);assert.equal(1000/5,200);
  assert.equal(40+5-12,33);assert.equal((12+15+18)/3,15);
 });
+
+test('SSS second garden routing and illustration identifiers',()=>{
+ const page=readFileSync(new URL('../app/play-discover/page.tsx',import.meta.url),'utf8');
+ for(const [id,flag] of [['GM-S44','isSssOneSecond'],['GM-S45','isSssTwoSecond'],['GM-S46','isSssThreeSecond']]){
+  assert.ok(page.includes(flag+'&&<SssSecondGardenPack garden="'+id+'"/>'));
+  assert.ok(page.includes('!'+flag));
+ }
+ assert.ok(s.includes("data-asset-id={garden+'-SSS-'+step}"));
+});
