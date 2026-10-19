@@ -1,0 +1,20 @@
+name: SSS 1-3 Second Garden Gate
+on:
+  push:
+    branches: [feature/growmeal-unified-preview]
+    paths:
+      - 'components/play-discover/sss-second-garden-pack.tsx'
+      - 'app/play-discover/page.tsx'
+      - 'tests/growmeal-sss-second-garden-gate.test.mjs'
+      - '.github/workflows/sss-second-garden-gate.yml'
+  workflow_dispatch:
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/growmeal-sss-second-garden-gate.test.mjs
