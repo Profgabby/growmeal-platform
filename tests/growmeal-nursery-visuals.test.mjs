@@ -84,5 +84,5 @@ assert.ok(!number.includes('>{icon}</span>'));
 // across Nursery 1–3; do not promote this suite's pass as full visual acceptance.
 
 test('Nursery 3 garden objects include fruit, seed-tray and vegetable-bed visual details',()=>{
-for(const term of ['isFruit','isTray','isVegetableBed'])assert.ok(geometry.includes(term));
+for(const term of ["name==='Tomato'","name==='Orange'","name==='Mango'","isTray","isBed","isPond"])assert.ok(geometry.includes(term));
 });
