@@ -1,0 +1,21 @@
+name: Primary 4-6 Acceptance Gate
+on:
+  push:
+    branches: [feature/growmeal-unified-preview]
+    paths:
+      - 'components/play-discover/primary-second-garden-pack.tsx'
+      - 'app/play-discover/page.tsx'
+      - 'tests/growmeal-primary-four-six-gate.test.mjs'
+      - '.github/workflows/primary-four-six-acceptance.yml'
+  workflow_dispatch:
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Primary 4-6 source and arithmetic regression
+        run: node --test tests/growmeal-primary-four-six-gate.test.mjs
