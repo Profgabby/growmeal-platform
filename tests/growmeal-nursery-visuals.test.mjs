@@ -86,3 +86,8 @@ assert.ok(!number.includes('>{icon}</span>'));
 test('Nursery 3 garden objects include fruit, seed-tray and vegetable-bed visual details',()=>{
 for(const term of ["name==='Tomato'","name==='Orange'","name==='Mango'","isTray","isBed","isPond"])assert.ok(geometry.includes(term));
 });
+
+test('Nursery 1 reference diagrams contain species-specific branches for every flagged crop',()=>{
+for(const letter of ['D','F','G','I','J','K','N','O','Q','R','S','U','V','X','Y'])assert.ok(alphabet.includes("crop.letter==='"+letter+"'"));
+assert.ok(!alphabet.includes("['D','F','G','J','N','R','V','X','Y'].includes(crop.letter)"));
+});
