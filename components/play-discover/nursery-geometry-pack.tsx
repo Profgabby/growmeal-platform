@@ -28,26 +28,25 @@ const button:React.CSSProperties={padding:'12px 16px',minHeight:48,border:'1px s
 function ShapePicture({shape,size=80,sceneId}:{shape:Shape;size?:number;sceneId?:string}){return <svg data-asset-id={sceneId} role="img" aria-label={labels[shape]} width={size} height={size} viewBox="0 0 100 100"><title>{labels[shape]}</title>{shape==='circle'&&<circle cx="50" cy="50" r="36" fill={gold} stroke={green} strokeWidth="4"/>}{shape==='square'&&<rect x="17" y="17" width="66" height="66" rx="3" fill="#cde6c9" stroke={green} strokeWidth="4"/>}{shape==='triangle'&&<polygon points="50,12 90,85 10,85" fill={gold} stroke={green} strokeWidth="4"/>}{shape==='rectangle'&&<rect x="7" y="26" width="86" height="48" rx="3" fill="#cde6c9" stroke={green} strokeWidth="4"/>}{shape==='oval'&&<ellipse cx="50" cy="50" rx="41" ry="27" fill={gold} stroke={green} strokeWidth="4"/>}</svg>}
 function GardenObjectScene({name,shape,sceneId}:{name:string;shape:Shape;sceneId:string}){
 const seed=Array.from(sceneId).reduce((a,c)=>((a*33+c.charCodeAt(0))>>>0),13);
-const isBed=/bed|plot|tray/i.test(name),isSign=/sign|marker/i.test(name),isPond=/pond/i.test(name);
-const isFruit=/tomato|orange|mango/i.test(name);
-const isTray=/tray/i.test(name);
-const isVegetableBed=/vegetable|planting|garden bed/i.test(name);
-return <div data-asset-id={sceneId} role="img" aria-label={name+' represented by a '+labels[shape].toLowerCase()+' outline'} style={{minHeight:175,display:'grid',placeItems:'center',background:seed%2?'#eef7e9':'#fff5da',border:'2px solid #b6d2b8',borderRadius:15,padding:12,margin:'12px 0'}}>
+const fruit=/^(Tomato|Orange|Mango)$/.test(name);
+const isPond=name==='Oval garden pond';
+const isTray=name==='Square seed tray';
+const isBed=/bed|plot/i.test(name);
+const isMarker=/sign|marker/i.test(name);
+const offset=seed%7-3;
+return <div data-asset-id={sceneId} data-object-name={name} role="img" aria-label={name+' with a '+labels[shape].toLowerCase()+' outline'} style={{minHeight:175,display:'grid',placeItems:'center',background:'#f3f7e9',border:'2px solid #b6d2b8',borderRadius:15,padding:12,margin:'12px 0'}}>
 <svg width="240" height="145" viewBox="0 0 240 145" aria-hidden="true">
 <rect x="8" y="8" width="224" height="129" rx="13" fill="#e9f4e2" stroke="#c1d8ba"/>
-{isBed&&<g><path d="M20 117 L220 117" stroke="#a47b4c" strokeWidth="5"/>{[42,82,122,162,202].map((x,i)=><g key={i}><path d={`M${x} 107 v-22`} stroke="#006B3C" strokeWidth="3"/><ellipse cx={x-7} cy="88" rx="9" ry="5" fill="#5d9c54"/><ellipse cx={x+7} cy="82" rx="9" ry="5" fill="#5d9c54"/></g>)}</g>}
-{isSign&&<path d="M120 94 v32" stroke="#795c3c" strokeWidth="8"/>}
-{isPond&&<path d="M20 115 Q120 102 220 115" stroke="#78b88b" strokeWidth="5" fill="none"/>}
-{isFruit&&<><path d="M120 20 q-6 -12 3 -17" stroke="#006B3C" strokeWidth="4" fill="none"/><path d="M122 13 q17 -14 29 -2 q-13 10 -29 2" fill="#69a957"/></>}
-{isTray&&Array.from({length:9},(_,i)=><g key={i}><circle cx={95+(i%3)*25} cy={40+Math.floor(i/3)*25} r="7" fill="#6b5137"/><path d={`M${95+(i%3)*25} ${39+Math.floor(i/3)*25}v-7`} stroke="#006B3C" strokeWidth="2"/></g>)}
-{isVegetableBed&&Array.from({length:4},(_,i)=><g key={i}><path d={`M${70+i*30} 78v-20`} stroke="#006B3C" strokeWidth="3"/><ellipse cx={63+i*30} cy="61" rx="10" ry="5" fill="#73aa59"/><ellipse cx={77+i*30} cy="57" rx="10" ry="5" fill="#73aa59"/></g>)}
-<g transform={`translate(${seed%15-7} ${seed%9-4})`}>
-{shape==='circle'&&<circle cx="120" cy="66" r="39" fill={isPond?'#7dc6dd':'#e4b44e'} stroke="#006B3C" strokeWidth="5"/>}
-{shape==='square'&&<rect x="80" y="26" width="80" height="80" rx="2" fill="#c5a071" stroke="#006B3C" strokeWidth="5"/>}
-{shape==='triangle'&&<polygon points="120,20 168,103 72,103" fill="#FDB515" stroke="#006B3C" strokeWidth="5"/>}
-{shape==='rectangle'&&<rect x="57" y="42" width="126" height="57" rx="2" fill="#c5a071" stroke="#006B3C" strokeWidth="5"/>}
-{shape==='oval'&&<ellipse cx="120" cy="66" rx="59" ry="34" fill={isPond?'#7dc6dd':'#edbd58'} stroke="#006B3C" strokeWidth="5"/>}
-</g></svg><strong style={{fontSize:15,color:'#006B3C'}}>{name}</strong></div>;
+{fruit&&<g transform={`translate(${offset} 0)`}>
+{name==='Tomato'&&<><circle cx="120" cy="75" r="38" fill="#d94837" stroke="#a32f25" strokeWidth="3"/><path d="M120 40 l-12 12 12 -5 12 5 -12 -12 -3 14 3 -14 3 14" stroke="#006B3C" strokeWidth="4" strokeLinejoin="round" fill="#428b46"/><path d="M120 40q-2 -10 4 -15" stroke="#006B3C" strokeWidth="4" fill="none"/></>}
+{name==='Orange'&&<><circle cx="120" cy="75" r="38" fill="#ee9635" stroke="#c47721" strokeWidth="3"/><path d="M120 38q-2 -13 6 -17" stroke="#006B3C" strokeWidth="4" fill="none"/><path d="M125 28q15 -17 30 -6q-11 14 -30 6" fill="#4e9a4f"/>{Array.from({length:13},(_,i)=><circle key={i} cx={92+(i%5)*12} cy={59+Math.floor(i/5)*13} r="1.5" fill="#d37e28"/>)}</>}
+{name==='Mango'&&<><path d="M91 99 C67 74 86 35 122 34 C162 28 176 59 154 95 C136 120 108 116 91 99Z" fill="#e7ac36" stroke="#ad7626" strokeWidth="3"/><path d="M123 35q-2 -14 8 -19" stroke="#006B3C" strokeWidth="4" fill="none"/><path d="M130 23q20 -18 37 -6q-14 16 -37 6" fill="#5b9d50"/><path d="M93 86q-5 -23 12 -38" stroke="#f4d278" strokeWidth="6" fill="none"/></>}
+</g>}
+{isPond&&<><ellipse cx="120" cy="75" rx="75" ry="39" fill="#79c8dc" stroke="#638d61" strokeWidth="7"/><path d="M75 70q12 -10 24 0m33 16q12 -10 24 0" stroke="#e2f5fa" strokeWidth="3" fill="none"/><ellipse cx="72" cy="43" rx="12" ry="5" fill="#63a45d"/></>}
+{isBed&&<g><rect x={shape==='square'?65:38} y={shape==='square'?29:46} width={shape==='square'?110:164} height={shape==='square'?100:66} fill="#9b744b" stroke="#6f5638" strokeWidth="6"/><rect x={shape==='square'?75:48} y={shape==='square'?39:56} width={shape==='square'?90:144} height={shape==='square'?80:46} fill="#68472e"/>{Array.from({length:shape==='square'?9:8},(_,i)=><g key={i}><path d={`M${shape==='square'?88+(i%3)*30:60+(i%4)*38} ${shape==='square'?58+Math.floor(i/3)*27:74+Math.floor(i/4)*20}v-9`} stroke="#7bc06c" strokeWidth="3"/><ellipse cx={shape==='square'?84+(i%3)*30:56+(i%4)*38} cy={shape==='square'?52+Math.floor(i/3)*27:68+Math.floor(i/4)*20} rx="7" ry="4" fill="#78b85f"/></g>)}</g>}
+{isTray&&<g><rect x="61" y="19" width="118" height="112" rx="4" fill="#6b5845" stroke="#353b30" strokeWidth="4"/>{Array.from({length:9},(_,i)=><g key={i}><rect x={69+(i%3)*35} y={27+Math.floor(i/3)*32} width="29" height="26" rx="3" fill="#5d4432" stroke="#ae9c82"/><path d={`M${83+(i%3)*35} ${42+Math.floor(i/3)*32}v-8`} stroke="#79bc68" strokeWidth="2"/><ellipse cx={79+(i%3)*35} cy={35+Math.floor(i/3)*32} rx="5" ry="3" fill="#83c16b"/></g>)}</g>}
+{isMarker&&<g><path d="M120 95v35" stroke="#795c3c" strokeWidth="8"/>{shape==='triangle'?<polygon points="120,22 172,100 68,100" fill="#FDB515" stroke="#006B3C" strokeWidth="5"/>:<rect x="78" y="31" width="84" height="64" fill="#FDB515" stroke="#006B3C" strokeWidth="5"/>}</g>}
+</svg><strong style={{fontSize:15,color:'#006B3C'}}>{name}</strong></div>;
 }
 export default function NurseryGeometryPack(){
 const [game,setGame]=useState<number|null>(null),[index,setIndex]=useState(0),[feedback,setFeedback]=useState(''),[placed,setPlaced]=useState<Shape[]>([]),[story,setStory]=useState(0);
