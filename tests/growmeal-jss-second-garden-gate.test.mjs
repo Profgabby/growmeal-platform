@@ -14,7 +14,9 @@ for(const [id,flag,grade] of [['GM-J35','isJssOneSecond','JSS 1'],['GM-J36','isJ
   for(const q of questions){assert.equal((q[2].match(/'[^']+'/g)||[]).length,3);assert.ok(Number(q[3])>=0&&Number(q[3])<=2);assert.ok(q[4].length>15)}
   const sceneStart=pack.indexOf("garden==='"+id+"'&&");
   assert.ok(sceneStart>=0);
-  const scene=pack.slice(sceneStart,pack.indexOf('</>}',sceneStart));
+  const nextGarden=({'GM-J35':'GM-J36','GM-J36':'GM-J37'})[id];
+  const sceneEnd=nextGarden?pack.indexOf("garden==='"+nextGarden+"'&&",sceneStart):pack.indexOf('</svg>',sceneStart);
+  const scene=pack.slice(sceneStart,sceneEnd);
   for(let i=0;i<6;i++)assert.ok(scene.includes('index==='+i+'&&'),id+' scene '+i);
  });
  test(grade+' routes second garden and suppresses generic fallback',()=>{
