@@ -2,7 +2,7 @@
 import {useState} from 'react';
 const banks={
 'GM-S44':{heading:'SSS 1 · Irrigation and Pumping',questions:[
-['12 m² receives 5 mm irrigation. Volume?','60 L','2.4 L','600 L','12 × 5 = 60 L.'],
+['A tank holds 150 L and a pump transfers 45 L to the garden. How much remains, ignoring other losses?','105 L','195 L','45 L','150 − 45 = 105 L; measure other losses separately.'],
 ['Net demand is 60 L and efficiency is 75%. Gross demand?','80 L','45 L','135 L','60 ÷ 0.75 = 80 L.'],
 ['Four emitters each discharge 2 L/h. Total?','8 L/h','2 L/h','6 L/h','4 × 2 = 8 L/h.'],
 ['At 15 L/min, how long to deliver 90 L?','6 min','15 min','1350 min','90 ÷ 15 = 6 min.'],
@@ -10,7 +10,7 @@ const banks={
 ['Who should install powered irrigation equipment?','Qualified personnel','Unsupervised pupils','Anyone','Electrical installation requires qualified personnel.']]},
 'GM-S45':{heading:'SSS 2 · Yield and Water Productivity',questions:[
 ['18 kg harvest from 6 m². Yield per area?','3 kg/m²','12 kg/m²','108 kg/m²','18 ÷ 6 = 3 kg/m².'],
-['24 kg harvest with 120 L irrigation. Irrigation-water productivity?','0.2 kg/L','5 kg/L','144 kg/L','24 ÷ 120 = 0.2 kg/L.'],
+['Two treatments yield 20 kg each, but one uses 80 L and the other 100 L. What is the yield-preserving irrigation reduction relative to 100 L?','20%','25%','80%','(100 − 80) ÷ 100 × 100 = 20%; equal yield is assumed for this comparison.'],
 ['Control 200 L, treatment 150 L. Percentage water saving?','25%','50%','75%','(200 − 150) ÷ 200 × 100 = 25%.'],
 ['A trial records harvest mass only from the largest plant in each plot. What is the main sampling problem?','Selection bias','Improved randomization','More independent replicates','Choosing only the largest plant biases the sample; use a predefined representative sampling protocol.'],
 ['Three independent plot yields are 8, 10 and 24 kg. Which statistic is less affected by the high value?','Median 10 kg','Mean 14 kg','Maximum 24 kg','The median is 10 kg and is less sensitive to the unusually high observation than the mean of 14 kg.'],
