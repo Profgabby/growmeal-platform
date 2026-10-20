@@ -4,6 +4,7 @@ on:
     branches: [feature/growmeal-unified-preview]
     paths:
       - 'components/play-discover/sss-second-garden-pack.tsx'
+      - 'components/play-discover/sss-second-garden-diagrams.tsx'
       - 'app/play-discover/page.tsx'
       - 'tests/growmeal-sss-second-garden-gate.test.mjs'
       - 'tests/growmeal-sss-content-uniqueness.test.mjs'
