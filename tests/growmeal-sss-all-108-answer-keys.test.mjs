@@ -25,3 +25,17 @@ test('SSS second gardens have distinct lesson goals rather than repeated formula
  assert.ok(!prompts.includes('12 m² receives 5 mm'));
  assert.ok(!prompts.includes('24 kg harvest with 120 L'));
 });
+
+test('each SSS second-garden question has a dedicated illustrated SVG scene',()=>{
+ const art=readFileSync(new URL('sss-second-garden-diagrams.tsx',dir),'utf8');
+ for(const id of ['GM-S44','GM-S45','GM-S46']){
+  const start=art.indexOf("'"+id+"':[");
+  assert.ok(start>=0,id);
+  const end=art.indexOf('] as ReactNode[]',start);
+  assert.ok(end>start,id);
+  const scenes=art.slice(start,end).match(/<></g)||[];
+  assert.equal(scenes.length,6,id+' must have six distinct illustration bodies');
+ }
+ assert.ok(art.includes('role="img"'));
+ assert.ok(data[3].includes('<SssDiagram garden={garden} index={step!}/>'));
+});
