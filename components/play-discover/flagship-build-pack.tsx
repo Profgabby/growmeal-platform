@@ -27,19 +27,20 @@ export default function FlagshipBuildPack({schoolClass,gardenId}:{schoolClass:st
  const [materials,setMaterials]=useState<string[]>([]);
  const [checked,setChecked]=useState<string[]>([]);
  const [review,setReview]=useState(false);
+ const [visualValid,setVisualValid]=useState(false);
  const shuffled=useMemo(()=>plan?[2,0,3,1].filter(i=>i<plan.steps.length):[],[plan]);
  if(!plan||selected?.gardenId!==gardenId)return null;
  const next=order.length;const complete=order.length===plan.steps.length;
- const valid=complete&&order.every((v,i)=>v===i)&&materials.length===plan.materials.length&&checked.length===plan.checks.length;
+ const valid=complete&&order.every((v,i)=>v===i)&&materials.length===plan.materials.length&&checked.length===plan.checks.length&&visualValid;
  const btn:React.CSSProperties={border:'1px solid #9bb8a8',borderRadius:10,padding:'12px 14px',background:'#fff',color:'#183528',textAlign:'left',cursor:'pointer',fontSize:15};
  return <section aria-label={schoolClass+' Build garden'} style={{border:'1px solid #c5d8cb',borderRadius:16,padding:'clamp(14px,3vw,24px)',background:'#f8fbf7',marginTop:16}}>
  <p style={{color:'#006B3C',fontWeight:800}}>BUILD & GROW · FLAGSHIP 3 OF 5</p><h2>{plan.title}</h2><p>Garden {gardenId}. Complete a materials check, arrange the construction or planning steps, and verify your design. This is a guided planning activity, not permission to undertake hazardous construction.</p>
- <FlagshipVisualPlanner key={schoolClass+gardenId} schoolClass={schoolClass}/>
+ <FlagshipVisualPlanner key={schoolClass+gardenId} schoolClass={schoolClass} onValidityChange={setVisualValid}/>
  <h3>1. Prepare your materials</h3><div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(min(100%,230px),1fr))',gap:9}}>{plan.materials.map(m=><label key={m} style={{...btn,cursor:'pointer'}}><input type="checkbox" checked={materials.includes(m)} onChange={e=>{setMaterials(p=>e.target.checked?[...p,m]:p.filter(v=>v!==m));setReview(false)}}/> {m}</label>)}</div>
  <h3>2. Put the steps in order</h3><p>Choose the next step in the sequence. You can undo a step or reset the plan.</p><ol>{order.map((i,n)=><li key={n} style={{marginBottom:8}}>{plan.steps[i]}</li>)}</ol><div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(min(100%,260px),1fr))',gap:9}}>{shuffled.filter(i=>!order.includes(i)).map(i=><button type="button" key={i} style={btn} onClick={()=>{setOrder(p=>[...p,i]);setReview(false)}}>{plan.steps[i]}</button>)}</div>
  <div style={{display:'flex',gap:8,flexWrap:'wrap',marginTop:12}}><button type="button" style={btn} disabled={!next} onClick={()=>{setOrder(p=>p.slice(0,-1));setReview(false)}}>Undo last step</button><button type="button" style={btn} onClick={()=>{setOrder([]);setReview(false)}}>Reset sequence</button></div>
  <h3>3. Inspect the design</h3>{plan.checks.map(c=><label key={c} style={{display:'block',margin:'10px 0'}}><input type="checkbox" checked={checked.includes(c)} onChange={e=>{setChecked(p=>e.target.checked?[...p,c]:p.filter(v=>v!==c));setReview(false)}}/> {c}</label>)}
  <button type="button" style={{...btn,background:'#006B3C',color:'white',fontWeight:700}} onClick={()=>setReview(true)}>Review my build plan</button>
- {review&&<p role="status" style={{padding:12,borderLeft:'4px solid #FDB515',background:'#fff'}}>{valid?'Your planning sequence and checks are complete. Ask a teacher or qualified adult to review feasibility before physical implementation.':!complete?'Complete the sequence, materials checklist and design inspection before review.':!order.every((v,i)=>v===i)?'The steps are not in the intended order. Undo and reconsider the sequence.':'Check all materials and safety/design criteria before submitting.'}</p>}
+ {review&&<p role="status" style={{padding:12,borderLeft:'4px solid #FDB515',background:'#fff'}}>{valid?'Your planning sequence and checks are complete. Ask a teacher or qualified adult to review feasibility before physical implementation.':!complete?'Complete the sequence, materials checklist and design inspection before review.':!order.every((v,i)=>v===i)?'The steps are not in the intended order. Undo and reconsider the sequence.' :!visualValid?'Review and complete the visual garden layout before submitting the full build plan.':'Check all materials and safety/design criteria before submitting.'}</p>}
  </section>;
 }
