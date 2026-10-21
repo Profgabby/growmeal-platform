@@ -15,7 +15,7 @@ export default function FlagshipInvestigatePack({schoolClass,gardenId}:{schoolCl
  const [date,setDate]=useState('');const [value,setValue]=useState('');const [note,setNote]=useState('');
  const [records,setRecords]=useState<{date:string;value:string;note:string}[]>([]);const [message,setMessage]=useState('');
  if(!plan||item?.gardenId!==gardenId)return null;
- const add=()=>{if(!/^\\d{4}-\\d{2}-\\d{2}$/.test(date)||note.trim().length<10||(level!=='Nursery'&&(!value.trim()||!Number.isFinite(Number(value))||Number(value)<0))){setMessage('Enter a date, a meaningful observation, and a valid nonnegative measurement where required.');return;}
+ const add=()=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||note.trim().length<10||(level!=='Nursery'&&(!value.trim()||!Number.isFinite(Number(value))||Number(value)<0))){setMessage('Enter a date, a meaningful observation, and a valid nonnegative measurement where required.');return;}
  if(records.some(r=>r.date===date)){setMessage('An observation already exists for this date. Choose another date or clear the log.');return;}
  setRecords(p=>[...p,{date,value:value.trim(),note:note.trim()}].sort((a,b)=>a.date.localeCompare(b.date)));setValue('');setNote('');setMessage('Observation recorded locally for this activity.');};
  const button:React.CSSProperties={border:'1px solid #8cae9b',borderRadius:9,padding:'10px 12px',background:'#fff',color:'#153b27',minHeight:44,cursor:'pointer'};
