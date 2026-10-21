@@ -1,6 +1,7 @@
 'use client';
 import {useMemo,useState} from 'react';
 import {flagshipSchoolGardens} from '@/lib/marketplace/flagship-school-gardens';
+import FlagshipVisualPlanner from './flagship-visual-planner';
 
 const builds:Record<string,{title:string;materials:string[];steps:string[];checks:string[]}>={
 'Nursery 1':{title:'Make a miniature seedling space',materials:['Seedlings','Safe container','Growing medium','Watering cup'],steps:['Ask an adult to prepare a safe container','Put growing medium into the container','Place the seedling gently','Water lightly with an adult'],checks:['An adult prepared the container','The seedling is supported','Water can drain safely']},
@@ -33,6 +34,7 @@ export default function FlagshipBuildPack({schoolClass,gardenId}:{schoolClass:st
  const btn:React.CSSProperties={border:'1px solid #9bb8a8',borderRadius:10,padding:'12px 14px',background:'#fff',color:'#183528',textAlign:'left',cursor:'pointer',fontSize:15};
  return <section aria-label={schoolClass+' Build garden'} style={{border:'1px solid #c5d8cb',borderRadius:16,padding:'clamp(14px,3vw,24px)',background:'#f8fbf7',marginTop:16}}>
  <p style={{color:'#006B3C',fontWeight:800}}>BUILD & GROW · FLAGSHIP 3 OF 5</p><h2>{plan.title}</h2><p>Garden {gardenId}. Complete a materials check, arrange the construction or planning steps, and verify your design. This is a guided planning activity, not permission to undertake hazardous construction.</p>
+ <FlagshipVisualPlanner key={schoolClass+gardenId} schoolClass={schoolClass}/>
  <h3>1. Prepare your materials</h3><div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(min(100%,230px),1fr))',gap:9}}>{plan.materials.map(m=><label key={m} style={{...btn,cursor:'pointer'}}><input type="checkbox" checked={materials.includes(m)} onChange={e=>{setMaterials(p=>e.target.checked?[...p,m]:p.filter(v=>v!==m));setReview(false)}}/> {m}</label>)}</div>
  <h3>2. Put the steps in order</h3><p>Choose the next step in the sequence. You can undo a step or reset the plan.</p><ol>{order.map((i,n)=><li key={n} style={{marginBottom:8}}>{plan.steps[i]}</li>)}</ol><div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(min(100%,260px),1fr))',gap:9}}>{shuffled.filter(i=>!order.includes(i)).map(i=><button type="button" key={i} style={btn} onClick={()=>{setOrder(p=>[...p,i]);setReview(false)}}>{plan.steps[i]}</button>)}</div>
  <div style={{display:'flex',gap:8,flexWrap:'wrap',marginTop:12}}><button type="button" style={btn} disabled={!next} onClick={()=>{setOrder(p=>p.slice(0,-1));setReview(false)}}>Undo last step</button><button type="button" style={btn} onClick={()=>{setOrder([]);setReview(false)}}>Reset sequence</button></div>
