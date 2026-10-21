@@ -2,10 +2,10 @@ import {gardenModels} from './catalog';
 import {schoolGardenSequences} from './school-garden-sequences';
 
 /** Proposed flagship selection. Existing first and second gardens remain unchanged.
- * A planned experience is not an implemented activity or acceptance claim.
+ * Delivery identifies whether a dedicated activity is wired; it does not certify scientific or accessibility acceptance.
  */
 export type FlagshipMode='discover'|'solve'|'build'|'investigate'|'innovate';
-export type FlagshipExperience={position:number;gardenId:string;mode:FlagshipMode;objective:string;delivery:'existing-module'|'planned-distinct-experience'};
+export type FlagshipExperience={position:number;gardenId:string;mode:FlagshipMode;objective:string;delivery:'existing-module'|'implemented-distinct-experience'|'planned-distinct-experience'};
 export type ClassFlagship={schoolClass:string;experiences:readonly FlagshipExperience[]};
 export const flagshipSchoolGardens:readonly ClassFlagship[]=[
   {
@@ -30,21 +30,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-N07",
         "mode": "build",
         "objective": "Arrange a safe mini-growing space with picture steps",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-N08",
         "mode": "investigate",
         "objective": "Observe seedling growth with picture records",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-N03",
         "mode": "innovate",
         "objective": "Create a shapes-and-plants garden design",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -70,21 +70,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-N06",
         "mode": "build",
         "objective": "Arrange reused containers with adult supervision",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-N07",
         "mode": "investigate",
         "objective": "Compare seedling size using visual records",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-N08",
         "mode": "innovate",
         "objective": "Design a mini tabletop garden with picture cards",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -110,21 +110,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-N04",
         "mode": "build",
         "objective": "Assemble a leaf-study station with picture steps",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-N05",
         "mode": "investigate",
         "objective": "Observe pollinator visits without touching insects",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-N01",
         "mode": "innovate",
         "objective": "Invent a labelled alphabet-and-plant display",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -150,21 +150,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-P12",
         "mode": "build",
         "objective": "Build a simple number-and-planting plan",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-P17",
         "mode": "investigate",
         "objective": "Compare container watering observations",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-P23",
         "mode": "innovate",
         "objective": "Design a picture-based garden observation chart",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -190,21 +190,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-P16",
         "mode": "build",
         "objective": "Plan a safe raised-bed planting sequence",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-P26",
         "mode": "investigate",
         "objective": "Compare water movement in a gravity drip demonstration",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-P23",
         "mode": "innovate",
         "objective": "Create a plant-height recording display",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -230,21 +230,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-P17",
         "mode": "build",
         "objective": "Design a secure recycled planter layout",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-P26",
         "mode": "investigate",
         "objective": "Measure water delivery and plant growth",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-P29",
         "mode": "innovate",
         "objective": "Propose a water-saving garden routine",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -270,21 +270,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-P21",
         "mode": "build",
         "objective": "Prepare a dimensioned raised-bed plan",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-P17",
         "mode": "investigate",
         "objective": "Compare container water retention observations",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-P29",
         "mode": "innovate",
         "objective": "Design a fair water-use improvement challenge",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -310,21 +310,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-P23",
         "mode": "build",
         "objective": "Build a planting-and-data collection plan",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-P21",
         "mode": "investigate",
         "objective": "Compare grid-plot growth with recorded measurements",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-P17",
         "mode": "innovate",
         "objective": "Propose a low-cost water-smart retrofit",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -350,21 +350,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-P26",
         "mode": "build",
         "objective": "Design a gravity-drip irrigation layout",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-P23",
         "mode": "investigate",
         "objective": "Compare crop observations using graphs",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-P17",
         "mode": "innovate",
         "objective": "Develop a resource-efficient school garden proposal",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -390,21 +390,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-J37",
         "mode": "build",
         "objective": "Prepare a compost management workflow",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-J36",
         "mode": "investigate",
         "objective": "Investigate irrigation treatments with recorded observations",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-J38",
         "mode": "innovate",
         "objective": "Design a safe introductory soilless-growing proposal",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -430,21 +430,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-J35",
         "mode": "build",
         "objective": "Build a balanced intercropping trial plan",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-J37",
         "mode": "investigate",
         "objective": "Compare compost and soil observations",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-J39",
         "mode": "innovate",
         "objective": "Design a basic sensor observation protocol",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -470,21 +470,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-J31",
         "mode": "build",
         "objective": "Develop a season-long production plan",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-J38",
         "mode": "investigate",
         "objective": "Compare soilless growing conditions using recorded data",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-J39",
         "mode": "innovate",
         "objective": "Design a monitored garden improvement project",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -510,21 +510,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-S47",
         "mode": "build",
         "objective": "Build a sensor-measurement plan with safe instrumentation",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-S42",
         "mode": "investigate",
         "objective": "Investigate crop-trial observations and uncertainty",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-S50",
         "mode": "innovate",
         "objective": "Design an integrated food-water-energy concept",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -550,21 +550,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-S44",
         "mode": "build",
         "objective": "Design an irrigation engineering workflow",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-S47",
         "mode": "investigate",
         "objective": "Investigate sensor uncertainty and calibration",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-S50",
         "mode": "innovate",
         "objective": "Propose a data-supported integrated resource strategy",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   },
@@ -590,21 +590,21 @@ export const flagshipSchoolGardens:readonly ClassFlagship[]=[
         "gardenId": "GM-S47",
         "mode": "build",
         "objective": "Design a monitoring and data-quality workflow",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 4,
         "gardenId": "GM-S45",
         "mode": "investigate",
         "objective": "Investigate water-productivity sensitivity",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       },
       {
         "position": 5,
         "gardenId": "GM-S50",
         "mode": "innovate",
         "objective": "Develop a defensible integrated food-system innovation proposal",
-        "delivery": "planned-distinct-experience"
+        "delivery": "implemented-distinct-experience"
       }
     ]
   }
