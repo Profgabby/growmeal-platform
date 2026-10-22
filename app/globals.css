@@ -22,3 +22,52 @@ html[dir="rtl"] input[type="email"]{direction:ltr;text-align:left}
 html[dir="rtl"] input[type="search"]{text-align:right}
 html[dir="rtl"] .garden-no{direction:ltr}
 @media(max-width:900px){html[dir="rtl"] .main{margin-right:0}}
+
+
+/* GrowMeal customer account — welcoming garden-first layout */
+.gm-account{max-width:1200px;margin:0 auto;padding:0 0 48px}
+.gm-account-hero{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(280px,.92fr);background:#fffdf7;border:1px solid #dce8df;border-radius:24px;overflow:hidden;box-shadow:0 10px 34px rgba(18,66,41,.055)}
+.gm-account-hero-copy{padding:clamp(25px,4vw,52px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.gm-account-kicker{font-size:12px;font-weight:900;letter-spacing:.12em;color:#006b3c;margin-bottom:18px}
+.gm-account-hero h1{font-size:clamp(30px,3.4vw,47px);line-height:1.12;letter-spacing:-.025em;max-width:580px}
+.gm-account-hero-copy>p{font-size:16px;line-height:1.7;color:#4b6156;max-width:540px;margin:10px 0 22px}
+.gm-account-hero-actions{display:flex;gap:10px;flex-wrap:wrap}
+.gm-account-hero-photo{position:relative;min-height:300px;overflow:hidden;background:#dce9d7}
+.gm-account-hero-photo img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+.gm-account-hero-photo span{position:absolute;right:20px;bottom:18px;padding:9px 15px;border-radius:999px;background:#fffdf7;color:#006b3c;font-size:13px;font-weight:800;box-shadow:0 3px 12px #0002}
+.gm-account-notice{display:flex;align-items:flex-start;gap:12px;background:#fff9e7;border:1px solid #f1e1ae;border-radius:13px;padding:14px 18px;margin:18px 0 22px;color:#665522}
+.gm-account-notice>span{font-size:20px;font-weight:800;color:#a47700}
+.gm-account-notice p{margin:2px 0;font-size:14px;line-height:1.5}
+.gm-account-welcome{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:18px}
+.gm-account-welcome-main,.gm-account-benefits,.gm-account-card{background:white;border:1px solid #dce8df;border-radius:20px;padding:clamp(22px,3vw,34px)}
+.gm-account-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:13px;background:#e5f4e9;color:#006b3c;font-size:24px;flex-shrink:0}
+.gm-account-welcome-main h2{font-size:26px;margin:18px 0 12px;letter-spacing:-.02em}
+.gm-account-welcome-main>p{max-width:540px;color:#53685e;line-height:1.65}
+.gm-account-status{font-size:14px;color:#5a6d62}
+.gm-account-signin{display:inline-block;margin-top:12px}
+.gm-account-secondary{font-size:14px}
+.gm-account-secondary a{color:#006b3c;text-decoration:underline;font-weight:750}
+.gm-account-benefits{background:#f0f7ef}
+.gm-account-benefits h3{font-size:19px;margin-bottom:18px}
+.gm-account-benefits>div{display:flex;gap:15px;padding:15px 0;border-top:1px solid #d4e4d7}
+.gm-account-benefits b{font-size:14px;color:#006b3c}
+.gm-account-benefits strong,.gm-account-benefits small{display:block}
+.gm-account-benefits small{font-size:13px;color:#53685e;line-height:1.55;margin-top:5px}
+.gm-account-content{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.gm-account-section-head{display:flex;align-items:center;gap:14px;margin-bottom:22px}
+.gm-account-section-head h2{margin:0 0 5px}
+.gm-account-section-head p{margin:0;color:#607469;font-size:14px}
+.gm-account-form{display:grid;gap:15px}
+.gm-account-form label{display:grid;gap:7px;font-size:14px;font-weight:750}
+.gm-account-form input,.gm-account-form select{width:100%;min-width:0;padding:12px 13px;font:inherit;border:1px solid #cbdcd1;border-radius:10px;background:#fff;color:#183229}
+.gm-account-form input:focus-visible,.gm-account-form select:focus-visible{outline:3px solid #fdb515;outline-offset:2px}
+.gm-account-form button{justify-self:start}
+.gm-account-form h3{margin:14px 0 0}
+.gm-account-empty{background:#f4f8f4;padding:16px;border-radius:12px;color:#52695c}
+.gm-account-org-list{list-style:none;padding:0;display:grid;gap:8px}
+.gm-account-org-list li{display:flex;justify-content:space-between;gap:10px;background:#f4f8f4;padding:12px;border-radius:10px}
+.gm-account-org-list li span{color:#52695c}
+.gm-account-fineprint{font-size:12px;color:#5e7165;line-height:1.5;margin-top:16px}
+.gm-account-message{grid-column:1/-1;color:#006b3c;font-weight:700}
+@media(max-width:900px){.gm-account-hero,.gm-account-welcome,.gm-account-content{grid-template-columns:1fr}.gm-account-hero-photo{min-height:240px}.gm-account-hero-copy{padding:28px}}
+@media(max-width:480px){.gm-account-hero-photo{min-height:190px}.gm-account-hero-actions .btn{width:100%;text-align:center}.gm-account-welcome-main,.gm-account-benefits,.gm-account-card{padding:20px}.gm-account-welcome-main h2{font-size:23px}}
