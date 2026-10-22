@@ -1,5 +1,5 @@
-import LearnerActivityJournal from '@/components/learner/learner-activity-journal';
 'use client';
+import LearnerActivityJournal from '@/components/learner/learner-activity-journal';
 import Link from 'next/link';
 import {useEffect,useState} from 'react';
 import {createClient} from '@/lib/supabase/client';
