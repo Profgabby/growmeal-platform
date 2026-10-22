@@ -1,5 +1,5 @@
-import LearnerActivityJournal from '@/components/learner/learner-activity-journal';
 'use client';
+import LearnerActivityJournal from '@/components/learner/learner-activity-journal';
 import Link from 'next/link';
 import {useState} from 'react';
 const vocabulary=[{en:'Seed',fr:'Graine',ha:'Iri',yo:'Irúgbìn',ig:'Mkpụrụ'},{en:'Water',fr:'Eau',ha:'Ruwa',yo:'Omi',ig:'Mmiri'},{en:'Garden',fr:'Jardin',ha:'Lambu',yo:'Ọgbà',ig:'Ubi'}];
