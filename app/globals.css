@@ -71,3 +71,45 @@ html[dir="rtl"] .garden-no{direction:ltr}
 .gm-account-message{grid-column:1/-1;color:#006b3c;font-weight:700}
 @media(max-width:900px){.gm-account-hero,.gm-account-welcome,.gm-account-content{grid-template-columns:1fr}.gm-account-hero-photo{min-height:240px}.gm-account-hero-copy{padding:28px}}
 @media(max-width:480px){.gm-account-hero-photo{min-height:190px}.gm-account-hero-actions .btn{width:100%;text-align:center}.gm-account-welcome-main,.gm-account-benefits,.gm-account-card{padding:20px}.gm-account-welcome-main h2{font-size:23px}}
+
+
+/* GrowMeal student dashboard trio */
+.student-space{max-width:1320px;margin:0 auto;padding-bottom:50px}
+.student-eyebrow{font-size:12px;font-weight:850;letter-spacing:.13em;color:#006b3c;margin:0 0 12px}
+.student-banner{background:linear-gradient(115deg,#f0f9ed,#fffdf4 65%,#e0f4e7);border:1px solid #d9e9dc;border-radius:23px;padding:clamp(22px,3vw,40px);display:flex;justify-content:space-between;gap:18px;min-height:235px;overflow:hidden}
+.student-banner.growing{background:linear-gradient(115deg,#f4fae9,#fffdf4 60%,#e2f5d8)}
+.student-banner.languages{background:linear-gradient(115deg,#f4f0ff,#fffdf7 60%,#e6f6ec)}
+.student-banner>div:first-child{max-width:660px;position:relative;z-index:1}
+.student-banner h1{font-size:clamp(27px,3vw,40px);margin:0 0 13px}
+.student-banner p{font-size:16px;line-height:1.65;color:#4c6458;margin:0 0 23px}
+.student-banner-art{display:flex;align-items:center;justify-content:center;min-width:190px;font-size:110px;position:relative}
+.student-banner-art span{font-size:65px;position:absolute;right:0;bottom:0}
+.student-switcher{display:flex;flex-wrap:wrap;gap:9px;margin:19px 0}
+.student-switcher a{background:white;border:1px solid #d5e4da;border-radius:999px;padding:12px 17px;font-size:14px;font-weight:800}
+.student-switcher a.selected{background:#006b3c;color:white;border-color:#006b3c}
+.student-info{background:#fff9e8;border:1px solid #eee0b5;border-radius:12px;padding:13px 16px;color:#69572d;font-size:14px}
+.student-info a,.student-text-link{color:#006b3c;font-weight:800;text-decoration:underline}
+.student-stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:16px 0}
+.student-stat-grid article,.student-card{background:white;border:1px solid #dce8df;border-radius:17px;padding:21px}
+.student-stat-grid article span,.student-stat-grid article small{display:block;color:#5b7064;font-size:13px;line-height:1.45}
+.student-stat-grid article strong{display:block;font-size:30px;color:#006b3c;margin:10px 0}
+.student-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:15px}
+.student-card h2{margin-bottom:11px}.student-card h3{margin:20px 0 8px}
+.student-card p{color:#53685b;line-height:1.65}
+.student-action-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+.student-action-grid a{display:flex;flex-direction:column;gap:7px;padding:17px;background:#f2f8f2;border:1px solid #e0ebdf;border-radius:13px}
+.student-action-grid a span{font-size:29px}.student-action-grid a strong{color:#173f2a}.student-action-grid a small{font-size:12px;color:#5c7162;line-height:1.5}
+.student-progress{height:13px;border-radius:20px;background:#e6ede8;overflow:hidden;margin:16px 0}
+.student-progress span{display:block;background:#19864d;height:100%;border-radius:20px}
+.student-steps{list-style:none;padding:0;display:grid;gap:14px;counter-reset:step}
+.student-steps li{display:grid;grid-template-columns:1fr;gap:4px;padding:12px 15px;border-radius:12px;background:#f4f8f4}
+.student-steps b{color:#006b3c}.student-steps span{color:#526a5c;font-size:14px;line-height:1.5}
+.student-footnote{font-size:12px}
+.student-language-picker{display:grid;gap:8px;font-weight:750;margin:20px 0}
+.student-language-picker select{max-width:340px;border:1px solid #c9dfce;border-radius:10px;padding:12px;font:inherit}
+.student-word-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}
+.student-word-grid article{border:1px solid #dce8df;background:#f6faf6;border-radius:13px;padding:18px;text-align:center;min-height:190px}
+.student-word-grid article>span{font-size:38px}.student-word-grid article h3{margin:12px 0}.student-word-grid article strong{color:#006b3c;font-size:19px;overflow-wrap:anywhere}
+@media(max-width:1000px){.student-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.student-grid{grid-template-columns:1fr}}
+@media(max-width:640px){.student-banner-art{display:none}.student-banner{min-height:0}.student-switcher a{flex:1 1 100%;text-align:center}.student-action-grid{grid-template-columns:1fr 1fr}.student-word-grid{grid-template-columns:1fr}.student-stat-grid article{padding:15px}}
+@media(max-width:380px){.student-action-grid{grid-template-columns:1fr}}
