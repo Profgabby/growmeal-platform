@@ -1,0 +1,17 @@
+import {downloads} from '@/lib/resource-catalog';
+import archive from '@/data/resource-archive.json';
+export type Resource={id:string;title:string;family:'GrowMeal'|'GrowVolt';kind:string;level:string;domain:string;description:string;href:string;format:'PDF'|'XLSX'|'CSV'|'Activity'|'Guide';collection:string;downloadable:boolean};
+const slug=(s:string)=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+function classify(title:string){const t=title.toLowerCase();return /solar|energy|agrivoltaic|pv|shade/.test(t)?'Energy':/water|irrigation|rain|drip/.test(t)?'Water':/climate|compost|soil|biodiversity|pollinat/.test(t)?'Environment':'Food'}
+const allFiles=[...downloads,...archive];
+export const resources:Resource[]=allFiles.map((d,i)=>({id:'gm-'+i+'-'+slug(d.title),title:d.title,family:'GrowMeal',kind:d.type,level:'level'in d&&d.level?String(d.level):'All levels',domain:classify(d.title),description:'Existing GrowMeal resource listed in the project catalog. Open the source file for its complete content.',href:d.path,format:d.path.toLowerCase().endsWith('.pdf')?'PDF':d.path.toLowerCase().endsWith('.xlsx')?'XLSX':d.path.toLowerCase().endsWith('.csv')?'CSV':'Guide',collection:/teacher|lesson|curriculum|assessment/i.test(d.title)?'Teaching & Curriculum':/manual|design|operations|procurement/i.test(d.title)?'Garden Implementation':/journal|workbook|alphabet|number/i.test(d.title)?'Learner Workbooks':'Garden Guides',downloadable:true}));
+export const activities:Resource[]=[
+{id:'gm-activity-discover',title:'GrowMeal — Play & Discover',family:'GrowMeal',kind:'Interactive activity',level:'Nursery–SSS',domain:'Food',description:'Existing age-specific GrowMeal garden discovery experiences.',href:'/play-discover',format:'Activity',collection:'Interactive Learning',downloadable:false},
+{id:'gm-activity-student',title:'GrowMeal — Student Learning Pathways',family:'GrowMeal',kind:'Learning pathways',level:'Nursery–SSS',domain:'Integrated FEW',description:'Explore the existing class-based learning, growing and language previews.',href:'/student-preview',format:'Activity',collection:'Interactive Learning',downloadable:false},
+{id:'gm-activity-diy',title:'GrowMeal — Quizzes & DIY Challenges',family:'GrowMeal',kind:'Interactive activity',level:'All levels',domain:'Integrated FEW',description:'Browse existing GrowMeal activities and DIY challenges.',href:'/growmeal-activities',format:'Activity',collection:'Interactive Learning',downloadable:false},
+{id:'gm-knowledge-bank',title:'GrowMeal Growing Dictionary',family:'GrowMeal',kind:'Reference',level:'All levels',domain:'Food',description:'Existing growing terminology, safe practice notes and crop categories.',href:'/growmeal-bank',format:'Guide',collection:'Garden Guides',downloadable:false},
+{id:'gv-activity-discovery',title:'GrowVolt — Agrivoltaics Learning Pathway',family:'GrowVolt',kind:'Related learning pathway',level:'All levels',domain:'Energy',description:'GrowVolt is a separate agrivoltaics garden family. This entry is a clearly labeled pathway to related energy-and-crop learning, not a claimed GrowVolt downloadable publication.',href:'/student-preview',format:'Activity',collection:'Agrivoltaics & GrowVolt',downloadable:false}
+];
+export const libraryItems=[...activities,...resources];
+export const collections=['All collections',...Array.from(new Set(libraryItems.map(x=>x.collection)))];
+export const getResource=(id:string)=>libraryItems.find(x=>x.id===id);
