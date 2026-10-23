@@ -1,8 +1,10 @@
 import {NextResponse,type NextRequest} from 'next/server';
 import {createServerClient,type CookieOptions} from '@supabase/ssr';
+const publicDesignPreviews=['/teacher','/parent'];
 const schoolPrefixes=['/dashboard','/gardens','/curriculum','/resources','/quizzes','/challenges','/learner','/teacher','/reviewer','/training','/hq','/onboarding'];
 export async function middleware(request:NextRequest){
  const path=request.nextUrl.pathname;
+ if(publicDesignPreviews.includes(path))return NextResponse.next();
  if(!schoolPrefixes.some(prefix=>path===prefix||path.startsWith(prefix+'/')))return NextResponse.next();
  // Staff and administration routes remain closed until fine-grained role and school-ID authorization is implemented.
  if(['/teacher','/reviewer','/training','/hq','/onboarding'].some(prefix=>path===prefix||path.startsWith(prefix+'/')))return denied(request);
