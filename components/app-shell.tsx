@@ -44,6 +44,8 @@ export default function AppShell({children}:{children:React.ReactNode}){
  useEffect(()=>{try{const saved=localStorage.getItem(preferenceKey);if(isGrowAudience(saved))setAudience(saved)}catch{}},[p]);
  useEffect(()=>{let live=true;(async()=>{try{const s=createClient();const {data:{user}}=await s.auth.getUser();if(!live)return;if(!user){setRole(null);setChecked(true);return}const {data:m}=await s.from('growmeal_memberships').select('role').eq('user_id',user.id).limit(1).maybeSingle();const {data:profile}=await s.from('growmeal_profiles').select('role').eq('id',user.id).maybeSingle();if(!live)return;setRole((m?.role||profile?.role||'learner') as Role);setChecked(true)}catch{if(live)setChecked(true)}})();return()=>{live=false}},[p]);
  if(publicAuth.some(x=>p===x||p.startsWith(x+'/')))return <main className="public-main">{children}</main>;
+ // The public design previews supply their own sidebar; avoid nesting the marketplace sidebar.
+ if(p==='/teacher'||p==='/parent')return <main style={{minHeight:'100vh'}}>{children}</main>;
  const school=audience==='School';
  const visible=items.filter(x=>(x.scope==='all'||(x.scope==='school'&&school)||(x.scope==='grower'&&!school)||(x.scope==='staff'&&school&&checked&&role&&(!x.roles||x.roles.includes(role))))&&(!x.roles||x.scope==='staff'||(checked&&role&&x.roles.includes(role))));
  function choose(value:string){if(!isGrowAudience(value))return;setAudience(value);try{localStorage.setItem(preferenceKey,value);window.dispatchEvent(new Event('growmeal-audience-change'))}catch{}}
