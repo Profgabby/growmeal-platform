@@ -34,6 +34,7 @@ export default function SchoolDashboardPreview({role}:{role:Role}){
  return <div style={{display:'grid',gridTemplateColumns:'minmax(190px,230px) minmax(0,1fr)',minHeight:'100vh',fontFamily:'inherit',color:'#12392a'}}>
  <aside style={{background:'linear-gradient(165deg,#004b2f,#006b3c)',color:'white',padding:'25px 12px',minWidth:0}}>
  <div style={{fontWeight:850,fontSize:22,padding:'0 10px'}}>🌿 LIFEWS<br/> GrowMeal</div><div style={{fontSize:11,letterSpacing:1,padding:'8px 10px 24px',opacity:.85}}>{teacher?'CLASSROOM MANAGEMENT':'CHILD PROGRESS & COMMUNICATION'}</div>
+ <Link href="/" style={{display:'flex',alignItems:'center',gap:9,margin:'0 2px 18px',padding:'12px 11px',border:'1px solid rgba(255,255,255,.4)',borderRadius:10,color:'#fff',fontWeight:750,fontSize:13,textDecoration:'none'}}>← Back to GrowMeal Home</Link>
  <nav aria-label={teacher?'Teacher dashboard navigation':'Guardian dashboard navigation'} style={{display:'grid',gap:5}}>{nav.map((x,i)=><button type="button" key={x} onClick={()=>{setTab(x);setSelected(null)}} style={{background:tab===x?GOLD:'transparent',color:tab===x?'#143827':'white',padding:'12px 11px',textAlign:'left',border:0,borderRadius:10,cursor:'pointer',fontWeight:tab===x?750:450,fontSize:13}}>{['▦','▤','♙','▧','🌱','✎','◷','▥','✉','▣','▱'][i]}　{x}</button>)}</nav>
  <div style={{padding:11,fontSize:12,lineHeight:1.65,opacity:.9,marginTop:20}}>Design prototype using fictional learners. Real school records remain protected.</div>
  </aside>
