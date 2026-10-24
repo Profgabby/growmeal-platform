@@ -1,0 +1,2080 @@
+{
+  "version": "0.6.0",
+  "scope": "Nigeria 30-crop education-first content",
+  "publication_status": "draft",
+  "validation": "Each crop needs crop-specific source review and local extension validation before actionable recommendations.",
+  "guides": [
+    {
+      "crop_id": "amaranth",
+      "title": "Vegetable amaranth",
+      "scientific_name": "Amaranthus spp.",
+      "category": "indigenous-leafy",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest tender leaves when adequately established; repeated harvest depends on variety. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Check leaf-feeding insects and poor drainage.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": 35,
+        "latest_days": 45,
+        "basis": "NIHORT production guide, conditional on variety and harvesting method"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [
+        "https://nihort.gov.ng/wp-content/uploads/2020/07/AMARANTH-PRODUCTION-GUIDE.pdf"
+      ],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "jute-mallow",
+      "title": "Jute mallow",
+      "scientific_name": "Corchorus olitorius",
+      "category": "indigenous-leafy",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest tender leaves when sufficiently established; confirm harvest stage locally. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Check uneven germination and insect feeding.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "fluted-pumpkin",
+      "title": "Fluted pumpkin",
+      "scientific_name": "Telfairia occidentalis",
+      "category": "indigenous-leafy",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest tender leaves from healthy established vines; avoid overharvesting young plants. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch vine damage and leaf discoloration.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "waterleaf",
+      "title": "Waterleaf",
+      "scientific_name": "Talinum fruticosum",
+      "category": "indigenous-leafy",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "stem cutting",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy stem cutting planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest tender shoots only after cuttings establish vigorous new growth. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch stem rot and waterlogging.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "lagos-spinach",
+      "title": "Lagos spinach",
+      "scientific_name": "Celosia argentea",
+      "category": "indigenous-leafy",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest tender edible leaves when plant identity and stage are confirmed. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch leaf damage and crowding.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "bitterleaf",
+      "title": "Bitterleaf",
+      "scientific_name": "Vernonia amygdalina",
+      "category": "indigenous-leafy",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "stem cutting",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy stem cutting planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest appropriately identified edible leaves from an established shrub; follow local food preparation practice. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch leaf spotting and cutting establishment.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "okra",
+      "title": "Okra",
+      "scientific_name": "Abelmoschus esculentus",
+      "category": "fruit-vegetables",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Pick young edible pods regularly before they become fibrous; cultivar differences matter. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Inspect flowers and pods for insect injury.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "tomato",
+      "title": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "fruit-vegetables",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed/transplant",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed/transplant planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest ripe fruit appropriate to the variety and intended use. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch fruit cracking, leaf spotting and blossom-end rot symptoms.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "pepper",
+      "title": "Pepper",
+      "scientific_name": "Capsicum spp.",
+      "category": "fruit-vegetables",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed/transplant",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed/transplant planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest fruit at a suitable green or mature color stage for the chosen variety. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch insect damage and wilting; distinguish pest from moisture stress.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "garden-egg",
+      "title": "Garden egg",
+      "scientific_name": "Solanum aethiopicum",
+      "category": "fruit-vegetables",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed/transplant",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed/transplant planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest fruit at the edible stage for the local variety. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch fruit injury and leaf-feeding insects.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "cucumber",
+      "title": "Cucumber",
+      "scientific_name": "Cucumis sativus",
+      "category": "fruit-vegetables",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest fruits at the intended edible size before overripening. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch leaf disease and misshapen fruits; assess pollination.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "cowpea",
+      "title": "Cowpea",
+      "scientific_name": "Vigna unguiculata",
+      "category": "legumes",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Choose whether harvesting edible green pods or mature dry grains; they require different timing. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Check flowers and pods for insect feeding.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "green-bean",
+      "title": "Green bean",
+      "scientific_name": "Phaseolus vulgaris",
+      "category": "legumes",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest tender green pods or dry seed according to cultivar and intended use. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Check leaf and pod insect damage.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "groundnut",
+      "title": "Groundnut",
+      "scientific_name": "Arachis hypogaea",
+      "category": "legumes",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest mature pods after locally verified crop maturity; dry and store hygienically. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch waterlogging and pod damage; prevent mold in storage.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "pigeon-pea",
+      "title": "Pigeon pea",
+      "scientific_name": "Cajanus cajan",
+      "category": "legumes",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest green peas or mature dry seed according to crop purpose. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch pod insects and lodging.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "sweet-potato",
+      "title": "Sweet potato",
+      "scientific_name": "Ipomoea batatas",
+      "category": "roots-tubers",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "vine cutting",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy vine cutting planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest storage roots only when suitable for variety and local conditions; avoid damaging roots. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch vine pests and signs of root damage.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "cassava",
+      "title": "Cassava",
+      "scientific_name": "Manihot esculenta",
+      "category": "roots-tubers",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "stem cutting",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy stem cutting planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest mature storage roots only after locally verified cultivar maturity; process appropriately before consumption. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Cassava requires appropriate processing before consumption to reduce cyanogenic compounds; never eat raw cassava roots."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch stem cutting quality, mosaic-like leaf symptoms and root rot.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "yam",
+      "title": "Yam",
+      "scientific_name": "Dioscorea spp.",
+      "category": "roots-tubers",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed yam or sett",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed yam or sett planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest mature tubers after locally verified vine senescence and cultivar maturity. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch tuber rot, staking needs and vine health.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "cocoyam",
+      "title": "Cocoyam",
+      "scientific_name": "Colocasia/Xanthosoma spp.",
+      "category": "roots-tubers",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "corm or cormel",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy corm or cormel planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest mature edible corms or cormels according to locally verified variety and preparation guidance. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch waterlogging, leaf blight and corm rot.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "maize",
+      "title": "Maize",
+      "scientific_name": "Zea mays",
+      "category": "cereals-staples",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Distinguish fresh green-cob harvest from mature dry-grain harvest. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch leaf damage, stem pests and moisture stress at flowering.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "millet",
+      "title": "Millet",
+      "scientific_name": "Pennisetum glaucum",
+      "category": "cereals-staples",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest mature grain heads when locally verified maturity criteria are met. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch bird damage and poor establishment.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "sorghum",
+      "title": "Sorghum",
+      "scientific_name": "Sorghum bicolor",
+      "category": "cereals-staples",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest mature grain heads and dry safely for storage. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch bird damage and grain mold risk.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "scent-leaf",
+      "title": "Scent leaf",
+      "scientific_name": "Ocimum gratissimum",
+      "category": "herbs-seasonings",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed or cutting",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed or cutting planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest correctly identified edible leaves from established plants. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch leaf spots and stem decay.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "lemongrass",
+      "title": "Lemongrass",
+      "scientific_name": "Cymbopogon citratus",
+      "category": "herbs-seasonings",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "division",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy division planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest leaves or stalks from well-established clumps using clean tools. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch clump rot and sharp leaf edges.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "ginger",
+      "title": "Ginger",
+      "scientific_name": "Zingiber officinale",
+      "category": "herbs-seasonings",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "rhizome",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy rhizome planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest rhizomes at the maturity stage required for intended culinary use. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch rhizome rot and waterlogging.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "turmeric",
+      "title": "Turmeric",
+      "scientific_name": "Curcuma longa",
+      "category": "herbs-seasonings",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "rhizome",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy rhizome planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest mature rhizomes and clean/process safely. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch rhizome rot and leaf yellowing.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "pawpaw",
+      "title": "Pawpaw",
+      "scientific_name": "Carica papaya",
+      "category": "fruits-perennials",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "seed or nursery transplant",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy seed or nursery transplant planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest fruit at appropriate ripening stage; maturity varies with cultivar and climate. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch fruit flies and trunk/root stress.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "banana",
+      "title": "Banana",
+      "scientific_name": "Musa spp.",
+      "category": "fruits-perennials",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "sucker or tissue-culture plantlet",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy sucker or tissue-culture plantlet planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest bunches when fingers reach the locally accepted maturity stage. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch wind damage, leaf disease and drainage.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "plantain",
+      "title": "Plantain",
+      "scientific_name": "Musa spp.",
+      "category": "fruits-perennials",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "sucker or tissue-culture plantlet",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy sucker or tissue-culture plantlet planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest bunches at appropriate mature-green or ripening stage for use. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch wind lodging, pseudostem damage and leaf disease.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    },
+    {
+      "crop_id": "pineapple",
+      "title": "Pineapple",
+      "scientific_name": "Ananas comosus",
+      "category": "fruits-perennials",
+      "review_status": "editorial-draft-not-agronomically-validated",
+      "propagation_summary": "crown, slip or sucker",
+      "steps": [
+        {
+          "stage": "plan",
+          "title": "Confirm the crop and your conditions",
+          "instructions": "Confirm crop identity, intended edible part, locally appropriate variety, available growing space, water source, sunlight, and drainage. Consult local extension guidance before sowing.",
+          "safety": "Do not collect or eat unidentified plants."
+        },
+        {
+          "stage": "prepare",
+          "title": "Prepare the growing area",
+          "instructions": "Use clean planting materials and an appropriately drained container, bed, or field. Obtain variety-specific spacing and planting depth from verified local guidance.",
+          "safety": "Avoid contaminated soils and untreated wastewater."
+        },
+        {
+          "stage": "establish",
+          "title": "Plant and observe establishment",
+          "instructions": "Start with healthy crown, slip or sucker planting material. Record planting date, emergence or rooting, and visible stress. Adjust water only after checking soil moisture and drainage.",
+          "safety": "Children should garden with responsible adult supervision."
+        },
+        {
+          "stage": "care",
+          "title": "Care and monitor",
+          "instructions": "Inspect plants for moisture stress, competition, pests and disease symptoms. Record observations; use locally approved integrated pest management before considering treatments.",
+          "safety": "Do not apply unverified pesticide or fertilizer instructions."
+        },
+        {
+          "stage": "harvest",
+          "title": "Harvest and handle food",
+          "instructions": "Harvest fruit at cultivar-appropriate maturity; do not infer dates from planting alone. Record quantity and unit, wash edible produce using safe water, and follow crop-appropriate processing requirements.",
+          "safety": "Use safe handling, clean tools and appropriate food preparation."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Slow growth or wilting",
+          "investigate": [
+            "Check soil moisture and drainage",
+            "Inspect for root or stem injury",
+            "Compare sunlight and local temperature conditions"
+          ],
+          "urgency": "monitor-and-seek-extension-advice"
+        },
+        {
+          "symptom": "Crop-specific concern",
+          "investigate": [
+            "Watch crown/root rot and waterlogging.",
+            "Record a photo of plant symptoms without including people or location data",
+            "Seek a local extension diagnosis before treatment"
+          ],
+          "urgency": "seek-extension-advice"
+        }
+      ],
+      "harvest_window": {
+        "earliest_days": null,
+        "latest_days": null,
+        "basis": "No locally verified crop-specific duration"
+      },
+      "planting_months": [],
+      "regional_suitability": [],
+      "source_urls": [],
+      "editorial_note": "These are educational workflows, not locally validated sowing, spacing, irrigation, treatment or harvest recommendations."
+    }
+  ]
+}
