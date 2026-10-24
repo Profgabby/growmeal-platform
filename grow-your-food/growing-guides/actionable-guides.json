@@ -1,0 +1,226 @@
+{
+  "version": "0.3.0",
+  "status": "provisional-guidance-not-location-validated",
+  "crops": [
+    {
+      "id": "amaranth",
+      "label": "Vegetable amaranth (tete)",
+      "propagation": "seed",
+      "firstHarvest": [
+        28,
+        45
+      ],
+      "tasks": [
+        {
+          "offset": 0,
+          "title": "Prepare and sow",
+          "detail": "Use a clean container with drainage or a prepared garden bed. Sow verified edible vegetable-amaranth seed; follow seed-packet spacing and depth."
+        },
+        {
+          "offset": 3,
+          "title": "Check for emergence",
+          "detail": "Inspect soil moisture and seedlings. Do not assume a fixed germination date."
+        },
+        {
+          "offset": 10,
+          "title": "Thin and observe",
+          "detail": "If seedlings are crowded, thin according to the seed variety and garden space. Record leaf growth."
+        },
+        {
+          "offset": 21,
+          "title": "Inspect for harvest readiness",
+          "detail": "Check tender leaf size and plant health. Harvest only when suitable; do not rely on the calendar alone."
+        },
+        {
+          "offset": 28,
+          "title": "Consider first tender-leaf harvest",
+          "detail": "Harvest clean tender leaves when ready; use safe water and clean tools. Record measured yield."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Leaves wilting",
+          "checks": "Check soil moisture and drainage, midday heat and root damage before changing watering."
+        },
+        {
+          "symptom": "Holes in leaves",
+          "checks": "Inspect leaf undersides for insects; identify pests before choosing any treatment."
+        },
+        {
+          "symptom": "Yellow leaves",
+          "checks": "Check waterlogging, plant nutrition and age; multiple causes are possible."
+        }
+      ],
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ]
+    },
+    {
+      "id": "jute-mallow",
+      "label": "Jute mallow (ewedu/ayoyo)",
+      "propagation": "seed",
+      "firstHarvest": null,
+      "tasks": [
+        {
+          "offset": 0,
+          "title": "Prepare planting space",
+          "detail": "Select verified edible jute-mallow seed and a well-drained bed; use locally reviewed planting instructions."
+        },
+        {
+          "offset": 7,
+          "title": "Observe establishment",
+          "detail": "Record emergence and check for standing water or drought stress."
+        },
+        {
+          "offset": 21,
+          "title": "Monitor leaf development",
+          "detail": "Observe leaf growth and pests; first harvest timing requires local verification."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Poor emergence",
+          "checks": "Check seed viability, soil crusting, moisture and planting depth."
+        },
+        {
+          "symptom": "Stunted plants",
+          "checks": "Check sunlight, drainage and competition; consult local extension guidance."
+        }
+      ],
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ]
+    },
+    {
+      "id": "fluted-pumpkin",
+      "label": "Fluted pumpkin (ugu)",
+      "propagation": "seed",
+      "firstHarvest": null,
+      "tasks": [
+        {
+          "offset": 0,
+          "title": "Plan adequate space",
+          "detail": "Use appropriate locally sourced planting material. Vines require substantial space and management."
+        },
+        {
+          "offset": 14,
+          "title": "Observe vine establishment",
+          "detail": "Inspect vines, leaf health and available growing space; do not assume first harvest at a fixed date."
+        },
+        {
+          "offset": 30,
+          "title": "Review harvest readiness",
+          "detail": "Consult locally reviewed guidance before harvesting tender leaves."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Vines not growing",
+          "checks": "Inspect moisture, drainage, sunlight and planting material health."
+        }
+      ],
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ]
+    },
+    {
+      "id": "okra",
+      "label": "Okra",
+      "propagation": "seed",
+      "firstHarvest": null,
+      "tasks": [
+        {
+          "offset": 0,
+          "title": "Plant suitable seed",
+          "detail": "Choose a locally appropriate okra variety, warm site and adequate root space; follow seed instructions."
+        },
+        {
+          "offset": 14,
+          "title": "Inspect seedlings",
+          "detail": "Observe emergence, weeds and insect damage; thin if needed."
+        },
+        {
+          "offset": 35,
+          "title": "Watch for flowering",
+          "detail": "Monitor plant development; timing varies with variety and conditions."
+        },
+        {
+          "offset": 55,
+          "title": "Check tender pods",
+          "detail": "Harvest pods when young and suitable for cooking; repeat checking regularly."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Flowers dropping",
+          "checks": "Consider heat, water stress and pollination; avoid assuming a single cause."
+        },
+        {
+          "symptom": "Pods tough",
+          "checks": "Harvest more frequently at a younger pod stage."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "cowpea",
+      "label": "Cowpea (beans)",
+      "propagation": "seed",
+      "firstHarvest": null,
+      "tasks": [
+        {
+          "offset": 0,
+          "title": "Sow cowpea",
+          "detail": "Use an appropriate local variety, well-drained soil and suitable spacing."
+        },
+        {
+          "offset": 14,
+          "title": "Check establishment",
+          "detail": "Inspect emergence, insects and soil moisture."
+        },
+        {
+          "offset": 40,
+          "title": "Observe flowering and pods",
+          "detail": "Document flowering and pod development; edible green pods and dry grains have different harvest stages."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Insects on flowers or pods",
+          "checks": "Identify the pest and seek locally approved integrated pest-management guidance."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "waterleaf",
+      "label": "Waterleaf",
+      "propagation": "cutting",
+      "firstHarvest": null,
+      "tasks": [
+        {
+          "offset": 0,
+          "title": "Plant healthy cuttings",
+          "detail": "Use correctly identified, healthy edible waterleaf cuttings in a well-drained container or bed."
+        },
+        {
+          "offset": 7,
+          "title": "Check rooting",
+          "detail": "Inspect cuttings for new growth and rot; maintain adequate but not excessive moisture."
+        },
+        {
+          "offset": 21,
+          "title": "Monitor tender shoots",
+          "detail": "Check plant establishment and leaf quality; do not harvest until sufficiently rooted and healthy."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "symptom": "Stem rot",
+          "checks": "Check excessive moisture, poor drainage and unhealthy planting material."
+        }
+      ],
+      "sources": []
+    }
+  ]
+}
