@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrowMeal Growing Record v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "crop_id",
+    "planted_date",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "crop_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "planted_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "enum": [
+        "planning",
+        "planted",
+        "growing",
+        "harvested",
+        "closed"
+      ]
+    },
+    "region_label": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 100
+    },
+    "completed_step_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "journal_event_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "harvest_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
