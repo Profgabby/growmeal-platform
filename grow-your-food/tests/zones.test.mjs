@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {assessPlantingReadiness} from '../planting-calendars/zone-rules.mjs';
+test('missing crop-zone review blocks sowing recommendation',()=>{const r=assessPlantingReadiness({zoneId:'sudan-savanna',region:'Kano',water:'reliable',season:'rainy'});assert.equal(r.status,'guidance-only');assert.match(r.blockers.join(' '),/reviewed crop-and-zone/i)});
+test('rain-fed sowing requires observed local onset',()=>{const r=assessPlantingReadiness({zoneId:'humid-forest',region:'Lagos',water:'rainfall-only',season:'rainy',reviewedCropWindow:true});assert.equal(r.status,'guidance-only');assert.match(r.blockers.join(' '),/rainfall onset/i)});
+test('even fully checked data is conditional',()=>{const r=assessPlantingReadiness({zoneId:'sudan-savanna',region:'Kano',water:'reliable',season:'rainy',reviewedCropWindow:true});assert.equal(r.status,'conditional-check')});
