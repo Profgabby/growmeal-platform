@@ -1,0 +1,4 @@
+export function parseLocalDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(s))throw Error('Use YYYY-MM-DD');const d=new Date(s+'T12:00:00Z');if(!Number.isFinite(d.getTime())||d.toISOString().slice(0,10)!==s)throw Error('Invalid date');return d}
+export function datePlus(s,days){const d=parseLocalDate(s);d.setUTCDate(d.getUTCDate()+days);return d.toISOString().slice(0,10)}
+export function buildCalendar(guide,planted){parseLocalDate(planted);return guide.tasks.map(t=>({...t,date:datePlus(planted,t.offset),kind:'care-checkpoint'}))}
+export function harvestEstimate(guide,planted){return guide.firstHarvest?{earliest:datePlus(planted,guide.firstHarvest[0]),latest:datePlus(planted,guide.firstHarvest[1]),warning:'Indicative first edible harvest, not a guarantee. Local variety and conditions must be checked.'}:null}
