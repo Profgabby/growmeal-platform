@@ -1,0 +1,77 @@
+{
+  "version": "0.2.0",
+  "review_scope": "source-supported guidance; not locally field validated",
+  "profiles": [
+    {
+      "crop_id": "amaranth",
+      "review_status": "source-reviewed",
+      "first_edible_harvest_days": {
+        "min": 28,
+        "max": 45,
+        "reference_event": "sowing",
+        "note": "NIHORT manuals vary by variety and cutting approach; range combines its four-week and 35–45 day statements"
+      },
+      "climate": "Warm tropical conditions; adequate moisture and drainage",
+      "planting": "Sow vegetable amaranth seed into a prepared, well-drained bed or suitable container; thin crowded seedlings and maintain moisture without waterlogging.",
+      "care": [
+        "Check soil moisture before watering",
+        "Remove competing weeds by hand",
+        "Watch for insect feeding and leaf damage",
+        "Mulch appropriately to conserve moisture"
+      ],
+      "harvest": "Harvest tender leaves or shoots when suitable for eating; repeated cutting depends on spacing and variety.",
+      "food_safety": [
+        "Wash harvested vegetables with safe water",
+        "Do not use contaminated water or untreated waste on edible crops"
+      ],
+      "sources": [
+        "https://nihort.gov.ng/wp-content/uploads/2020/12/AMARANTH-PRODUCTION-GUIDE.pdf",
+        "https://nihort.gov.ng/wp-content/uploads/2020/07/AMARANTH-PRODUCTION-GUIDE.pdf"
+      ],
+      "limits": "NIHORT field guidance does not validate exact container size, sowing depth, watering volume, or local planting month for each Nigerian state."
+    },
+    {
+      "crop_id": "jute-mallow",
+      "review_status": "partially-reviewed",
+      "first_edible_harvest_days": null,
+      "climate": "Requires locality and variety confirmation",
+      "planting": "Select verified jute mallow seed and prepare well-drained soil; follow local extension guidance for planting depth and spacing.",
+      "care": [
+        "Monitor emergence",
+        "Maintain adequate moisture without waterlogging",
+        "Check leaves for damage"
+      ],
+      "harvest": "Harvest tender leaves at an appropriate locally verified stage; do not promise a fixed number of days.",
+      "food_safety": [
+        "Wash leaves with safe water",
+        "Cook according to household food practices"
+      ],
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ],
+      "limits": "NIHORT lists a Corchorus production guide; detailed numeric claims have not yet been checked against its full manual."
+    },
+    {
+      "crop_id": "fluted-pumpkin",
+      "review_status": "partially-reviewed",
+      "first_edible_harvest_days": null,
+      "climate": "Warm humid locations with adequate space and water; validate locally",
+      "planting": "Use locally appropriate planting material and adequate growing space; vines require management.",
+      "care": [
+        "Maintain moisture without waterlogging",
+        "Provide space or suitable support for vines",
+        "Inspect regularly for pests"
+      ],
+      "harvest": "Harvest edible tender leaves when established, based on verified local guidance; do not assume a 40-day harvest.",
+      "food_safety": [
+        "Do not eat unidentified plant parts",
+        "Wash and prepare leaves hygienically"
+      ],
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ],
+      "limits": "NIHORT lists a fluted pumpkin guide, but crop-specific spacing and harvest duration remain unverified."
+    }
+  ],
+  "published_by_default": false
+}
