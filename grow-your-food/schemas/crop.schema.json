@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrowMeal Crop Profile",
+  "type": "object",
+  "required": [
+    "id",
+    "common_name",
+    "category",
+    "countries",
+    "propagation",
+    "space_options",
+    "content_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "common_name": {
+      "type": "string"
+    },
+    "scientific_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "local_names": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "language_or_region"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "language_or_region": {
+            "type": "string"
+          },
+          "verification": {
+            "enum": [
+              "draft",
+              "verified"
+            ]
+          }
+        }
+      }
+    },
+    "category": {
+      "enum": [
+        "indigenous-leafy",
+        "fruit-vegetables",
+        "legumes",
+        "roots-tubers",
+        "cereals-staples",
+        "herbs-seasonings",
+        "fruits-perennials"
+      ]
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "propagation": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "seed",
+          "cutting",
+          "set",
+          "tuber",
+          "sucker",
+          "transplant"
+        ]
+      }
+    },
+    "space_options": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "small-container",
+          "large-container",
+          "raised-bed",
+          "ground-plot",
+          "field"
+        ]
+      }
+    },
+    "harvest": {
+      "type": "object",
+      "properties": {
+        "germination_days": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "first_edible_days": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "mature_harvest_days": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "productive_lifespan_days": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "conditions_note": {
+          "type": "string"
+        }
+      }
+    },
+    "agroecology": {
+      "type": "object"
+    },
+    "food_safety": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "content_status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "published"
+      ]
+    }
+  }
+}
