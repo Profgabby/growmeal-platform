@@ -1,0 +1,70 @@
+{
+  "version": "0.4.0",
+  "reviewed_sources": [
+    {
+      "crop_id": "amaranth",
+      "document": "NIHORT Amaranth Production Guide",
+      "url": "https://nihort.gov.ng/wp-content/uploads/2020/07/AMARANTH-PRODUCTION-GUIDE.pdf",
+      "verified_claims": [
+        {
+          "claim": "First harvest depends on variety and harvesting method; 35–45 days after planting or sowing.",
+          "source_section": "HARVESTING",
+          "status": "source-verified"
+        },
+        {
+          "claim": "Manual weeding and mulching are recommended weed-management approaches.",
+          "source_section": "WEED CONTROL",
+          "status": "source-verified"
+        }
+      ],
+      "unverified_claims": [
+        "Precise home-container volume",
+        "State-specific planting months",
+        "Daily water quantity"
+      ]
+    },
+    {
+      "crop_id": "jute-mallow",
+      "document": "NIHORT Corchorus Production Guide",
+      "url": "https://nihort.gov.ng/production-manuals/",
+      "verified_claims": [
+        {
+          "claim": "NIHORT lists a Corchorus production guide.",
+          "source_section": "Production Manuals index",
+          "status": "source-verified"
+        }
+      ],
+      "unverified_claims": [
+        "Sowing depth",
+        "Harvest days",
+        "LGA-specific season"
+      ]
+    },
+    {
+      "crop_id": "fluted-pumpkin",
+      "document": "NIHORT Fluted Pumpkin Production Guide",
+      "url": "https://nihort.gov.ng/production-manuals/",
+      "verified_claims": [
+        {
+          "claim": "NIHORT lists a fluted pumpkin production guide.",
+          "source_section": "Production Manuals index",
+          "status": "source-verified"
+        }
+      ],
+      "unverified_claims": [
+        "Harvest days",
+        "Plant spacing",
+        "LGA-specific season"
+      ]
+    }
+  ],
+  "quality_policy": {
+    "statuses": [
+      "draft",
+      "source-reviewed",
+      "locally-validated"
+    ],
+    "publish_threshold": "locally-validated for state/LGA and crop variety where planting advice is given",
+    "no_claims_without_source": true
+  }
+}
