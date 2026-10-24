@@ -1,0 +1,1232 @@
+{
+  "version": "0.5.0",
+  "generated_for": "all 30 Nigeria launch crops",
+  "review_definition": "A URL or general manual listing is not evidence that a specific crop's numeric agronomy has been checked.",
+  "source_statuses": [
+    "source-linked",
+    "source-reviewed-conditional",
+    "requires-review",
+    "requires-language-review",
+    "missing",
+    "unverified",
+    "blocked-until-LGA-variety-season-reviewed"
+  ],
+  "records": [
+    {
+      "crop_id": "amaranth",
+      "botanical_identity": {
+        "value": "Amaranthus spp.",
+        "status": "source-linked"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "source-reviewed-conditional"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [
+        "https://nihort.gov.ng/wp-content/uploads/2020/07/AMARANTH-PRODUCTION-GUIDE.pdf"
+      ],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "jute-mallow",
+      "botanical_identity": {
+        "value": "Corchorus olitorius",
+        "status": "source-linked"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "fluted-pumpkin",
+      "botanical_identity": {
+        "value": "Telfairia occidentalis",
+        "status": "source-linked"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "waterleaf",
+      "botanical_identity": {
+        "value": "Talinum fruticosum",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "cutting",
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "lagos-spinach",
+      "botanical_identity": {
+        "value": "Celosia argentea",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "bitterleaf",
+      "botanical_identity": {
+        "value": "Vernonia amygdalina",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "cutting"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "okra",
+      "botanical_identity": {
+        "value": "Abelmoschus esculentus",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "tomato",
+      "botanical_identity": {
+        "value": "Solanum lycopersicum",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed",
+          "transplant"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "pepper",
+      "botanical_identity": {
+        "value": "Capsicum spp.",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed",
+          "transplant"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "garden-egg",
+      "botanical_identity": {
+        "value": "Solanum aethiopicum",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed",
+          "transplant"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "cucumber",
+      "botanical_identity": {
+        "value": "Cucumis sativus",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "cowpea",
+      "botanical_identity": {
+        "value": "Vigna unguiculata",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "green-bean",
+      "botanical_identity": {
+        "value": "Phaseolus vulgaris",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "groundnut",
+      "botanical_identity": {
+        "value": "Arachis hypogaea",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "pigeon-pea",
+      "botanical_identity": {
+        "value": "Cajanus cajan",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "sweet-potato",
+      "botanical_identity": {
+        "value": "Ipomoea batatas",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "cutting"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "cassava",
+      "botanical_identity": {
+        "value": "Manihot esculenta",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "cutting"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "yam",
+      "botanical_identity": {
+        "value": "Dioscorea spp.",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "tuber"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "cocoyam",
+      "botanical_identity": {
+        "value": "Colocasia/Xanthosoma spp.",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "tuber"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "maize",
+      "botanical_identity": {
+        "value": "Zea mays",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "millet",
+      "botanical_identity": {
+        "value": "Pennisetum glaucum",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "sorghum",
+      "botanical_identity": {
+        "value": "Sorghum bicolor",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "scent-leaf",
+      "botanical_identity": {
+        "value": "Ocimum gratissimum",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed",
+          "cutting"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "lemongrass",
+      "botanical_identity": {
+        "value": "Cymbopogon citratus",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "cutting"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "ginger",
+      "botanical_identity": {
+        "value": "Zingiber officinale",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "tuber"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "turmeric",
+      "botanical_identity": {
+        "value": "Curcuma longa",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "tuber"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "pawpaw",
+      "botanical_identity": {
+        "value": "Carica papaya",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "seed",
+          "transplant"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "banana",
+      "botanical_identity": {
+        "value": "Musa spp.",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "sucker"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "plantain",
+      "botanical_identity": {
+        "value": "Musa spp.",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "sucker"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [],
+      "release_gate": "blocked"
+    },
+    {
+      "crop_id": "pineapple",
+      "botanical_identity": {
+        "value": "Ananas comosus",
+        "status": "requires-review"
+      },
+      "local_names": {
+        "status": "requires-language-review",
+        "notes": "Local names and dialect variations not independently verified"
+      },
+      "propagation": {
+        "value": [
+          "sucker"
+        ],
+        "status": "requires-crop-specific-review"
+      },
+      "spacing": {
+        "status": "missing"
+      },
+      "water": {
+        "status": "missing"
+      },
+      "soil": {
+        "status": "missing"
+      },
+      "sunlight": {
+        "status": "missing"
+      },
+      "planting_window": {
+        "status": "blocked-until-LGA-variety-season-reviewed"
+      },
+      "first_harvest": {
+        "status": "unverified"
+      },
+      "food_safety": {
+        "status": "requires-review"
+      },
+      "sources": [
+        "https://nihort.gov.ng/production-manuals/"
+      ],
+      "release_gate": "blocked"
+    }
+  ]
+}
