@@ -1,0 +1,1036 @@
+{
+  "catalog_version": "0.1.0",
+  "status": "draft — not yet agronomically verified",
+  "country": "NG",
+  "categories": [
+    "indigenous-leafy",
+    "fruit-vegetables",
+    "legumes",
+    "roots-tubers",
+    "cereals-staples",
+    "herbs-seasonings",
+    "fruits-perennials"
+  ],
+  "records": [
+    {
+      "id": "amaranth",
+      "common_name": "Vegetable amaranth",
+      "scientific_name": "Amaranthus spp.",
+      "category": "indigenous-leafy",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "small-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "tete",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "alefo",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "jute-mallow",
+      "common_name": "Jute mallow",
+      "scientific_name": "Corchorus olitorius",
+      "category": "indigenous-leafy",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "ewedu",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "ayoyo",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "fluted-pumpkin",
+      "common_name": "Fluted pumpkin",
+      "scientific_name": "Telfairia occidentalis",
+      "category": "indigenous-leafy",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "ugu",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "waterleaf",
+      "common_name": "Waterleaf",
+      "scientific_name": "Talinum fruticosum",
+      "category": "indigenous-leafy",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "cutting",
+        "seed"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "waterleaf",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "lagos-spinach",
+      "common_name": "Lagos spinach",
+      "scientific_name": "Celosia argentea",
+      "category": "indigenous-leafy",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "soko",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "bitterleaf",
+      "common_name": "Bitterleaf",
+      "scientific_name": "Vernonia amygdalina",
+      "category": "indigenous-leafy",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "cutting"
+      ],
+      "space_options": [
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "onugbu",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "okra",
+      "common_name": "Okra",
+      "scientific_name": "Abelmoschus esculentus",
+      "category": "fruit-vegetables",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "ila",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "kubewa",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "tomato",
+      "common_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "fruit-vegetables",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed",
+        "transplant"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "tomato",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "pepper",
+      "common_name": "Pepper",
+      "scientific_name": "Capsicum spp.",
+      "category": "fruit-vegetables",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed",
+        "transplant"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "ata",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "barkono",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "garden-egg",
+      "common_name": "Garden egg",
+      "scientific_name": "Solanum aethiopicum",
+      "category": "fruit-vegetables",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed",
+        "transplant"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "garden egg",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "cucumber",
+      "common_name": "Cucumber",
+      "scientific_name": "Cucumis sativus",
+      "category": "fruit-vegetables",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "cucumber",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "cowpea",
+      "common_name": "Cowpea",
+      "scientific_name": "Vigna unguiculata",
+      "category": "legumes",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "raised-bed",
+        "ground-plot",
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "beans",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "wake",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "green-bean",
+      "common_name": "Green bean",
+      "scientific_name": "Phaseolus vulgaris",
+      "category": "legumes",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "green bean",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "groundnut",
+      "common_name": "Groundnut",
+      "scientific_name": "Arachis hypogaea",
+      "category": "legumes",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "ground-plot",
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "epa",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "gyada",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "pigeon-pea",
+      "common_name": "Pigeon pea",
+      "scientific_name": "Cajanus cajan",
+      "category": "legumes",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "ground-plot",
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "pigeon pea",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "sweet-potato",
+      "common_name": "Sweet potato",
+      "scientific_name": "Ipomoea batatas",
+      "category": "roots-tubers",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "cutting"
+      ],
+      "space_options": [
+        "raised-bed",
+        "ground-plot",
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "sweet potato",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "cassava",
+      "common_name": "Cassava",
+      "scientific_name": "Manihot esculenta",
+      "category": "roots-tubers",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "cutting"
+      ],
+      "space_options": [
+        "ground-plot",
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "garri cassava",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "rogo",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "yam",
+      "common_name": "Yam",
+      "scientific_name": "Dioscorea spp.",
+      "category": "roots-tubers",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "tuber"
+      ],
+      "space_options": [
+        "ground-plot",
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "isu",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "doya",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "cocoyam",
+      "common_name": "Cocoyam",
+      "scientific_name": "Colocasia/Xanthosoma spp.",
+      "category": "roots-tubers",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "tuber"
+      ],
+      "space_options": [
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "cocoyam",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "maize",
+      "common_name": "Maize",
+      "scientific_name": "Zea mays",
+      "category": "cereals-staples",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "ground-plot",
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "agbado",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "masara",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "millet",
+      "common_name": "Millet",
+      "scientific_name": "Pennisetum glaucum",
+      "category": "cereals-staples",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "gero",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "sorghum",
+      "common_name": "Sorghum",
+      "scientific_name": "Sorghum bicolor",
+      "category": "cereals-staples",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed"
+      ],
+      "space_options": [
+        "field"
+      ],
+      "local_names": [
+        {
+          "name": "dawa",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "scent-leaf",
+      "common_name": "Scent leaf",
+      "scientific_name": "Ocimum gratissimum",
+      "category": "herbs-seasonings",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed",
+        "cutting"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "efinrin",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        },
+        {
+          "name": "nchuanwu",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "lemongrass",
+      "common_name": "Lemongrass",
+      "scientific_name": "Cymbopogon citratus",
+      "category": "herbs-seasonings",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "cutting"
+      ],
+      "space_options": [
+        "large-container",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "lemongrass",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "ginger",
+      "common_name": "Ginger",
+      "scientific_name": "Zingiber officinale",
+      "category": "herbs-seasonings",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "tuber"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "citta",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "turmeric",
+      "common_name": "Turmeric",
+      "scientific_name": "Curcuma longa",
+      "category": "herbs-seasonings",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "tuber"
+      ],
+      "space_options": [
+        "large-container",
+        "raised-bed",
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "turmeric",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "pawpaw",
+      "common_name": "Pawpaw",
+      "scientific_name": "Carica papaya",
+      "category": "fruits-perennials",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "seed",
+        "transplant"
+      ],
+      "space_options": [
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "pawpaw",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "banana",
+      "common_name": "Banana",
+      "scientific_name": "Musa spp.",
+      "category": "fruits-perennials",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "sucker"
+      ],
+      "space_options": [
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "banana",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "plantain",
+      "common_name": "Plantain",
+      "scientific_name": "Musa spp.",
+      "category": "fruits-perennials",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "sucker"
+      ],
+      "space_options": [
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "plantain",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    },
+    {
+      "id": "pineapple",
+      "common_name": "Pineapple",
+      "scientific_name": "Ananas comosus",
+      "category": "fruits-perennials",
+      "countries": [
+        "NG"
+      ],
+      "propagation": [
+        "sucker"
+      ],
+      "space_options": [
+        "ground-plot"
+      ],
+      "local_names": [
+        {
+          "name": "pineapple",
+          "language_or_region": "Nigeria — regional alias, verify before publication",
+          "verification": "draft"
+        }
+      ],
+      "harvest": {
+        "germination_days": null,
+        "first_edible_days": null,
+        "mature_harvest_days": null,
+        "productive_lifespan_days": null,
+        "conditions_note": "Requires locally verified variety, agroecological zone, season, planting method and harvest-stage data; do not promise a date."
+      },
+      "source_urls": [],
+      "content_status": "draft"
+    }
+  ]
+}
