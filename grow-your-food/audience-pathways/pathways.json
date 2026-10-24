@@ -1,0 +1,49 @@
+{
+  "selection": "multiple",
+  "crop_access": "unrestricted_by_gender_or_age",
+  "pathways": [
+    {
+      "id": "women",
+      "label": "Women"
+    },
+    {
+      "id": "men",
+      "label": "Men"
+    },
+    {
+      "id": "youth",
+      "label": "Youth"
+    },
+    {
+      "id": "children",
+      "label": "School children",
+      "requires_supervision": true
+    },
+    {
+      "id": "families",
+      "label": "Parents and families"
+    },
+    {
+      "id": "schools",
+      "label": "Schools and teachers"
+    },
+    {
+      "id": "community",
+      "label": "Community groups"
+    },
+    {
+      "id": "entrepreneurs",
+      "label": "Farmers and entrepreneurs"
+    }
+  ],
+  "goals": [
+    "home-food",
+    "learn-and-teach",
+    "community-food",
+    "potential-income"
+  ],
+  "safety": {
+    "child_accounts": "adult-or-school-managed",
+    "public_child_profiles": false
+  }
+}
