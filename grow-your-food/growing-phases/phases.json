@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phase-1",
+    "title": "Start Growing",
+    "typical_first_harvest_days": {
+      "min": 7,
+      "max": 45
+    },
+    "focus": [
+      "quick leafy vegetables",
+      "microgreens",
+      "herbs",
+      "established cuttings"
+    ],
+    "outcome": "Complete a first edible harvest"
+  },
+  {
+    "id": "phase-2",
+    "title": "Grow More Food",
+    "typical_first_harvest_days": {
+      "min": 45,
+      "max": 90
+    },
+    "focus": [
+      "okra",
+      "short-season legumes",
+      "cucumbers"
+    ],
+    "outcome": "Grow multiple crops and learn routine care"
+  },
+  {
+    "id": "phase-3",
+    "title": "Build Your Household Garden",
+    "typical_first_harvest_days": {
+      "min": 90,
+      "max": 180
+    },
+    "focus": [
+      "tomatoes",
+      "peppers",
+      "garden eggs",
+      "sweet potatoes"
+    ],
+    "outcome": "Plan and maintain household harvests"
+  },
+  {
+    "id": "phase-4",
+    "title": "Grow for Food Security",
+    "typical_first_harvest_days": {
+      "min": 180,
+      "max": null
+    },
+    "focus": [
+      "cassava",
+      "yam",
+      "plantain",
+      "longer-duration crops"
+    ],
+    "outcome": "Plan seasonal production and food storage"
+  },
+  {
+    "id": "phase-5",
+    "title": "Grow Continuously and Earn",
+    "typical_first_harvest_days": null,
+    "focus": [
+      "succession planting",
+      "nurseries",
+      "compost",
+      "handling",
+      "optional enterprise"
+    ],
+    "outcome": "Sustain repeated food production"
+  }
+]
