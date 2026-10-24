@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.1",
   "status": "provisional-guidance-not-location-validated",
   "crops": [
     {
@@ -7,7 +7,7 @@
       "label": "Vegetable amaranth (tete)",
       "propagation": "seed",
       "firstHarvest": [
-        28,
+        35,
         45
       ],
       "tasks": [
@@ -53,7 +53,13 @@
       ],
       "sources": [
         "https://nihort.gov.ng/production-manuals/"
-      ]
+      ],
+      "harvestEvidence": {
+        "authority": "NIHORT",
+        "source": "https://nihort.gov.ng/wp-content/uploads/2020/07/AMARANTH-PRODUCTION-GUIDE.pdf",
+        "claim": "35–45 days after planting or sowing, depending on variety and harvesting method",
+        "verification": "source-reviewed-not-local"
+      }
     },
     {
       "id": "jute-mallow",
