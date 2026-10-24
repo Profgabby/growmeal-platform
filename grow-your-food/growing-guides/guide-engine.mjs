@@ -1,0 +1,8 @@
+const STAGES=['plan','prepare','establish','care','harvest'];
+export function getGuide(catalog,cropId){return catalog.guides.find(g=>g.crop_id===cropId)??null}
+export function guideChecklist(guide,completed=[]){if(!guide||!Array.isArray(guide.steps))throw Error('Guide required');const done=new Set(completed);return guide.steps.map((step,index)=>({id:guide.crop_id+':'+step.stage,order:index+1,...step,completed:done.has(guide.crop_id+':'+step.stage)}))}
+export function markStep(completed,id,isComplete){if(!/^[-a-z0-9]+:(plan|prepare|establish|care|harvest)$/.test(id))throw Error('Invalid step ID');const next=new Set(completed);if(isComplete)next.add(id);else next.delete(id);return [...next]}
+export function guideProgress(guide,completed=[]){const steps=guideChecklist(guide,completed);const done=steps.filter(x=>x.completed).length;return {done,total:steps.length,percent:Math.round(100*done/steps.length)}}
+export function guidanceGate(guide,{zone,season,water,reviewedLocalWindow=false}={}){const reasons=[];if(!guide)reasons.push('Unknown crop');if(!zone)reasons.push('Agroecological zone not confirmed');if(!season)reasons.push('Local season not confirmed');if(!water)reasons.push('Water access not confirmed');if(!reviewedLocalWindow)reasons.push('No locally reviewed planting window');return {canRecommendPlanting:reasons.length===0,reasons}}
+export function troubleshootingMatches(guide,query){if(!guide)return [];const q=String(query||'').toLocaleLowerCase().trim();if(!q)return guide.troubleshooting;return guide.troubleshooting.filter(x=>[x.symptom,...x.investigate].join(' ').toLocaleLowerCase().includes(q))}
+export {STAGES};
