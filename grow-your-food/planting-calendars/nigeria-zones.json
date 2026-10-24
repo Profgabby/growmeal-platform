@@ -1,0 +1,86 @@
+{
+  "version": "0.4.0",
+  "purpose": "Agroecological decision-support scaffolding, not an operational planting forecast",
+  "zones": [
+    {
+      "id": "sahel-savanna",
+      "label": "Sahel savanna",
+      "rainfall_pattern": "short northern wet season",
+      "cautions": [
+        "High evaporative demand",
+        "Rain-fed sowing requires confirmed local onset and soil moisture"
+      ]
+    },
+    {
+      "id": "sudan-savanna",
+      "label": "Sudan savanna",
+      "rainfall_pattern": "predominantly unimodal",
+      "cautions": [
+        "Dry spells can disrupt establishment",
+        "Irrigation changes viable planting windows"
+      ]
+    },
+    {
+      "id": "northern-guinea-savanna",
+      "label": "Northern Guinea savanna",
+      "rainfall_pattern": "predominantly unimodal",
+      "cautions": [
+        "Verify local onset and cessation",
+        "Some states cross zone boundaries"
+      ]
+    },
+    {
+      "id": "southern-guinea-savanna",
+      "label": "Southern Guinea savanna",
+      "rainfall_pattern": "longer wet season; transitional",
+      "cautions": [
+        "Local rainfall and drainage vary",
+        "Some states cross zone boundaries"
+      ]
+    },
+    {
+      "id": "derived-savanna",
+      "label": "Derived savanna",
+      "rainfall_pattern": "often bimodal or transitional",
+      "cautions": [
+        "Possible mid-season dry spell",
+        "Local site conditions and irrigation matter"
+      ]
+    },
+    {
+      "id": "humid-forest",
+      "label": "Humid forest",
+      "rainfall_pattern": "long humid season, often bimodal",
+      "cautions": [
+        "Waterlogging and fungal disease risk",
+        "Avoid treating rainfall as irrigation guarantee"
+      ]
+    },
+    {
+      "id": "freshwater-swamp-mangrove",
+      "label": "Coastal and swamp environments",
+      "rainfall_pattern": "humid coastal; site-specific",
+      "cautions": [
+        "Salinity and flooding can make sites unsuitable",
+        "Raised beds and drainage may be required"
+      ]
+    },
+    {
+      "id": "jos-highlands",
+      "label": "Highland microclimates",
+      "rainfall_pattern": "elevation-modified temperature and rainfall",
+      "cautions": [
+        "Cooler nights and temperature variation",
+        "Avoid applying lowland crop calendars unchanged"
+      ]
+    }
+  ],
+  "region_lookup_policy": "Do not infer zone from state alone; request LGA or user-selected zone and validate against authoritative NAERLS data. Never request exact home address.",
+  "source_urls": [
+    "https://nfhl.naerls.gov.ng/index.php?action=overview",
+    "https://nimet.gov.ng/scp",
+    "https://nimet.gov.ng/product_detail?id=11",
+    "https://www.fao.org/agriculture/crops/information-resources/vn/"
+  ],
+  "verification": "Zone labels are broad working categories; precise LGA boundary mapping and crop calendars not yet ingested."
+}
