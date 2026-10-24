@@ -5,3 +5,5 @@ test('invalid date rejected',()=>assert.throws(()=>datePlus('2026-02-30',1)));
 test('harvest units remain distinct',()=>{const a=makeHarvest({gardenId:'g1',cropId:'okra',date:'2026-10-24',quantity:2,unit:'kg'});const b=makeHarvest({gardenId:'g1',cropId:'okra',date:'2026-10-24',quantity:3,unit:'count'});assert.deepEqual(harvestTotals([a,b]),{'okra|kg':2,'okra|count':3})});
 test('negative harvest rejected',()=>assert.throws(()=>makeHarvest({gardenId:'g',cropId:'okra',date:'2026-10-24',quantity:-1,unit:'kg'})));
 test('journal events sort chronologically',()=>assert.equal(appendJournal([{date:'2026-10-25'}],{date:'2026-10-24'})[0].date,'2026-10-24'));
+
+test('journal and harvest reject impossible calendar dates',async()=>{const {makeJournalEvent}=await import('../garden-journals/journal.mjs');assert.throws(()=>makeJournalEvent({gardenId:'g',cropId:'okra',type:'observed',date:'2026-02-30'}));assert.throws(()=>makeHarvest({gardenId:'g',cropId:'okra',date:'2026-02-30',quantity:1,unit:'kg'}))});
