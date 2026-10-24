@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrowMeal Growing Plan Intake",
+  "type": "object",
+  "required": [
+    "country",
+    "space",
+    "goal",
+    "participants"
+  ],
+  "properties": {
+    "country": {
+      "enum": [
+        "NG",
+        "GH",
+        "BJ",
+        "TG",
+        "SN",
+        "CI",
+        "OTHER"
+      ]
+    },
+    "region": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "participants": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "women",
+          "men",
+          "youth",
+          "children",
+          "families",
+          "schools",
+          "community",
+          "entrepreneurs"
+        ]
+      }
+    },
+    "goal": {
+      "enum": [
+        "home-food",
+        "learn-and-teach",
+        "community-food",
+        "potential-income"
+      ]
+    },
+    "space": {
+      "enum": [
+        "small-container",
+        "large-container",
+        "raised-bed",
+        "ground-plot",
+        "field"
+      ]
+    },
+    "sunlight": {
+      "enum": [
+        "low",
+        "partial",
+        "full",
+        "unknown"
+      ]
+    },
+    "water": {
+      "enum": [
+        "reliable",
+        "limited",
+        "rainfall-only",
+        "unknown"
+      ]
+    },
+    "season": {
+      "enum": [
+        "rainy",
+        "dry",
+        "transition",
+        "unknown"
+      ]
+    },
+    "preferred_crop_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "adult_managed": {
+      "type": "boolean"
+    }
+  }
+}
