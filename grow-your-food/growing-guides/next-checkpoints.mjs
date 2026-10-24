@@ -1,0 +1,2 @@
+/** Return a short, stable list of future educational care checkpoints. No reminders or notifications. */
+export function nextCheckpoints(tasks,today,limit=5){if(!/^\d{4}-\d{2}-\d{2}$/.test(today))throw Error('Invalid date');if(!Number.isInteger(limit)||limit<1||limit>20)throw Error('Invalid limit');return tasks.filter(t=>/^\d{4}-\d{2}-\d{2}$/.test(t.date)&&t.date>=today).sort((a,b)=>a.date.localeCompare(b.date)||String(a.crop).localeCompare(String(b.crop))).slice(0,limit)}
